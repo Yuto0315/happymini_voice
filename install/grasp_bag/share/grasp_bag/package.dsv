@@ -1,0 +1,6 @@
+source;share/grasp_bag/hook/pythonpath.ps1
+source;share/grasp_bag/hook/pythonpath.dsv
+source;share/grasp_bag/hook/pythonpath.sh
+source;share/grasp_bag/hook/ament_prefix_path.ps1
+source;share/grasp_bag/hook/ament_prefix_path.dsv
+source;share/grasp_bag/hook/ament_prefix_path.sh

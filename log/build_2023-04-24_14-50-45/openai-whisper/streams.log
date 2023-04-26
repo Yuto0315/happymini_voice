@@ -1,0 +1,115 @@
+[2.815s] Invoking command in '/home/yuto/happymini_voice_offline/src/happymini_ros2/happymini_voice/whisper/src/whisper': PYTHONPATH=/home/yuto/happymini_voice_offline/build/openai-whisper/prefix_override:/home/yuto/happymini_voice_offline/install/openai-whisper/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../../build/openai-whisper build --build-base /home/yuto/happymini_voice_offline/build/openai-whisper/build install --record /home/yuto/happymini_voice_offline/build/openai-whisper/install.log --single-version-externally-managed
+[3.433s] running egg_info
+[3.433s] creating ../../../../../../build/openai-whisper/openai_whisper.egg-info
+[3.433s] writing ../../../../../../build/openai-whisper/openai_whisper.egg-info/PKG-INFO
+[3.433s] writing dependency_links to ../../../../../../build/openai-whisper/openai_whisper.egg-info/dependency_links.txt
+[3.434s] writing entry points to ../../../../../../build/openai-whisper/openai_whisper.egg-info/entry_points.txt
+[3.434s] writing requirements to ../../../../../../build/openai-whisper/openai_whisper.egg-info/requires.txt
+[3.434s] writing top-level names to ../../../../../../build/openai-whisper/openai_whisper.egg-info/top_level.txt
+[3.434s] writing manifest file '../../../../../../build/openai-whisper/openai_whisper.egg-info/SOURCES.txt'
+[3.434s] /home/yuto/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:265: UserWarning: Unknown distribution option: 'readme'
+[3.434s]   warnings.warn(msg)
+[3.434s] file whisper.py (for module whisper) not found
+[3.459s] reading manifest file '../../../../../../build/openai-whisper/openai_whisper.egg-info/SOURCES.txt'
+[3.460s] reading manifest template 'MANIFEST.in'
+[3.467s] adding license file 'LICENSE'
+[3.468s] writing manifest file '../../../../../../build/openai-whisper/openai_whisper.egg-info/SOURCES.txt'
+[3.493s] running build
+[3.493s] running build_py
+[3.494s] file whisper.py (for module whisper) not found
+[3.494s] creating /home/yuto/happymini_voice_offline/build/openai-whisper/build
+[3.494s] creating /home/yuto/happymini_voice_offline/build/openai-whisper/build/lib
+[3.494s] creating /home/yuto/happymini_voice_offline/build/openai-whisper/build/lib/whisper
+[3.495s] copying whisper/__main__.py -> /home/yuto/happymini_voice_offline/build/openai-whisper/build/lib/whisper
+[3.512s] copying whisper/model.py -> /home/yuto/happymini_voice_offline/build/openai-whisper/build/lib/whisper
+[3.542s] copying whisper/tokenizer.py -> /home/yuto/happymini_voice_offline/build/openai-whisper/build/lib/whisper
+[3.577s] copying whisper/utils.py -> /home/yuto/happymini_voice_offline/build/openai-whisper/build/lib/whisper
+[3.589s] copying whisper/__init__.py -> /home/yuto/happymini_voice_offline/build/openai-whisper/build/lib/whisper
+[3.590s] copying whisper/triton_ops.py -> /home/yuto/happymini_voice_offline/build/openai-whisper/build/lib/whisper
+[3.592s] copying whisper/version.py -> /home/yuto/happymini_voice_offline/build/openai-whisper/build/lib/whisper
+[3.592s] copying whisper/timing.py -> /home/yuto/happymini_voice_offline/build/openai-whisper/build/lib/whisper
+[3.594s] copying whisper/transcribe.py -> /home/yuto/happymini_voice_offline/build/openai-whisper/build/lib/whisper
+[3.596s] copying whisper/audio.py -> /home/yuto/happymini_voice_offline/build/openai-whisper/build/lib/whisper
+[3.599s] copying whisper/decoding.py -> /home/yuto/happymini_voice_offline/build/openai-whisper/build/lib/whisper
+[3.601s] creating /home/yuto/happymini_voice_offline/build/openai-whisper/build/lib/whisper/normalizers
+[3.601s] copying whisper/normalizers/__init__.py -> /home/yuto/happymini_voice_offline/build/openai-whisper/build/lib/whisper/normalizers
+[3.602s] copying whisper/normalizers/basic.py -> /home/yuto/happymini_voice_offline/build/openai-whisper/build/lib/whisper/normalizers
+[3.603s] copying whisper/normalizers/english.py -> /home/yuto/happymini_voice_offline/build/openai-whisper/build/lib/whisper/normalizers
+[3.608s] creating /home/yuto/happymini_voice_offline/build/openai-whisper/build/lib/whisper/assets
+[3.608s] copying whisper/assets/gpt2.tiktoken -> /home/yuto/happymini_voice_offline/build/openai-whisper/build/lib/whisper/assets
+[3.608s] /home/yuto/.local/lib/python3.10/site-packages/setuptools/command/build_py.py:202: SetuptoolsDeprecationWarning:     Installing 'whisper.assets' as data is deprecated, please list it in `packages`.
+[3.608s]     !!
+[3.608s] 
+[3.609s] 
+[3.609s]     ############################
+[3.609s]     # Package would be ignored #
+[3.609s]     ############################
+[3.609s]     Python recognizes 'whisper.assets' as an importable package,
+[3.609s]     but it is not listed in the `packages` configuration of setuptools.
+[3.609s] 
+[3.609s]     'whisper.assets' has been automatically added to the distribution only
+[3.609s]     because it may contain data files, but this behavior is likely to change
+[3.609s]     in future versions of setuptools (and therefore is considered deprecated).
+[3.609s] 
+[3.609s]     Please make sure that 'whisper.assets' is included as a package by using
+[3.609s]     the `packages` configuration field or the proper discovery methods
+[3.609s]     (for example by using `find_namespace_packages(...)`/`find_namespace:`
+[3.610s]     instead of `find_packages(...)`/`find:`).
+[3.610s] 
+[3.610s]     You can read more about "package discovery" and "data files" on setuptools
+[3.610s]     documentation page.
+[3.610s] 
+[3.610s] 
+[3.610s] !!
+[3.610s] 
+[3.610s]   check.warn(importable)
+[3.622s] copying whisper/assets/mel_filters.npz -> /home/yuto/happymini_voice_offline/build/openai-whisper/build/lib/whisper/assets
+[3.623s] copying whisper/assets/multilingual.tiktoken -> /home/yuto/happymini_voice_offline/build/openai-whisper/build/lib/whisper/assets
+[3.638s] copying whisper/normalizers/english.json -> /home/yuto/happymini_voice_offline/build/openai-whisper/build/lib/whisper/normalizers
+[3.644s] file whisper.py (for module whisper) not found
+[3.645s] running install
+[3.645s] /home/yuto/.local/lib/python3.10/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.645s]   warnings.warn(
+[3.648s] running install_lib
+[3.661s] creating /home/yuto/happymini_voice_offline/install/openai-whisper/lib/python3.10/site-packages/whisper
+[3.662s] copying /home/yuto/happymini_voice_offline/build/openai-whisper/build/lib/whisper/__main__.py -> /home/yuto/happymini_voice_offline/install/openai-whisper/lib/python3.10/site-packages/whisper
+[3.662s] copying /home/yuto/happymini_voice_offline/build/openai-whisper/build/lib/whisper/model.py -> /home/yuto/happymini_voice_offline/install/openai-whisper/lib/python3.10/site-packages/whisper
+[3.662s] creating /home/yuto/happymini_voice_offline/install/openai-whisper/lib/python3.10/site-packages/whisper/assets
+[3.662s] copying /home/yuto/happymini_voice_offline/build/openai-whisper/build/lib/whisper/assets/gpt2.tiktoken -> /home/yuto/happymini_voice_offline/install/openai-whisper/lib/python3.10/site-packages/whisper/assets
+[3.663s] copying /home/yuto/happymini_voice_offline/build/openai-whisper/build/lib/whisper/assets/multilingual.tiktoken -> /home/yuto/happymini_voice_offline/install/openai-whisper/lib/python3.10/site-packages/whisper/assets
+[3.666s] copying /home/yuto/happymini_voice_offline/build/openai-whisper/build/lib/whisper/assets/mel_filters.npz -> /home/yuto/happymini_voice_offline/install/openai-whisper/lib/python3.10/site-packages/whisper/assets
+[3.666s] copying /home/yuto/happymini_voice_offline/build/openai-whisper/build/lib/whisper/tokenizer.py -> /home/yuto/happymini_voice_offline/install/openai-whisper/lib/python3.10/site-packages/whisper
+[3.666s] copying /home/yuto/happymini_voice_offline/build/openai-whisper/build/lib/whisper/utils.py -> /home/yuto/happymini_voice_offline/install/openai-whisper/lib/python3.10/site-packages/whisper
+[3.666s] copying /home/yuto/happymini_voice_offline/build/openai-whisper/build/lib/whisper/__init__.py -> /home/yuto/happymini_voice_offline/install/openai-whisper/lib/python3.10/site-packages/whisper
+[3.667s] creating /home/yuto/happymini_voice_offline/install/openai-whisper/lib/python3.10/site-packages/whisper/normalizers
+[3.667s] copying /home/yuto/happymini_voice_offline/build/openai-whisper/build/lib/whisper/normalizers/__init__.py -> /home/yuto/happymini_voice_offline/install/openai-whisper/lib/python3.10/site-packages/whisper/normalizers
+[3.667s] copying /home/yuto/happymini_voice_offline/build/openai-whisper/build/lib/whisper/normalizers/english.json -> /home/yuto/happymini_voice_offline/install/openai-whisper/lib/python3.10/site-packages/whisper/normalizers
+[3.667s] copying /home/yuto/happymini_voice_offline/build/openai-whisper/build/lib/whisper/normalizers/basic.py -> /home/yuto/happymini_voice_offline/install/openai-whisper/lib/python3.10/site-packages/whisper/normalizers
+[3.667s] copying /home/yuto/happymini_voice_offline/build/openai-whisper/build/lib/whisper/normalizers/english.py -> /home/yuto/happymini_voice_offline/install/openai-whisper/lib/python3.10/site-packages/whisper/normalizers
+[3.667s] copying /home/yuto/happymini_voice_offline/build/openai-whisper/build/lib/whisper/triton_ops.py -> /home/yuto/happymini_voice_offline/install/openai-whisper/lib/python3.10/site-packages/whisper
+[3.667s] copying /home/yuto/happymini_voice_offline/build/openai-whisper/build/lib/whisper/version.py -> /home/yuto/happymini_voice_offline/install/openai-whisper/lib/python3.10/site-packages/whisper
+[3.667s] copying /home/yuto/happymini_voice_offline/build/openai-whisper/build/lib/whisper/timing.py -> /home/yuto/happymini_voice_offline/install/openai-whisper/lib/python3.10/site-packages/whisper
+[3.667s] copying /home/yuto/happymini_voice_offline/build/openai-whisper/build/lib/whisper/transcribe.py -> /home/yuto/happymini_voice_offline/install/openai-whisper/lib/python3.10/site-packages/whisper
+[3.667s] copying /home/yuto/happymini_voice_offline/build/openai-whisper/build/lib/whisper/audio.py -> /home/yuto/happymini_voice_offline/install/openai-whisper/lib/python3.10/site-packages/whisper
+[3.667s] copying /home/yuto/happymini_voice_offline/build/openai-whisper/build/lib/whisper/decoding.py -> /home/yuto/happymini_voice_offline/install/openai-whisper/lib/python3.10/site-packages/whisper
+[3.667s] byte-compiling /home/yuto/happymini_voice_offline/install/openai-whisper/lib/python3.10/site-packages/whisper/__main__.py to __main__.cpython-310.pyc
+[3.667s] byte-compiling /home/yuto/happymini_voice_offline/install/openai-whisper/lib/python3.10/site-packages/whisper/model.py to model.cpython-310.pyc
+[3.669s] byte-compiling /home/yuto/happymini_voice_offline/install/openai-whisper/lib/python3.10/site-packages/whisper/tokenizer.py to tokenizer.cpython-310.pyc
+[3.673s] byte-compiling /home/yuto/happymini_voice_offline/install/openai-whisper/lib/python3.10/site-packages/whisper/utils.py to utils.cpython-310.pyc
+[3.673s] byte-compiling /home/yuto/happymini_voice_offline/install/openai-whisper/lib/python3.10/site-packages/whisper/__init__.py to __init__.cpython-310.pyc
+[3.674s] byte-compiling /home/yuto/happymini_voice_offline/install/openai-whisper/lib/python3.10/site-packages/whisper/normalizers/__init__.py to __init__.cpython-310.pyc
+[3.674s] byte-compiling /home/yuto/happymini_voice_offline/install/openai-whisper/lib/python3.10/site-packages/whisper/normalizers/basic.py to basic.cpython-310.pyc
+[3.674s] byte-compiling /home/yuto/happymini_voice_offline/install/openai-whisper/lib/python3.10/site-packages/whisper/normalizers/english.py to english.cpython-310.pyc
+[3.679s] byte-compiling /home/yuto/happymini_voice_offline/install/openai-whisper/lib/python3.10/site-packages/whisper/triton_ops.py to triton_ops.cpython-310.pyc
+[3.684s] byte-compiling /home/yuto/happymini_voice_offline/install/openai-whisper/lib/python3.10/site-packages/whisper/version.py to version.cpython-310.pyc
+[3.684s] byte-compiling /home/yuto/happymini_voice_offline/install/openai-whisper/lib/python3.10/site-packages/whisper/timing.py to timing.cpython-310.pyc
+[3.684s] byte-compiling /home/yuto/happymini_voice_offline/install/openai-whisper/lib/python3.10/site-packages/whisper/transcribe.py to transcribe.cpython-310.pyc
+[3.687s] byte-compiling /home/yuto/happymini_voice_offline/install/openai-whisper/lib/python3.10/site-packages/whisper/audio.py to audio.cpython-310.pyc
+[3.688s] byte-compiling /home/yuto/happymini_voice_offline/install/openai-whisper/lib/python3.10/site-packages/whisper/decoding.py to decoding.cpython-310.pyc
+[3.693s] running install_egg_info
+[3.708s] Copying ../../../../../../build/openai-whisper/openai_whisper.egg-info to /home/yuto/happymini_voice_offline/install/openai-whisper/lib/python3.10/site-packages/openai_whisper-20230314-py3.10.egg-info
+[3.708s] running install_scripts
+[3.767s] Installing whisper script to /home/yuto/happymini_voice_offline/install/openai-whisper/bin
+[3.767s] file whisper.py (for module whisper) not found
+[3.768s] writing list of installed files to '/home/yuto/happymini_voice_offline/build/openai-whisper/install.log'
+[3.802s] Invoked command in '/home/yuto/happymini_voice_offline/src/happymini_ros2/happymini_voice/whisper/src/whisper' returned '0': PYTHONPATH=/home/yuto/happymini_voice_offline/build/openai-whisper/prefix_override:/home/yuto/happymini_voice_offline/install/openai-whisper/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../../build/openai-whisper build --build-base /home/yuto/happymini_voice_offline/build/openai-whisper/build install --record /home/yuto/happymini_voice_offline/build/openai-whisper/install.log --single-version-externally-managed

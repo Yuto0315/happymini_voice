@@ -1,0 +1,9 @@
+source;share/openai-whisper/hook/path.ps1
+source;share/openai-whisper/hook/path.dsv
+source;share/openai-whisper/hook/path.sh
+source;share/openai-whisper/hook/pythonpath.ps1
+source;share/openai-whisper/hook/pythonpath.dsv
+source;share/openai-whisper/hook/pythonpath.sh
+source;share/openai-whisper/hook/pythonscriptspath.ps1
+source;share/openai-whisper/hook/pythonscriptspath.dsv
+source;share/openai-whisper/hook/pythonscriptspath.sh

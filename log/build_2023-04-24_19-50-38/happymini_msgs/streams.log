@@ -1,0 +1,210 @@
+[1.965s] Invoking command in '/home/yuto/happymini_voice_offline/build/happymini_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yuto/happymini_ws/install/speech_service:/home/yuto/hapyymini_voice/install/speech_service:/home/yuto/hapyymini_voice/install/happymini_teleop:/home/yuto/hapyymini_voice/install/hand:/home/yuto/hapyymini_voice/install/grasp_bag:/opt/ros/humble /home/yuto/.local/bin/cmake --build /home/yuto/happymini_voice_offline/build/happymini_msgs -- -j8 -l8
+[4.614s] [  2%] Built target happymini_msgs__cpp
+[4.614s] [ 12%] Built target happymini_msgs__rosidl_generator_c
+[4.615s] [ 12%] Built target ament_cmake_python_copy_happymini_msgs
+[4.615s] [ 34%] Built target happymini_msgs__rosidl_typesupport_fastrtps_cpp
+[4.616s] [ 34%] Built target happymini_msgs__rosidl_typesupport_cpp
+[4.616s] [ 44%] Built target happymini_msgs__rosidl_typesupport_introspection_cpp
+[4.617s] [ 55%] Built target happymini_msgs__rosidl_typesupport_c
+[4.617s] [ 57%] [32mBuilding C object CMakeFiles/happymini_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/happymini_msgs/srv/detail/bag_localization__type_support.c.o[0m
+[4.618s] [ 59%] [32mBuilding C object CMakeFiles/happymini_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/happymini_msgs/action/detail/grasp_bag__type_support.c.o[0m
+[4.618s] [ 70%] Built target happymini_msgs__rosidl_typesupport_fastrtps_c
+[4.619s] [ 72%] [32m[1mLinking C shared library libhappymini_msgs__rosidl_typesupport_introspection_c.so[0m
+[4.619s] [ 76%] Built target happymini_msgs__rosidl_typesupport_introspection_c
+[4.620s] running egg_info
+[4.620s] [ 76%] Built target happymini_msgs
+[4.621s] writing happymini_msgs.egg-info/PKG-INFO
+[4.621s] [ 78%] Built target happymini_msgs__py
+[4.622s] writing dependency_links to happymini_msgs.egg-info/dependency_links.txt
+[4.622s] writing top-level names to happymini_msgs.egg-info/top_level.txt
+[4.623s] [ 87%] Built target happymini_msgs__rosidl_generator_py
+[4.623s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/happymini_msgs/happymini_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.624s] [ 93%] Built target happymini_msgs__rosidl_typesupport_c__pyext
+[4.624s] [ 97%] Built target happymini_msgs__rosidl_typesupport_fastrtps_c__pyext
+[4.625s] reading manifest file 'happymini_msgs.egg-info/SOURCES.txt'
+[4.626s] writing manifest file 'happymini_msgs.egg-info/SOURCES.txt'
+[4.626s] [ 97%] Built target ament_cmake_python_build_happymini_msgs_egg
+[4.626s] [100%] Built target happymini_msgs__rosidl_typesupport_introspection_c__pyext
+[5.481s] Invoked command in '/home/yuto/happymini_voice_offline/build/happymini_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yuto/happymini_ws/install/speech_service:/home/yuto/hapyymini_voice/install/speech_service:/home/yuto/hapyymini_voice/install/happymini_teleop:/home/yuto/hapyymini_voice/install/hand:/home/yuto/hapyymini_voice/install/grasp_bag:/opt/ros/humble /home/yuto/.local/bin/cmake --build /home/yuto/happymini_voice_offline/build/happymini_msgs -- -j8 -l8
+[6.082s] Invoking command in '/home/yuto/happymini_voice_offline/build/happymini_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yuto/happymini_ws/install/speech_service:/home/yuto/hapyymini_voice/install/speech_service:/home/yuto/hapyymini_voice/install/happymini_teleop:/home/yuto/hapyymini_voice/install/hand:/home/yuto/hapyymini_voice/install/grasp_bag:/opt/ros/humble /home/yuto/.local/bin/cmake --install /home/yuto/happymini_voice_offline/build/happymini_msgs
+[6.280s] -- Install configuration: ""
+[6.292s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/share/ament_index/resource_index/rosidl_interfaces/happymini_msgs
+[6.295s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/include/happymini_msgs/happymini_msgs
+[6.299s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/include/happymini_msgs/happymini_msgs/action
+[6.300s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/include/happymini_msgs/happymini_msgs/action/detail
+[6.302s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/include/happymini_msgs/happymini_msgs/action/detail/grasp_bag__functions.h
+[6.302s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/include/happymini_msgs/happymini_msgs/action/detail/grasp_bag__struct.h
+[6.303s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/include/happymini_msgs/happymini_msgs/action/detail/grasp_bag__type_support.h
+[6.303s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/include/happymini_msgs/happymini_msgs/action/detail/grasp_bag__functions.c
+[6.304s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/include/happymini_msgs/happymini_msgs/action/grasp_bag.h
+[6.305s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/include/happymini_msgs/happymini_msgs/msg
+[6.305s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/include/happymini_msgs/happymini_msgs/msg/rosidl_generator_c__visibility_control.h
+[6.306s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/include/happymini_msgs/happymini_msgs/srv
+[6.313s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/include/happymini_msgs/happymini_msgs/srv/detail
+[6.317s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/include/happymini_msgs/happymini_msgs/srv/detail/grasp_bag__functions.h
+[6.317s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/include/happymini_msgs/happymini_msgs/srv/detail/grasp_bag__struct.h
+[6.318s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/include/happymini_msgs/happymini_msgs/srv/detail/bag_localization__functions.h
+[6.318s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/include/happymini_msgs/happymini_msgs/srv/detail/bag_localization__functions.c
+[6.319s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/include/happymini_msgs/happymini_msgs/srv/detail/bag_localization__struct.h
+[6.319s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/include/happymini_msgs/happymini_msgs/srv/detail/bag_localization__type_support.h
+[6.320s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/include/happymini_msgs/happymini_msgs/srv/detail/grasp_bag__type_support.h
+[6.320s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/include/happymini_msgs/happymini_msgs/srv/detail/grasp_bag__functions.c
+[6.321s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/include/happymini_msgs/happymini_msgs/srv/bag_localization.h
+[6.323s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/include/happymini_msgs/happymini_msgs/srv/grasp_bag.h
+[6.326s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/share/happymini_msgs/environment/library_path.sh
+[6.328s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/share/happymini_msgs/environment/library_path.dsv
+[6.333s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/lib/libhappymini_msgs__rosidl_generator_c.so
+[6.334s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/include/happymini_msgs/happymini_msgs
+[6.336s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/include/happymini_msgs/happymini_msgs/action
+[6.337s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/include/happymini_msgs/happymini_msgs/action/detail
+[6.338s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/include/happymini_msgs/happymini_msgs/action/detail/grasp_bag__rosidl_typesupport_fastrtps_c.h
+[6.338s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/include/happymini_msgs/happymini_msgs/msg
+[6.338s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/include/happymini_msgs/happymini_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.339s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/include/happymini_msgs/happymini_msgs/srv
+[6.339s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/include/happymini_msgs/happymini_msgs/srv/detail
+[6.340s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/include/happymini_msgs/happymini_msgs/srv/detail/bag_localization__rosidl_typesupport_fastrtps_c.h
+[6.340s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/include/happymini_msgs/happymini_msgs/srv/detail/grasp_bag__rosidl_typesupport_fastrtps_c.h
+[6.350s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/lib/libhappymini_msgs__rosidl_typesupport_fastrtps_c.so
+[6.350s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/include/happymini_msgs/happymini_msgs
+[6.350s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/include/happymini_msgs/happymini_msgs/action
+[6.351s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/include/happymini_msgs/happymini_msgs/action/detail
+[6.351s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/include/happymini_msgs/happymini_msgs/action/detail/grasp_bag__type_support.c
+[6.352s] -- Installing: /home/yuto/happymini_voice_offline/install/happymini_msgs/include/happymini_msgs/happymini_msgs/action/detail/grasp_bag__rosidl_typesupport_introspection_c.h
+[6.353s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/include/happymini_msgs/happymini_msgs/msg
+[6.354s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/include/happymini_msgs/happymini_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.354s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/include/happymini_msgs/happymini_msgs/srv
+[6.355s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/include/happymini_msgs/happymini_msgs/srv/detail
+[6.356s] -- Installing: /home/yuto/happymini_voice_offline/install/happymini_msgs/include/happymini_msgs/happymini_msgs/srv/detail/bag_localization__rosidl_typesupport_introspection_c.h
+[6.358s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/include/happymini_msgs/happymini_msgs/srv/detail/grasp_bag__type_support.c
+[6.358s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/include/happymini_msgs/happymini_msgs/srv/detail/grasp_bag__rosidl_typesupport_introspection_c.h
+[6.358s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/include/happymini_msgs/happymini_msgs/srv/detail/bag_localization__type_support.c
+[6.359s] -- Installing: /home/yuto/happymini_voice_offline/install/happymini_msgs/lib/libhappymini_msgs__rosidl_typesupport_introspection_c.so
+[6.359s] -- Set runtime path of "/home/yuto/happymini_voice_offline/install/happymini_msgs/lib/libhappymini_msgs__rosidl_typesupport_introspection_c.so" to ""
+[6.360s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/lib/libhappymini_msgs__rosidl_typesupport_c.so
+[6.362s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/include/happymini_msgs/happymini_msgs
+[6.362s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/include/happymini_msgs/happymini_msgs/action
+[6.363s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/include/happymini_msgs/happymini_msgs/action/detail
+[6.364s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/include/happymini_msgs/happymini_msgs/action/detail/grasp_bag__builder.hpp
+[6.365s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/include/happymini_msgs/happymini_msgs/action/detail/grasp_bag__struct.hpp
+[6.366s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/include/happymini_msgs/happymini_msgs/action/detail/grasp_bag__traits.hpp
+[6.366s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/include/happymini_msgs/happymini_msgs/action/grasp_bag.hpp
+[6.367s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/include/happymini_msgs/happymini_msgs/srv
+[6.367s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/include/happymini_msgs/happymini_msgs/srv/detail
+[6.368s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/include/happymini_msgs/happymini_msgs/srv/detail/bag_localization__builder.hpp
+[6.369s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/include/happymini_msgs/happymini_msgs/srv/detail/grasp_bag__builder.hpp
+[6.369s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/include/happymini_msgs/happymini_msgs/srv/detail/grasp_bag__struct.hpp
+[6.370s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/include/happymini_msgs/happymini_msgs/srv/detail/bag_localization__traits.hpp
+[6.370s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/include/happymini_msgs/happymini_msgs/srv/detail/bag_localization__struct.hpp
+[6.371s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/include/happymini_msgs/happymini_msgs/srv/detail/grasp_bag__traits.hpp
+[6.372s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/include/happymini_msgs/happymini_msgs/srv/grasp_bag.hpp
+[6.372s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/include/happymini_msgs/happymini_msgs/srv/bag_localization.hpp
+[6.372s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/include/happymini_msgs/happymini_msgs
+[6.373s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/include/happymini_msgs/happymini_msgs/action
+[6.373s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/include/happymini_msgs/happymini_msgs/action/detail
+[6.374s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/include/happymini_msgs/happymini_msgs/action/detail/dds_fastrtps
+[6.375s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/include/happymini_msgs/happymini_msgs/action/detail/grasp_bag__rosidl_typesupport_fastrtps_cpp.hpp
+[6.375s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/include/happymini_msgs/happymini_msgs/msg
+[6.376s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/include/happymini_msgs/happymini_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.377s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/include/happymini_msgs/happymini_msgs/srv
+[6.378s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/include/happymini_msgs/happymini_msgs/srv/detail
+[6.379s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/include/happymini_msgs/happymini_msgs/srv/detail/dds_fastrtps
+[6.379s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/include/happymini_msgs/happymini_msgs/srv/detail/grasp_bag__rosidl_typesupport_fastrtps_cpp.hpp
+[6.380s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/include/happymini_msgs/happymini_msgs/srv/detail/bag_localization__rosidl_typesupport_fastrtps_cpp.hpp
+[6.384s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/lib/libhappymini_msgs__rosidl_typesupport_fastrtps_cpp.so
+[6.386s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/include/happymini_msgs/happymini_msgs
+[6.386s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/include/happymini_msgs/happymini_msgs/action
+[6.386s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/include/happymini_msgs/happymini_msgs/action/detail
+[6.388s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/include/happymini_msgs/happymini_msgs/action/detail/grasp_bag__rosidl_typesupport_introspection_cpp.hpp
+[6.388s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/include/happymini_msgs/happymini_msgs/action/detail/grasp_bag__type_support.cpp
+[6.389s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/include/happymini_msgs/happymini_msgs/srv
+[6.389s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/include/happymini_msgs/happymini_msgs/srv/detail
+[6.390s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/include/happymini_msgs/happymini_msgs/srv/detail/bag_localization__rosidl_typesupport_introspection_cpp.hpp
+[6.390s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/include/happymini_msgs/happymini_msgs/srv/detail/grasp_bag__rosidl_typesupport_introspection_cpp.hpp
+[6.391s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/include/happymini_msgs/happymini_msgs/srv/detail/grasp_bag__type_support.cpp
+[6.392s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/include/happymini_msgs/happymini_msgs/srv/detail/bag_localization__type_support.cpp
+[6.392s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/lib/libhappymini_msgs__rosidl_typesupport_introspection_cpp.so
+[6.392s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/lib/libhappymini_msgs__rosidl_typesupport_cpp.so
+[6.393s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/share/happymini_msgs/environment/pythonpath.sh
+[6.393s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/share/happymini_msgs/environment/pythonpath.dsv
+[6.398s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/local/lib/python3.10/dist-packages/happymini_msgs-0.0.0-py3.10.egg-info
+[6.400s] -- Installing: /home/yuto/happymini_voice_offline/install/happymini_msgs/local/lib/python3.10/dist-packages/happymini_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[6.401s] -- Installing: /home/yuto/happymini_voice_offline/install/happymini_msgs/local/lib/python3.10/dist-packages/happymini_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[6.401s] -- Installing: /home/yuto/happymini_voice_offline/install/happymini_msgs/local/lib/python3.10/dist-packages/happymini_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[6.402s] -- Installing: /home/yuto/happymini_voice_offline/install/happymini_msgs/local/lib/python3.10/dist-packages/happymini_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[6.403s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/local/lib/python3.10/dist-packages/happymini_msgs
+[6.404s] -- Installing: /home/yuto/happymini_voice_offline/install/happymini_msgs/local/lib/python3.10/dist-packages/happymini_msgs/happymini_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.406s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/local/lib/python3.10/dist-packages/happymini_msgs/__init__.py
+[6.407s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/local/lib/python3.10/dist-packages/happymini_msgs/_happymini_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[6.407s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/local/lib/python3.10/dist-packages/happymini_msgs/action
+[6.409s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/local/lib/python3.10/dist-packages/happymini_msgs/action/__init__.py
+[6.409s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/local/lib/python3.10/dist-packages/happymini_msgs/action/_grasp_bag_s.c
+[6.410s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/local/lib/python3.10/dist-packages/happymini_msgs/action/_grasp_bag.py
+[6.410s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/local/lib/python3.10/dist-packages/happymini_msgs/_happymini_msgs_s.ep.rosidl_typesupport_c.c
+[6.411s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/local/lib/python3.10/dist-packages/happymini_msgs/libhappymini_msgs__rosidl_generator_py.so
+[6.412s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/local/lib/python3.10/dist-packages/happymini_msgs/_happymini_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[6.412s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/local/lib/python3.10/dist-packages/happymini_msgs/srv
+[6.413s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/local/lib/python3.10/dist-packages/happymini_msgs/srv/__init__.py
+[6.413s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/local/lib/python3.10/dist-packages/happymini_msgs/srv/_grasp_bag_s.c
+[6.414s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/local/lib/python3.10/dist-packages/happymini_msgs/srv/_grasp_bag.py
+[6.414s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/local/lib/python3.10/dist-packages/happymini_msgs/srv/_bag_localization.py
+[6.415s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/local/lib/python3.10/dist-packages/happymini_msgs/srv/_bag_localization_s.c
+[6.415s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/local/lib/python3.10/dist-packages/happymini_msgs/happymini_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.416s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/local/lib/python3.10/dist-packages/happymini_msgs/happymini_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.593s] Listing '/home/yuto/happymini_voice_offline/install/happymini_msgs/local/lib/python3.10/dist-packages/happymini_msgs'...
+[6.594s] Listing '/home/yuto/happymini_voice_offline/install/happymini_msgs/local/lib/python3.10/dist-packages/happymini_msgs/action'...
+[6.594s] Listing '/home/yuto/happymini_voice_offline/install/happymini_msgs/local/lib/python3.10/dist-packages/happymini_msgs/srv'...
+[6.619s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/local/lib/python3.10/dist-packages/happymini_msgs/happymini_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.620s] -- Installing: /home/yuto/happymini_voice_offline/install/happymini_msgs/local/lib/python3.10/dist-packages/happymini_msgs/happymini_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.622s] -- Set runtime path of "/home/yuto/happymini_voice_offline/install/happymini_msgs/local/lib/python3.10/dist-packages/happymini_msgs/happymini_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.626s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/local/lib/python3.10/dist-packages/happymini_msgs/happymini_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.633s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/lib/libhappymini_msgs__rosidl_generator_py.so
+[6.635s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/share/happymini_msgs/srv/GraspBag.idl
+[6.636s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/share/happymini_msgs/srv/BagLocalization.idl
+[6.637s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/share/happymini_msgs/action/GraspBag.idl
+[6.638s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/share/happymini_msgs/srv/GraspBag.srv
+[6.639s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/share/happymini_msgs/srv/GraspBag_Request.msg
+[6.640s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/share/happymini_msgs/srv/GraspBag_Response.msg
+[6.640s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/share/happymini_msgs/srv/BagLocalization.srv
+[6.641s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/share/happymini_msgs/srv/BagLocalization_Request.msg
+[6.641s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/share/happymini_msgs/srv/BagLocalization_Response.msg
+[6.642s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/share/happymini_msgs/action/GraspBag.action
+[6.642s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/share/ament_index/resource_index/package_run_dependencies/happymini_msgs
+[6.643s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/share/ament_index/resource_index/parent_prefix_path/happymini_msgs
+[6.644s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/share/happymini_msgs/environment/ament_prefix_path.sh
+[6.645s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/share/happymini_msgs/environment/ament_prefix_path.dsv
+[6.645s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/share/happymini_msgs/environment/path.sh
+[6.647s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/share/happymini_msgs/environment/path.dsv
+[6.648s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/share/happymini_msgs/local_setup.bash
+[6.648s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/share/happymini_msgs/local_setup.sh
+[6.649s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/share/happymini_msgs/local_setup.zsh
+[6.650s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/share/happymini_msgs/local_setup.dsv
+[6.650s] -- Installing: /home/yuto/happymini_voice_offline/install/happymini_msgs/share/happymini_msgs/package.dsv
+[6.651s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/share/ament_index/resource_index/packages/happymini_msgs
+[6.661s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/share/happymini_msgs/cmake/export_happymini_msgs__rosidl_generator_cExport.cmake
+[6.662s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/share/happymini_msgs/cmake/export_happymini_msgs__rosidl_generator_cExport-noconfig.cmake
+[6.666s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/share/happymini_msgs/cmake/export_happymini_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[6.667s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/share/happymini_msgs/cmake/export_happymini_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[6.672s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/share/happymini_msgs/cmake/happymini_msgs__rosidl_typesupport_introspection_cExport.cmake
+[6.672s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/share/happymini_msgs/cmake/happymini_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[6.679s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/share/happymini_msgs/cmake/happymini_msgs__rosidl_typesupport_cExport.cmake
+[6.680s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/share/happymini_msgs/cmake/happymini_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[6.681s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/share/happymini_msgs/cmake/export_happymini_msgs__rosidl_generator_cppExport.cmake
+[6.686s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/share/happymini_msgs/cmake/export_happymini_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[6.687s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/share/happymini_msgs/cmake/export_happymini_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[6.691s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/share/happymini_msgs/cmake/happymini_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[6.692s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/share/happymini_msgs/cmake/happymini_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[6.695s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/share/happymini_msgs/cmake/happymini_msgs__rosidl_typesupport_cppExport.cmake
+[6.696s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/share/happymini_msgs/cmake/happymini_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[6.700s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/share/happymini_msgs/cmake/export_happymini_msgs__rosidl_generator_pyExport.cmake
+[6.702s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/share/happymini_msgs/cmake/export_happymini_msgs__rosidl_generator_pyExport-noconfig.cmake
+[6.702s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/share/happymini_msgs/cmake/rosidl_cmake-extras.cmake
+[6.703s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/share/happymini_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.704s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/share/happymini_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.705s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/share/happymini_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[6.705s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/share/happymini_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[6.705s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/share/happymini_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.706s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/share/happymini_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.706s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/share/happymini_msgs/cmake/happymini_msgsConfig.cmake
+[6.707s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/share/happymini_msgs/cmake/happymini_msgsConfig-version.cmake
+[6.707s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/happymini_msgs/share/happymini_msgs/package.xml
+[6.741s] Invoked command in '/home/yuto/happymini_voice_offline/build/happymini_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yuto/happymini_ws/install/speech_service:/home/yuto/hapyymini_voice/install/speech_service:/home/yuto/hapyymini_voice/install/happymini_teleop:/home/yuto/hapyymini_voice/install/hand:/home/yuto/hapyymini_voice/install/grasp_bag:/opt/ros/humble /home/yuto/.local/bin/cmake --install /home/yuto/happymini_voice_offline/build/happymini_msgs

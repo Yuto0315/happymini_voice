@@ -1,0 +1,8 @@
+setup.py
+airobot_interfaces/__init__.py
+airobot_interfaces.egg-info/PKG-INFO
+airobot_interfaces.egg-info/SOURCES.txt
+airobot_interfaces.egg-info/dependency_links.txt
+airobot_interfaces.egg-info/top_level.txt
+airobot_interfaces/srv/__init__.py
+airobot_interfaces/srv/_string_command.py

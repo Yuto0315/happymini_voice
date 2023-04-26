@@ -1,0 +1,10 @@
+action/GraspBag.action
+action/GraspBag.idl
+srv/BagLocalization.idl
+srv/BagLocalization.srv
+srv/BagLocalization_Request.msg
+srv/BagLocalization_Response.msg
+srv/GraspBag.idl
+srv/GraspBag.srv
+srv/GraspBag_Request.msg
+srv/GraspBag_Response.msg

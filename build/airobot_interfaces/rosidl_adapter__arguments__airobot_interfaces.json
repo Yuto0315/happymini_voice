@@ -1,0 +1,6 @@
+{
+  "package_name": "airobot_interfaces",
+  "non_idl_tuples": [
+    "/home/yuto/happymini_voice_offline/src/happymini_ros2/happymini_voice/airobot_interfaces:srv/StringCommand.srv"
+  ]
+}

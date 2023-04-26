@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from airobot_interfaces/srv/StringCommand.srv
+// generated code does not contain a copyright notice
+
+
+module airobot_interfaces {
+  module srv {
+    struct StringCommand_Request {
+      string command;
+    };
+    struct StringCommand_Response {
+      string answer;
+    };
+  };
+};

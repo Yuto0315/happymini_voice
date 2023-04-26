@@ -1,0 +1,56 @@
+[11.140s] Invoking command in '/home/yuto/happymini_voice_offline/src/happymini_ros2/happymini_voice/whisper/src/whisper': PYTHONPATH=/home/yuto/happymini_voice_offline/build/openai-whisper/prefix_override:/home/yuto/happymini_voice_offline/install/openai-whisper/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../../build/openai-whisper build --build-base /home/yuto/happymini_voice_offline/build/openai-whisper/build install --record /home/yuto/happymini_voice_offline/build/openai-whisper/install.log --single-version-externally-managed
+[12.824s] /home/yuto/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:265: UserWarning: Unknown distribution option: 'readme'
+[12.825s]   warnings.warn(msg)
+[13.196s] running egg_info
+[13.257s] writing ../../../../../../build/openai-whisper/openai_whisper.egg-info/PKG-INFO
+[13.273s] writing dependency_links to ../../../../../../build/openai-whisper/openai_whisper.egg-info/dependency_links.txt
+[13.284s] writing entry points to ../../../../../../build/openai-whisper/openai_whisper.egg-info/entry_points.txt
+[13.285s] writing requirements to ../../../../../../build/openai-whisper/openai_whisper.egg-info/requires.txt
+[13.286s] writing top-level names to ../../../../../../build/openai-whisper/openai_whisper.egg-info/top_level.txt
+[13.353s] file whisper.py (for module whisper) not found
+[13.422s] reading manifest file '../../../../../../build/openai-whisper/openai_whisper.egg-info/SOURCES.txt'
+[13.437s] reading manifest template 'MANIFEST.in'
+[13.440s] adding license file 'LICENSE'
+[13.447s] writing manifest file '../../../../../../build/openai-whisper/openai_whisper.egg-info/SOURCES.txt'
+[13.447s] running build
+[13.448s] running build_py
+[13.448s] file whisper.py (for module whisper) not found
+[13.472s] /home/yuto/.local/lib/python3.10/site-packages/setuptools/command/build_py.py:202: SetuptoolsDeprecationWarning:     Installing 'whisper.assets' as data is deprecated, please list it in `packages`.
+[13.472s]     !!
+[13.473s] 
+[13.473s] 
+[13.474s]     ############################
+[13.475s]     # Package would be ignored #
+[13.475s]     ############################
+[13.476s]     Python recognizes 'whisper.assets' as an importable package,
+[13.476s]     but it is not listed in the `packages` configuration of setuptools.
+[13.477s] 
+[13.478s]     'whisper.assets' has been automatically added to the distribution only
+[13.479s]     because it may contain data files, but this behavior is likely to change
+[13.479s]     in future versions of setuptools (and therefore is considered deprecated).
+[13.480s] 
+[13.481s]     Please make sure that 'whisper.assets' is included as a package by using
+[13.481s]     the `packages` configuration field or the proper discovery methods
+[13.482s]     (for example by using `find_namespace_packages(...)`/`find_namespace:`
+[13.482s]     instead of `find_packages(...)`/`find:`).
+[13.483s] 
+[13.483s]     You can read more about "package discovery" and "data files" on setuptools
+[13.484s]     documentation page.
+[13.484s] 
+[13.485s] 
+[13.485s] !!
+[13.486s] 
+[13.486s]   check.warn(importable)
+[13.487s] file whisper.py (for module whisper) not found
+[13.487s] running install
+[13.488s] /home/yuto/.local/lib/python3.10/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[13.488s]   warnings.warn(
+[13.520s] running install_lib
+[13.643s] running install_egg_info
+[13.755s] removing '/home/yuto/happymini_voice_offline/install/openai-whisper/lib/python3.10/site-packages/openai_whisper-20230314-py3.10.egg-info' (and everything under it)
+[13.757s] Copying ../../../../../../build/openai-whisper/openai_whisper.egg-info to /home/yuto/happymini_voice_offline/install/openai-whisper/lib/python3.10/site-packages/openai_whisper-20230314-py3.10.egg-info
+[13.762s] running install_scripts
+[14.126s] Installing whisper script to /home/yuto/happymini_voice_offline/install/openai-whisper/bin
+[14.133s] file whisper.py (for module whisper) not found
+[14.135s] writing list of installed files to '/home/yuto/happymini_voice_offline/build/openai-whisper/install.log'
+[14.424s] Invoked command in '/home/yuto/happymini_voice_offline/src/happymini_ros2/happymini_voice/whisper/src/whisper' returned '0': PYTHONPATH=/home/yuto/happymini_voice_offline/build/openai-whisper/prefix_override:/home/yuto/happymini_voice_offline/install/openai-whisper/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../../build/openai-whisper build --build-base /home/yuto/happymini_voice_offline/build/openai-whisper/build install --record /home/yuto/happymini_voice_offline/build/openai-whisper/install.log --single-version-externally-managed

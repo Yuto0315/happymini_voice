@@ -1,0 +1,24 @@
+[11.710s] Invoking command in '/home/yuto/happymini_voice_offline/src/happymini_ros2/hand': PYTHONPATH=/home/yuto/happymini_voice_offline/build/hand/prefix_override:/home/yuto/happymini_voice_offline/install/hand/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/hand build --build-base /home/yuto/happymini_voice_offline/build/hand/build install --record /home/yuto/happymini_voice_offline/build/hand/install.log --single-version-externally-managed
+[12.683s] running egg_info
+[12.789s] writing ../../../build/hand/hand.egg-info/PKG-INFO
+[12.798s] writing dependency_links to ../../../build/hand/hand.egg-info/dependency_links.txt
+[12.814s] writing entry points to ../../../build/hand/hand.egg-info/entry_points.txt
+[12.821s] writing requirements to ../../../build/hand/hand.egg-info/requires.txt
+[12.828s] writing top-level names to ../../../build/hand/hand.egg-info/top_level.txt
+[13.051s] reading manifest file '../../../build/hand/hand.egg-info/SOURCES.txt'
+[13.084s] writing manifest file '../../../build/hand/hand.egg-info/SOURCES.txt'
+[13.144s] running build
+[13.145s] running build_py
+[13.201s] running install
+[13.202s] /home/yuto/.local/lib/python3.10/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[13.203s]   warnings.warn(
+[13.224s] running install_lib
+[13.438s] running install_data
+[13.565s] running install_egg_info
+[13.642s] removing '/home/yuto/happymini_voice_offline/install/hand/lib/python3.10/site-packages/hand-0.0.0-py3.10.egg-info' (and everything under it)
+[13.644s] Copying ../../../build/hand/hand.egg-info to /home/yuto/happymini_voice_offline/install/hand/lib/python3.10/site-packages/hand-0.0.0-py3.10.egg-info
+[13.659s] running install_scripts
+[14.461s] Installing hand_pose_publish script to /home/yuto/happymini_voice_offline/install/hand/lib/hand
+[14.575s] Installing subscriber script to /home/yuto/happymini_voice_offline/install/hand/lib/hand
+[14.576s] writing list of installed files to '/home/yuto/happymini_voice_offline/build/hand/install.log'
+[14.785s] Invoked command in '/home/yuto/happymini_voice_offline/src/happymini_ros2/hand' returned '0': PYTHONPATH=/home/yuto/happymini_voice_offline/build/hand/prefix_override:/home/yuto/happymini_voice_offline/install/hand/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/hand build --build-base /home/yuto/happymini_voice_offline/build/hand/build install --record /home/yuto/happymini_voice_offline/build/hand/install.log --single-version-externally-managed

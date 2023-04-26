@@ -1,0 +1,43 @@
+[2.793s] Invoking command in '/home/yuto/happymini_voice_offline/src/happymini_ros2/happymini_teleop': PYTHONPATH=/home/yuto/happymini_voice_offline/build/happymini_teleop/prefix_override:/home/yuto/happymini_voice_offline/install/happymini_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/happymini_teleop build --build-base /home/yuto/happymini_voice_offline/build/happymini_teleop/build install --record /home/yuto/happymini_voice_offline/build/happymini_teleop/install.log --single-version-externally-managed
+[3.083s] running egg_info
+[3.084s] creating ../../../build/happymini_teleop/happymini_teleop.egg-info
+[3.099s] writing ../../../build/happymini_teleop/happymini_teleop.egg-info/PKG-INFO
+[3.100s] writing dependency_links to ../../../build/happymini_teleop/happymini_teleop.egg-info/dependency_links.txt
+[3.100s] writing entry points to ../../../build/happymini_teleop/happymini_teleop.egg-info/entry_points.txt
+[3.100s] writing requirements to ../../../build/happymini_teleop/happymini_teleop.egg-info/requires.txt
+[3.100s] writing top-level names to ../../../build/happymini_teleop/happymini_teleop.egg-info/top_level.txt
+[3.100s] writing manifest file '../../../build/happymini_teleop/happymini_teleop.egg-info/SOURCES.txt'
+[3.137s] reading manifest file '../../../build/happymini_teleop/happymini_teleop.egg-info/SOURCES.txt'
+[3.138s] writing manifest file '../../../build/happymini_teleop/happymini_teleop.egg-info/SOURCES.txt'
+[3.138s] running build
+[3.138s] running build_py
+[3.138s] creating /home/yuto/happymini_voice_offline/build/happymini_teleop/build
+[3.139s] creating /home/yuto/happymini_voice_offline/build/happymini_teleop/build/lib
+[3.139s] creating /home/yuto/happymini_voice_offline/build/happymini_teleop/build/lib/happymini_teleop
+[3.139s] copying happymini_teleop/__init__.py -> /home/yuto/happymini_voice_offline/build/happymini_teleop/build/lib/happymini_teleop
+[3.139s] copying happymini_teleop/base_control.py -> /home/yuto/happymini_voice_offline/build/happymini_teleop/build/lib/happymini_teleop
+[3.141s] copying happymini_teleop/output_odom.py -> /home/yuto/happymini_voice_offline/build/happymini_teleop/build/lib/happymini_teleop
+[3.144s] running install
+[3.144s] /home/yuto/.local/lib/python3.10/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.145s]   warnings.warn(
+[3.154s] running install_lib
+[3.174s] creating /home/yuto/happymini_voice_offline/install/happymini_teleop/lib/python3.10/site-packages/happymini_teleop
+[3.175s] copying /home/yuto/happymini_voice_offline/build/happymini_teleop/build/lib/happymini_teleop/__init__.py -> /home/yuto/happymini_voice_offline/install/happymini_teleop/lib/python3.10/site-packages/happymini_teleop
+[3.175s] copying /home/yuto/happymini_voice_offline/build/happymini_teleop/build/lib/happymini_teleop/base_control.py -> /home/yuto/happymini_voice_offline/install/happymini_teleop/lib/python3.10/site-packages/happymini_teleop
+[3.175s] copying /home/yuto/happymini_voice_offline/build/happymini_teleop/build/lib/happymini_teleop/output_odom.py -> /home/yuto/happymini_voice_offline/install/happymini_teleop/lib/python3.10/site-packages/happymini_teleop
+[3.175s] byte-compiling /home/yuto/happymini_voice_offline/install/happymini_teleop/lib/python3.10/site-packages/happymini_teleop/__init__.py to __init__.cpython-310.pyc
+[3.176s] byte-compiling /home/yuto/happymini_voice_offline/install/happymini_teleop/lib/python3.10/site-packages/happymini_teleop/base_control.py to base_control.cpython-310.pyc
+[3.178s] byte-compiling /home/yuto/happymini_voice_offline/install/happymini_teleop/lib/python3.10/site-packages/happymini_teleop/output_odom.py to output_odom.cpython-310.pyc
+[3.178s] running install_data
+[3.203s] creating /home/yuto/happymini_voice_offline/install/happymini_teleop/share/ament_index
+[3.203s] creating /home/yuto/happymini_voice_offline/install/happymini_teleop/share/ament_index/resource_index
+[3.203s] creating /home/yuto/happymini_voice_offline/install/happymini_teleop/share/ament_index/resource_index/packages
+[3.204s] copying resource/happymini_teleop -> /home/yuto/happymini_voice_offline/install/happymini_teleop/share/ament_index/resource_index/packages
+[3.204s] copying package.xml -> /home/yuto/happymini_voice_offline/install/happymini_teleop/share/happymini_teleop
+[3.204s] running install_egg_info
+[3.231s] Copying ../../../build/happymini_teleop/happymini_teleop.egg-info to /home/yuto/happymini_voice_offline/install/happymini_teleop/lib/python3.10/site-packages/happymini_teleop-0.0.0-py3.10.egg-info
+[3.234s] running install_scripts
+[3.509s] Installing base_control script to /home/yuto/happymini_voice_offline/install/happymini_teleop/lib/happymini_teleop
+[3.510s] Installing output_odom script to /home/yuto/happymini_voice_offline/install/happymini_teleop/lib/happymini_teleop
+[3.510s] writing list of installed files to '/home/yuto/happymini_voice_offline/build/happymini_teleop/install.log'
+[3.654s] Invoked command in '/home/yuto/happymini_voice_offline/src/happymini_ros2/happymini_teleop' returned '0': PYTHONPATH=/home/yuto/happymini_voice_offline/build/happymini_teleop/prefix_override:/home/yuto/happymini_voice_offline/install/happymini_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/happymini_teleop build --build-base /home/yuto/happymini_voice_offline/build/happymini_teleop/build install --record /home/yuto/happymini_voice_offline/build/happymini_teleop/install.log --single-version-externally-managed

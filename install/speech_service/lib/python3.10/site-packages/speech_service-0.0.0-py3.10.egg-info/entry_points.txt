@@ -1,0 +1,3 @@
+[console_scripts]
+client = speech_service.client:main
+speech_service = speech_service.speech_service:main

@@ -1,0 +1,34 @@
+/home/yuto/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:265: UserWarning: Unknown distribution option: 'readme'
+  warnings.warn(msg)
+file whisper.py (for module whisper) not found
+file whisper.py (for module whisper) not found
+/home/yuto/.local/lib/python3.10/site-packages/setuptools/command/build_py.py:202: SetuptoolsDeprecationWarning:     Installing 'whisper.assets' as data is deprecated, please list it in `packages`.
+    !!
+
+
+    ############################
+    # Package would be ignored #
+    ############################
+    Python recognizes 'whisper.assets' as an importable package,
+    but it is not listed in the `packages` configuration of setuptools.
+
+    'whisper.assets' has been automatically added to the distribution only
+    because it may contain data files, but this behavior is likely to change
+    in future versions of setuptools (and therefore is considered deprecated).
+
+    Please make sure that 'whisper.assets' is included as a package by using
+    the `packages` configuration field or the proper discovery methods
+    (for example by using `find_namespace_packages(...)`/`find_namespace:`
+    instead of `find_packages(...)`/`find:`).
+
+    You can read more about "package discovery" and "data files" on setuptools
+    documentation page.
+
+
+!!
+
+  check.warn(importable)
+file whisper.py (for module whisper) not found
+/home/yuto/.local/lib/python3.10/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+file whisper.py (for module whisper) not found

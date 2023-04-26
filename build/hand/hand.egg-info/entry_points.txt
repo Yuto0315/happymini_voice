@@ -1,0 +1,3 @@
+[console_scripts]
+hand_pose_publish = hand.hand_pose_publish:detect_hand_pose
+subscriber = hand.subscriber:main

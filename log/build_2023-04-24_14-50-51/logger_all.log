@@ -1,0 +1,553 @@
+[0.398s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.399s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fb9df7cecb0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fb9df9a0760>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fb9df9a0760>>)
+[0.445s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.446s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.446s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.446s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.446s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.446s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.446s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/yuto/happymini_voice_offline'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2) by extension 'ignore'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2) by extension 'ignore_ament_install'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2) by extensions ['colcon_pkg']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2) by extension 'colcon_pkg'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2) by extensions ['colcon_meta']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2) by extension 'colcon_meta'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2) by extensions ['ros']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2) by extension 'ros'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2) by extensions ['cmake', 'python']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2) by extension 'cmake'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2) by extension 'python'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2) by extensions ['python_setup_py']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2) by extension 'python_setup_py'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/grasp_bag) by extensions ['ignore', 'ignore_ament_install']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/grasp_bag) by extension 'ignore'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/grasp_bag) by extension 'ignore_ament_install'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/grasp_bag) by extensions ['colcon_pkg']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/grasp_bag) by extension 'colcon_pkg'
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/grasp_bag) by extensions ['colcon_meta']
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/grasp_bag) by extension 'colcon_meta'
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/grasp_bag) by extensions ['ros']
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/grasp_bag) by extension 'ros'
+[0.480s] DEBUG:colcon.colcon_core.package_identification:Package 'src/happymini_ros2/grasp_bag' with type 'ros.ament_python' and name 'grasp_bag'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/hand) by extensions ['ignore', 'ignore_ament_install']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/hand) by extension 'ignore'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/hand) by extension 'ignore_ament_install'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/hand) by extensions ['colcon_pkg']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/hand) by extension 'colcon_pkg'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/hand) by extensions ['colcon_meta']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/hand) by extension 'colcon_meta'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/hand) by extensions ['ros']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/hand) by extension 'ros'
+[0.482s] DEBUG:colcon.colcon_core.package_identification:Package 'src/happymini_ros2/hand' with type 'ros.ament_python' and name 'hand'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_msgs) by extension 'ignore'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_msgs) by extension 'ignore_ament_install'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_msgs) by extensions ['colcon_pkg']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_msgs) by extension 'colcon_pkg'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_msgs) by extensions ['colcon_meta']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_msgs) by extension 'colcon_meta'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_msgs) by extensions ['ros']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_msgs) by extension 'ros'
+[0.485s] DEBUG:colcon.colcon_core.package_identification:Package 'src/happymini_ros2/happymini_msgs' with type 'ros.ament_cmake' and name 'happymini_msgs'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_teleop) by extensions ['ignore', 'ignore_ament_install']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_teleop) by extension 'ignore'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_teleop) by extension 'ignore_ament_install'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_teleop) by extensions ['colcon_pkg']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_teleop) by extension 'colcon_pkg'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_teleop) by extensions ['colcon_meta']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_teleop) by extension 'colcon_meta'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_teleop) by extensions ['ros']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_teleop) by extension 'ros'
+[0.486s] DEBUG:colcon.colcon_core.package_identification:Package 'src/happymini_ros2/happymini_teleop' with type 'ros.ament_python' and name 'happymini_teleop'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_voice) by extensions ['ignore', 'ignore_ament_install']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_voice) by extension 'ignore'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_voice) by extension 'ignore_ament_install'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_voice) by extensions ['colcon_pkg']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_voice) by extension 'colcon_pkg'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_voice) by extensions ['colcon_meta']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_voice) by extension 'colcon_meta'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_voice) by extensions ['ros']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_voice) by extension 'ros'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_voice) by extensions ['cmake', 'python']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_voice) by extension 'cmake'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_voice) by extension 'python'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_voice) by extensions ['python_setup_py']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_voice) by extension 'python_setup_py'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_voice/airobot_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_voice/airobot_interfaces) by extension 'ignore'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_voice/airobot_interfaces) by extension 'ignore_ament_install'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_voice/airobot_interfaces) by extensions ['colcon_pkg']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_voice/airobot_interfaces) by extension 'colcon_pkg'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_voice/airobot_interfaces) by extensions ['colcon_meta']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_voice/airobot_interfaces) by extension 'colcon_meta'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_voice/airobot_interfaces) by extensions ['ros']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_voice/airobot_interfaces) by extension 'ros'
+[0.489s] DEBUG:colcon.colcon_core.package_identification:Package 'src/happymini_ros2/happymini_voice/airobot_interfaces' with type 'ros.ament_cmake' and name 'airobot_interfaces'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_voice/mp3) by extensions ['ignore', 'ignore_ament_install']
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_voice/mp3) by extension 'ignore'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_voice/mp3) by extension 'ignore_ament_install'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_voice/mp3) by extensions ['colcon_pkg']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_voice/mp3) by extension 'colcon_pkg'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_voice/mp3) by extensions ['colcon_meta']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_voice/mp3) by extension 'colcon_meta'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_voice/mp3) by extensions ['ros']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_voice/mp3) by extension 'ros'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_voice/mp3) by extensions ['cmake', 'python']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_voice/mp3) by extension 'cmake'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_voice/mp3) by extension 'python'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_voice/mp3) by extensions ['python_setup_py']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_voice/mp3) by extension 'python_setup_py'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_voice/speech_service) by extensions ['ignore', 'ignore_ament_install']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_voice/speech_service) by extension 'ignore'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_voice/speech_service) by extension 'ignore_ament_install'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_voice/speech_service) by extensions ['colcon_pkg']
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_voice/speech_service) by extension 'colcon_pkg'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_voice/speech_service) by extensions ['colcon_meta']
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_voice/speech_service) by extension 'colcon_meta'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_voice/speech_service) by extensions ['ros']
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_voice/speech_service) by extension 'ros'
+[0.492s] DEBUG:colcon.colcon_core.package_identification:Package 'src/happymini_ros2/happymini_voice/speech_service' with type 'ros.ament_python' and name 'speech_service'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_voice/whisper) by extensions ['ignore', 'ignore_ament_install']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_voice/whisper) by extension 'ignore'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_voice/whisper) by extension 'ignore_ament_install'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_voice/whisper) by extensions ['colcon_pkg']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_voice/whisper) by extension 'colcon_pkg'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_voice/whisper) by extensions ['colcon_meta']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_voice/whisper) by extension 'colcon_meta'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_voice/whisper) by extensions ['ros']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_voice/whisper) by extension 'ros'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_voice/whisper) by extensions ['cmake', 'python']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_voice/whisper) by extension 'cmake'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_voice/whisper) by extension 'python'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_voice/whisper) by extensions ['python_setup_py']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_voice/whisper) by extension 'python_setup_py'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_voice/whisper/src) by extensions ['ignore', 'ignore_ament_install']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_voice/whisper/src) by extension 'ignore'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_voice/whisper/src) by extension 'ignore_ament_install'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_voice/whisper/src) by extensions ['colcon_pkg']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_voice/whisper/src) by extension 'colcon_pkg'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_voice/whisper/src) by extensions ['colcon_meta']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_voice/whisper/src) by extension 'colcon_meta'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_voice/whisper/src) by extensions ['ros']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_voice/whisper/src) by extension 'ros'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_voice/whisper/src) by extensions ['cmake', 'python']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_voice/whisper/src) by extension 'cmake'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_voice/whisper/src) by extension 'python'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_voice/whisper/src) by extensions ['python_setup_py']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_voice/whisper/src) by extension 'python_setup_py'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_voice/whisper/src/whisper) by extensions ['ignore', 'ignore_ament_install']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_voice/whisper/src/whisper) by extension 'ignore'
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_voice/whisper/src/whisper) by extension 'ignore_ament_install'
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_voice/whisper/src/whisper) by extensions ['colcon_pkg']
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_voice/whisper/src/whisper) by extension 'colcon_pkg'
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_voice/whisper/src/whisper) by extensions ['colcon_meta']
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_voice/whisper/src/whisper) by extension 'colcon_meta'
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_voice/whisper/src/whisper) by extensions ['ros']
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_voice/whisper/src/whisper) by extension 'ros'
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_voice/whisper/src/whisper) by extensions ['cmake', 'python']
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_voice/whisper/src/whisper) by extension 'cmake'
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_voice/whisper/src/whisper) by extension 'python'
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_voice/whisper/src/whisper) by extensions ['python_setup_py']
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/happymini_ros2/happymini_voice/whisper/src/whisper) by extension 'python_setup_py'
+[0.986s] DEBUG:colcon.colcon_core.package_identification:Package 'src/happymini_ros2/happymini_voice/whisper/src/whisper' with type 'python' and name 'openai-whisper'
+[0.986s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.986s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.986s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.986s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.986s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.032s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.032s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.035s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/yuto/happymini_voice_offline/install/happymini_msgs' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.035s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/yuto/happymini_voice_offline/install/airobot_interfaces' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.036s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/yuto/happymini_voice_offline/install/happymini_msgs' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.036s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/yuto/happymini_voice_offline/install/airobot_interfaces' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.038s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/yuto/happymini_voice_offline/install
+[1.040s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/yuto/happymini_ws/install
+[1.042s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/yuto/hapyymini_voice/install
+[1.046s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /opt/ros/humble
+[1.049s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.151s] Level 5:colcon.colcon_core.verb:set package 'airobot_interfaces' build argument 'cmake_args' from command line to 'None'
+[1.151s] Level 5:colcon.colcon_core.verb:set package 'airobot_interfaces' build argument 'cmake_target' from command line to 'None'
+[1.151s] Level 5:colcon.colcon_core.verb:set package 'airobot_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.151s] Level 5:colcon.colcon_core.verb:set package 'airobot_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[1.151s] Level 5:colcon.colcon_core.verb:set package 'airobot_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[1.151s] Level 5:colcon.colcon_core.verb:set package 'airobot_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[1.151s] Level 5:colcon.colcon_core.verb:set package 'airobot_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[1.151s] Level 5:colcon.colcon_core.verb:set package 'airobot_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[1.151s] Level 5:colcon.colcon_core.verb:set package 'airobot_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.151s] DEBUG:colcon.colcon_core.verb:Building package 'airobot_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yuto/happymini_voice_offline/build/airobot_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yuto/happymini_voice_offline/install/airobot_interfaces', 'merge_install': False, 'path': '/home/yuto/happymini_voice_offline/src/happymini_ros2/happymini_voice/airobot_interfaces', 'symlink_install': False, 'test_result_base': None}
+[1.153s] Level 5:colcon.colcon_core.verb:set package 'grasp_bag' build argument 'cmake_args' from command line to 'None'
+[1.153s] Level 5:colcon.colcon_core.verb:set package 'grasp_bag' build argument 'cmake_target' from command line to 'None'
+[1.154s] Level 5:colcon.colcon_core.verb:set package 'grasp_bag' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.154s] Level 5:colcon.colcon_core.verb:set package 'grasp_bag' build argument 'cmake_clean_cache' from command line to 'False'
+[1.154s] Level 5:colcon.colcon_core.verb:set package 'grasp_bag' build argument 'cmake_clean_first' from command line to 'False'
+[1.154s] Level 5:colcon.colcon_core.verb:set package 'grasp_bag' build argument 'cmake_force_configure' from command line to 'False'
+[1.154s] Level 5:colcon.colcon_core.verb:set package 'grasp_bag' build argument 'ament_cmake_args' from command line to 'None'
+[1.154s] Level 5:colcon.colcon_core.verb:set package 'grasp_bag' build argument 'catkin_cmake_args' from command line to 'None'
+[1.154s] Level 5:colcon.colcon_core.verb:set package 'grasp_bag' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.154s] DEBUG:colcon.colcon_core.verb:Building package 'grasp_bag' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yuto/happymini_voice_offline/build/grasp_bag', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yuto/happymini_voice_offline/install/grasp_bag', 'merge_install': False, 'path': '/home/yuto/happymini_voice_offline/src/happymini_ros2/grasp_bag', 'symlink_install': False, 'test_result_base': None}
+[1.156s] Level 5:colcon.colcon_core.verb:set package 'hand' build argument 'cmake_args' from command line to 'None'
+[1.156s] Level 5:colcon.colcon_core.verb:set package 'hand' build argument 'cmake_target' from command line to 'None'
+[1.156s] Level 5:colcon.colcon_core.verb:set package 'hand' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.156s] Level 5:colcon.colcon_core.verb:set package 'hand' build argument 'cmake_clean_cache' from command line to 'False'
+[1.156s] Level 5:colcon.colcon_core.verb:set package 'hand' build argument 'cmake_clean_first' from command line to 'False'
+[1.156s] Level 5:colcon.colcon_core.verb:set package 'hand' build argument 'cmake_force_configure' from command line to 'False'
+[1.156s] Level 5:colcon.colcon_core.verb:set package 'hand' build argument 'ament_cmake_args' from command line to 'None'
+[1.156s] Level 5:colcon.colcon_core.verb:set package 'hand' build argument 'catkin_cmake_args' from command line to 'None'
+[1.156s] Level 5:colcon.colcon_core.verb:set package 'hand' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.156s] DEBUG:colcon.colcon_core.verb:Building package 'hand' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yuto/happymini_voice_offline/build/hand', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yuto/happymini_voice_offline/install/hand', 'merge_install': False, 'path': '/home/yuto/happymini_voice_offline/src/happymini_ros2/hand', 'symlink_install': False, 'test_result_base': None}
+[1.158s] Level 5:colcon.colcon_core.verb:set package 'happymini_msgs' build argument 'cmake_args' from command line to 'None'
+[1.158s] Level 5:colcon.colcon_core.verb:set package 'happymini_msgs' build argument 'cmake_target' from command line to 'None'
+[1.158s] Level 5:colcon.colcon_core.verb:set package 'happymini_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.158s] Level 5:colcon.colcon_core.verb:set package 'happymini_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.159s] Level 5:colcon.colcon_core.verb:set package 'happymini_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.159s] Level 5:colcon.colcon_core.verb:set package 'happymini_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.159s] Level 5:colcon.colcon_core.verb:set package 'happymini_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.159s] Level 5:colcon.colcon_core.verb:set package 'happymini_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.159s] Level 5:colcon.colcon_core.verb:set package 'happymini_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.159s] DEBUG:colcon.colcon_core.verb:Building package 'happymini_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yuto/happymini_voice_offline/build/happymini_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yuto/happymini_voice_offline/install/happymini_msgs', 'merge_install': False, 'path': '/home/yuto/happymini_voice_offline/src/happymini_ros2/happymini_msgs', 'symlink_install': False, 'test_result_base': None}
+[1.161s] Level 5:colcon.colcon_core.verb:set package 'happymini_teleop' build argument 'cmake_args' from command line to 'None'
+[1.161s] Level 5:colcon.colcon_core.verb:set package 'happymini_teleop' build argument 'cmake_target' from command line to 'None'
+[1.161s] Level 5:colcon.colcon_core.verb:set package 'happymini_teleop' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.161s] Level 5:colcon.colcon_core.verb:set package 'happymini_teleop' build argument 'cmake_clean_cache' from command line to 'False'
+[1.161s] Level 5:colcon.colcon_core.verb:set package 'happymini_teleop' build argument 'cmake_clean_first' from command line to 'False'
+[1.161s] Level 5:colcon.colcon_core.verb:set package 'happymini_teleop' build argument 'cmake_force_configure' from command line to 'False'
+[1.161s] Level 5:colcon.colcon_core.verb:set package 'happymini_teleop' build argument 'ament_cmake_args' from command line to 'None'
+[1.161s] Level 5:colcon.colcon_core.verb:set package 'happymini_teleop' build argument 'catkin_cmake_args' from command line to 'None'
+[1.161s] Level 5:colcon.colcon_core.verb:set package 'happymini_teleop' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.161s] DEBUG:colcon.colcon_core.verb:Building package 'happymini_teleop' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yuto/happymini_voice_offline/build/happymini_teleop', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yuto/happymini_voice_offline/install/happymini_teleop', 'merge_install': False, 'path': '/home/yuto/happymini_voice_offline/src/happymini_ros2/happymini_teleop', 'symlink_install': False, 'test_result_base': None}
+[1.163s] Level 5:colcon.colcon_core.verb:set package 'openai-whisper' build argument 'cmake_args' from command line to 'None'
+[1.163s] Level 5:colcon.colcon_core.verb:set package 'openai-whisper' build argument 'cmake_target' from command line to 'None'
+[1.163s] Level 5:colcon.colcon_core.verb:set package 'openai-whisper' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.163s] Level 5:colcon.colcon_core.verb:set package 'openai-whisper' build argument 'cmake_clean_cache' from command line to 'False'
+[1.163s] Level 5:colcon.colcon_core.verb:set package 'openai-whisper' build argument 'cmake_clean_first' from command line to 'False'
+[1.163s] Level 5:colcon.colcon_core.verb:set package 'openai-whisper' build argument 'cmake_force_configure' from command line to 'False'
+[1.163s] Level 5:colcon.colcon_core.verb:set package 'openai-whisper' build argument 'ament_cmake_args' from command line to 'None'
+[1.163s] Level 5:colcon.colcon_core.verb:set package 'openai-whisper' build argument 'catkin_cmake_args' from command line to 'None'
+[1.163s] Level 5:colcon.colcon_core.verb:set package 'openai-whisper' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.163s] DEBUG:colcon.colcon_core.verb:Building package 'openai-whisper' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yuto/happymini_voice_offline/build/openai-whisper', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yuto/happymini_voice_offline/install/openai-whisper', 'merge_install': False, 'path': '/home/yuto/happymini_voice_offline/src/happymini_ros2/happymini_voice/whisper/src/whisper', 'symlink_install': False, 'test_result_base': None}
+[1.166s] Level 5:colcon.colcon_core.verb:set package 'speech_service' build argument 'cmake_args' from command line to 'None'
+[1.166s] Level 5:colcon.colcon_core.verb:set package 'speech_service' build argument 'cmake_target' from command line to 'None'
+[1.166s] Level 5:colcon.colcon_core.verb:set package 'speech_service' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.166s] Level 5:colcon.colcon_core.verb:set package 'speech_service' build argument 'cmake_clean_cache' from command line to 'False'
+[1.166s] Level 5:colcon.colcon_core.verb:set package 'speech_service' build argument 'cmake_clean_first' from command line to 'False'
+[1.166s] Level 5:colcon.colcon_core.verb:set package 'speech_service' build argument 'cmake_force_configure' from command line to 'False'
+[1.166s] Level 5:colcon.colcon_core.verb:set package 'speech_service' build argument 'ament_cmake_args' from command line to 'None'
+[1.166s] Level 5:colcon.colcon_core.verb:set package 'speech_service' build argument 'catkin_cmake_args' from command line to 'None'
+[1.166s] Level 5:colcon.colcon_core.verb:set package 'speech_service' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.166s] DEBUG:colcon.colcon_core.verb:Building package 'speech_service' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yuto/happymini_voice_offline/build/speech_service', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yuto/happymini_voice_offline/install/speech_service', 'merge_install': False, 'path': '/home/yuto/happymini_voice_offline/src/happymini_ros2/happymini_voice/speech_service', 'symlink_install': False, 'test_result_base': None}
+[1.167s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.174s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.174s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yuto/happymini_voice_offline/src/happymini_ros2/happymini_voice/airobot_interfaces' with build type 'ament_cmake'
+[1.175s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yuto/happymini_voice_offline/src/happymini_ros2/happymini_voice/airobot_interfaces'
+[1.181s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.182s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.182s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.200s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/yuto/happymini_voice_offline/src/happymini_ros2/grasp_bag' with build type 'ament_python'
+[1.200s] Level 1:colcon.colcon_core.shell:create_environment_hook('grasp_bag', 'ament_prefix_path')
+[1.203s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuto/happymini_voice_offline/install/grasp_bag/share/grasp_bag/hook/ament_prefix_path.ps1'
+[1.209s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yuto/happymini_voice_offline/install/grasp_bag/share/grasp_bag/hook/ament_prefix_path.dsv'
+[1.210s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuto/happymini_voice_offline/install/grasp_bag/share/grasp_bag/hook/ament_prefix_path.sh'
+[1.214s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.214s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.263s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/yuto/happymini_voice_offline/src/happymini_ros2/hand' with build type 'ament_python'
+[1.263s] Level 1:colcon.colcon_core.shell:create_environment_hook('hand', 'ament_prefix_path')
+[1.266s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuto/happymini_voice_offline/install/hand/share/hand/hook/ament_prefix_path.ps1'
+[1.276s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yuto/happymini_voice_offline/install/hand/share/hand/hook/ament_prefix_path.dsv'
+[1.277s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuto/happymini_voice_offline/install/hand/share/hand/hook/ament_prefix_path.sh'
+[1.280s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.280s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.295s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yuto/happymini_voice_offline/src/happymini_ros2/happymini_msgs' with build type 'ament_cmake'
+[1.295s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yuto/happymini_voice_offline/src/happymini_ros2/happymini_msgs'
+[1.297s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.298s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.310s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/yuto/happymini_voice_offline/src/happymini_ros2/happymini_teleop' with build type 'ament_python'
+[1.310s] Level 1:colcon.colcon_core.shell:create_environment_hook('happymini_teleop', 'ament_prefix_path')
+[1.313s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuto/happymini_voice_offline/install/happymini_teleop/share/happymini_teleop/hook/ament_prefix_path.ps1'
+[1.314s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yuto/happymini_voice_offline/install/happymini_teleop/share/happymini_teleop/hook/ament_prefix_path.dsv'
+[1.315s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuto/happymini_voice_offline/install/happymini_teleop/share/happymini_teleop/hook/ament_prefix_path.sh'
+[1.318s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.319s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.330s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/yuto/happymini_voice_offline/src/happymini_ros2/happymini_voice/whisper/src/whisper'
+[1.333s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.333s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.350s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/yuto/happymini_voice_offline/src/happymini_ros2/happymini_voice/speech_service' with build type 'ament_python'
+[1.351s] Level 1:colcon.colcon_core.shell:create_environment_hook('speech_service', 'ament_prefix_path')
+[1.354s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuto/happymini_voice_offline/install/speech_service/share/speech_service/hook/ament_prefix_path.ps1'
+[1.356s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yuto/happymini_voice_offline/install/speech_service/share/speech_service/hook/ament_prefix_path.dsv'
+[1.358s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuto/happymini_voice_offline/install/speech_service/share/speech_service/hook/ament_prefix_path.sh'
+[1.362s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.362s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.386s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yuto/happymini_voice_offline/build/airobot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yuto/happymini_voice_offline/install/speech_service:/home/yuto/happymini_voice_offline/install/happymini_teleop:/home/yuto/happymini_voice_offline/install/hand:/home/yuto/happymini_voice_offline/install/grasp_bag:/home/yuto/happymini_ws/install/speech_service:/home/yuto/hapyymini_voice/install/speech_service:/home/yuto/hapyymini_voice/install/happymini_teleop:/home/yuto/hapyymini_voice/install/hand:/home/yuto/hapyymini_voice/install/grasp_bag:/opt/ros/humble /home/yuto/.local/bin/cmake --build /home/yuto/happymini_voice_offline/build/airobot_interfaces -- -j8 -l8
+[1.977s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/yuto/happymini_voice_offline/src/happymini_ros2/grasp_bag'
+[1.979s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.980s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.607s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/yuto/happymini_voice_offline/src/happymini_ros2/hand'
+[2.610s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.610s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.649s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yuto/happymini_voice_offline/build/happymini_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yuto/happymini_voice_offline/install/speech_service:/home/yuto/happymini_voice_offline/install/happymini_teleop:/home/yuto/happymini_voice_offline/install/hand:/home/yuto/happymini_voice_offline/install/grasp_bag:/home/yuto/happymini_ws/install/speech_service:/home/yuto/hapyymini_voice/install/speech_service:/home/yuto/hapyymini_voice/install/happymini_teleop:/home/yuto/hapyymini_voice/install/hand:/home/yuto/hapyymini_voice/install/grasp_bag:/opt/ros/humble /home/yuto/.local/bin/cmake --build /home/yuto/happymini_voice_offline/build/happymini_msgs -- -j8 -l8
+[3.152s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/yuto/happymini_voice_offline/src/happymini_ros2/happymini_teleop'
+[3.154s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.154s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.245s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/yuto/happymini_voice_offline/src/happymini_ros2/happymini_voice/speech_service'
+[6.255s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.255s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.221s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yuto/happymini_voice_offline/build/airobot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yuto/happymini_voice_offline/install/speech_service:/home/yuto/happymini_voice_offline/install/happymini_teleop:/home/yuto/happymini_voice_offline/install/hand:/home/yuto/happymini_voice_offline/install/grasp_bag:/home/yuto/happymini_ws/install/speech_service:/home/yuto/hapyymini_voice/install/speech_service:/home/yuto/hapyymini_voice/install/happymini_teleop:/home/yuto/hapyymini_voice/install/hand:/home/yuto/hapyymini_voice/install/grasp_bag:/opt/ros/humble /home/yuto/.local/bin/cmake --build /home/yuto/happymini_voice_offline/build/airobot_interfaces -- -j8 -l8
+[7.691s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yuto/happymini_voice_offline/src/happymini_ros2/happymini_voice/whisper/src/whisper': PYTHONPATH=/home/yuto/happymini_voice_offline/build/openai-whisper/prefix_override:/home/yuto/happymini_voice_offline/install/openai-whisper/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../../build/openai-whisper build --build-base /home/yuto/happymini_voice_offline/build/openai-whisper/build install --record /home/yuto/happymini_voice_offline/build/openai-whisper/install.log --single-version-externally-managed
+[7.909s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yuto/happymini_voice_offline/build/airobot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yuto/happymini_voice_offline/install/speech_service:/home/yuto/happymini_voice_offline/install/happymini_teleop:/home/yuto/happymini_voice_offline/install/hand:/home/yuto/happymini_voice_offline/install/grasp_bag:/home/yuto/happymini_ws/install/speech_service:/home/yuto/hapyymini_voice/install/speech_service:/home/yuto/hapyymini_voice/install/happymini_teleop:/home/yuto/hapyymini_voice/install/hand:/home/yuto/hapyymini_voice/install/grasp_bag:/opt/ros/humble /home/yuto/.local/bin/cmake --install /home/yuto/happymini_voice_offline/build/airobot_interfaces
+[7.994s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yuto/happymini_voice_offline/src/happymini_ros2/grasp_bag': PYTHONPATH=/home/yuto/happymini_voice_offline/build/grasp_bag/prefix_override:/home/yuto/happymini_voice_offline/install/grasp_bag/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/grasp_bag build --build-base /home/yuto/happymini_voice_offline/build/grasp_bag/build install --record /home/yuto/happymini_voice_offline/build/grasp_bag/install.log --single-version-externally-managed
+[8.048s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yuto/happymini_voice_offline/src/happymini_ros2/hand': PYTHONPATH=/home/yuto/happymini_voice_offline/build/hand/prefix_override:/home/yuto/happymini_voice_offline/install/hand/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/hand build --build-base /home/yuto/happymini_voice_offline/build/hand/build install --record /home/yuto/happymini_voice_offline/build/hand/install.log --single-version-externally-managed
+[8.087s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(airobot_interfaces)
+[8.096s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yuto/happymini_voice_offline/build/airobot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yuto/happymini_voice_offline/install/speech_service:/home/yuto/happymini_voice_offline/install/happymini_teleop:/home/yuto/happymini_voice_offline/install/hand:/home/yuto/happymini_voice_offline/install/grasp_bag:/home/yuto/happymini_ws/install/speech_service:/home/yuto/hapyymini_voice/install/speech_service:/home/yuto/hapyymini_voice/install/happymini_teleop:/home/yuto/hapyymini_voice/install/hand:/home/yuto/hapyymini_voice/install/grasp_bag:/opt/ros/humble /home/yuto/.local/bin/cmake --install /home/yuto/happymini_voice_offline/build/airobot_interfaces
+[8.100s] Level 1:colcon.colcon_core.environment:checking '/home/yuto/happymini_voice_offline/install/airobot_interfaces' for CMake module files
+[8.101s] Level 1:colcon.colcon_core.environment:checking '/home/yuto/happymini_voice_offline/install/airobot_interfaces' for CMake config files
+[8.101s] Level 1:colcon.colcon_core.shell:create_environment_hook('airobot_interfaces', 'cmake_prefix_path')
+[8.104s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/hook/cmake_prefix_path.ps1'
+[8.105s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/hook/cmake_prefix_path.dsv'
+[8.108s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/hook/cmake_prefix_path.sh'
+[8.110s] Level 1:colcon.colcon_core.environment:checking '/home/yuto/happymini_voice_offline/install/airobot_interfaces/lib'
+[8.110s] Level 1:colcon.colcon_core.shell:create_environment_hook('airobot_interfaces', 'ld_library_path_lib')
+[8.114s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/hook/ld_library_path_lib.ps1'
+[8.114s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/hook/ld_library_path_lib.dsv'
+[8.115s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/hook/ld_library_path_lib.sh'
+[8.116s] Level 1:colcon.colcon_core.environment:checking '/home/yuto/happymini_voice_offline/install/airobot_interfaces/bin'
+[8.116s] Level 1:colcon.colcon_core.environment:checking '/home/yuto/happymini_voice_offline/install/airobot_interfaces/lib/pkgconfig/airobot_interfaces.pc'
+[8.117s] Level 1:colcon.colcon_core.environment:checking '/home/yuto/happymini_voice_offline/install/airobot_interfaces/lib/python3.10/site-packages'
+[8.117s] Level 1:colcon.colcon_core.environment:checking '/home/yuto/happymini_voice_offline/install/airobot_interfaces/bin'
+[8.121s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/package.ps1'
+[8.122s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/package.dsv'
+[8.123s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/package.sh'
+[8.125s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/package.bash'
+[8.127s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/package.zsh'
+[8.128s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yuto/happymini_voice_offline/install/airobot_interfaces/share/colcon-core/packages/airobot_interfaces)
+[8.174s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yuto/happymini_voice_offline/src/happymini_ros2/happymini_teleop': PYTHONPATH=/home/yuto/happymini_voice_offline/build/happymini_teleop/prefix_override:/home/yuto/happymini_voice_offline/install/happymini_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/happymini_teleop build --build-base /home/yuto/happymini_voice_offline/build/happymini_teleop/build install --record /home/yuto/happymini_voice_offline/build/happymini_teleop/install.log --single-version-externally-managed
+[8.269s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(airobot_interfaces)
+[8.273s] Level 1:colcon.colcon_core.environment:checking '/home/yuto/happymini_voice_offline/install/airobot_interfaces' for CMake module files
+[8.275s] Level 1:colcon.colcon_core.environment:checking '/home/yuto/happymini_voice_offline/install/airobot_interfaces' for CMake config files
+[8.275s] Level 1:colcon.colcon_core.shell:create_environment_hook('airobot_interfaces', 'cmake_prefix_path')
+[8.278s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/hook/cmake_prefix_path.ps1'
+[8.278s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/hook/cmake_prefix_path.dsv'
+[8.281s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/hook/cmake_prefix_path.sh'
+[8.282s] Level 1:colcon.colcon_core.environment:checking '/home/yuto/happymini_voice_offline/install/airobot_interfaces/lib'
+[8.282s] Level 1:colcon.colcon_core.shell:create_environment_hook('airobot_interfaces', 'ld_library_path_lib')
+[8.285s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/hook/ld_library_path_lib.ps1'
+[8.286s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/hook/ld_library_path_lib.dsv'
+[8.287s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/hook/ld_library_path_lib.sh'
+[8.287s] Level 1:colcon.colcon_core.environment:checking '/home/yuto/happymini_voice_offline/install/airobot_interfaces/bin'
+[8.290s] Level 1:colcon.colcon_core.environment:checking '/home/yuto/happymini_voice_offline/install/airobot_interfaces/lib/pkgconfig/airobot_interfaces.pc'
+[8.291s] Level 1:colcon.colcon_core.environment:checking '/home/yuto/happymini_voice_offline/install/airobot_interfaces/lib/python3.10/site-packages'
+[8.291s] Level 1:colcon.colcon_core.environment:checking '/home/yuto/happymini_voice_offline/install/airobot_interfaces/bin'
+[8.294s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/package.ps1'
+[8.295s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/package.dsv'
+[8.295s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/package.sh'
+[8.296s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/package.bash'
+[8.297s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/package.zsh'
+[8.298s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yuto/happymini_voice_offline/install/airobot_interfaces/share/colcon-core/packages/airobot_interfaces)
+[8.302s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yuto/happymini_voice_offline/src/happymini_ros2/happymini_voice/speech_service': PYTHONPATH=/home/yuto/happymini_voice_offline/build/speech_service/prefix_override:/home/yuto/happymini_voice_offline/install/speech_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/speech_service build --build-base /home/yuto/happymini_voice_offline/build/speech_service/build install --record /home/yuto/happymini_voice_offline/build/speech_service/install.log --install-scripts $base/lib/speech_service --single-version-externally-managed
+[8.713s] Level 1:colcon.colcon_core.environment:checking '/home/yuto/happymini_voice_offline/install/openai-whisper' for CMake module files
+[8.713s] Level 1:colcon.colcon_core.environment:checking '/home/yuto/happymini_voice_offline/install/openai-whisper' for CMake config files
+[8.714s] Level 1:colcon.colcon_core.environment:checking '/home/yuto/happymini_voice_offline/install/openai-whisper/lib'
+[8.714s] Level 1:colcon.colcon_core.environment:checking '/home/yuto/happymini_voice_offline/install/openai-whisper/bin'
+[8.715s] Level 1:colcon.colcon_core.shell:create_environment_hook('openai-whisper', 'path')
+[8.717s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuto/happymini_voice_offline/install/openai-whisper/share/openai-whisper/hook/path.ps1'
+[8.718s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yuto/happymini_voice_offline/src/happymini_ros2/happymini_voice/whisper/src/whisper' returned '0': PYTHONPATH=/home/yuto/happymini_voice_offline/build/openai-whisper/prefix_override:/home/yuto/happymini_voice_offline/install/openai-whisper/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../../build/openai-whisper build --build-base /home/yuto/happymini_voice_offline/build/openai-whisper/build install --record /home/yuto/happymini_voice_offline/build/openai-whisper/install.log --single-version-externally-managed
+[8.719s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yuto/happymini_voice_offline/install/openai-whisper/share/openai-whisper/hook/path.dsv'
+[8.722s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuto/happymini_voice_offline/install/openai-whisper/share/openai-whisper/hook/path.sh'
+[8.723s] Level 1:colcon.colcon_core.environment:checking '/home/yuto/happymini_voice_offline/install/openai-whisper/lib/pkgconfig/openai-whisper.pc'
+[8.724s] Level 1:colcon.colcon_core.environment:checking '/home/yuto/happymini_voice_offline/install/openai-whisper/lib/python3.10/site-packages'
+[8.724s] Level 1:colcon.colcon_core.shell:create_environment_hook('openai-whisper', 'pythonpath')
+[8.726s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuto/happymini_voice_offline/install/openai-whisper/share/openai-whisper/hook/pythonpath.ps1'
+[8.727s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yuto/happymini_voice_offline/install/openai-whisper/share/openai-whisper/hook/pythonpath.dsv'
+[8.728s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuto/happymini_voice_offline/install/openai-whisper/share/openai-whisper/hook/pythonpath.sh'
+[8.729s] Level 1:colcon.colcon_core.environment:checking '/home/yuto/happymini_voice_offline/install/openai-whisper/bin'
+[8.729s] Level 1:colcon.colcon_core.shell:create_environment_hook('openai-whisper', 'pythonscriptspath')
+[8.732s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuto/happymini_voice_offline/install/openai-whisper/share/openai-whisper/hook/pythonscriptspath.ps1'
+[8.733s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yuto/happymini_voice_offline/install/openai-whisper/share/openai-whisper/hook/pythonscriptspath.dsv'
+[8.734s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuto/happymini_voice_offline/install/openai-whisper/share/openai-whisper/hook/pythonscriptspath.sh'
+[8.734s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(openai-whisper)
+[8.737s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuto/happymini_voice_offline/install/openai-whisper/share/openai-whisper/package.ps1'
+[8.738s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yuto/happymini_voice_offline/install/openai-whisper/share/openai-whisper/package.dsv'
+[8.739s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuto/happymini_voice_offline/install/openai-whisper/share/openai-whisper/package.sh'
+[8.740s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuto/happymini_voice_offline/install/openai-whisper/share/openai-whisper/package.bash'
+[8.741s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuto/happymini_voice_offline/install/openai-whisper/share/openai-whisper/package.zsh'
+[8.741s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yuto/happymini_voice_offline/install/openai-whisper/share/colcon-core/packages/openai-whisper)
+[8.816s] Level 1:colcon.colcon_core.environment:checking '/home/yuto/happymini_voice_offline/install/grasp_bag' for CMake module files
+[8.816s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yuto/happymini_voice_offline/src/happymini_ros2/grasp_bag' returned '0': PYTHONPATH=/home/yuto/happymini_voice_offline/build/grasp_bag/prefix_override:/home/yuto/happymini_voice_offline/install/grasp_bag/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/grasp_bag build --build-base /home/yuto/happymini_voice_offline/build/grasp_bag/build install --record /home/yuto/happymini_voice_offline/build/grasp_bag/install.log --single-version-externally-managed
+[8.817s] Level 1:colcon.colcon_core.environment:checking '/home/yuto/happymini_voice_offline/install/grasp_bag' for CMake config files
+[8.817s] Level 1:colcon.colcon_core.environment:checking '/home/yuto/happymini_voice_offline/install/grasp_bag/lib'
+[8.817s] Level 1:colcon.colcon_core.environment:checking '/home/yuto/happymini_voice_offline/install/grasp_bag/bin'
+[8.817s] Level 1:colcon.colcon_core.environment:checking '/home/yuto/happymini_voice_offline/install/grasp_bag/lib/pkgconfig/grasp_bag.pc'
+[8.818s] Level 1:colcon.colcon_core.environment:checking '/home/yuto/happymini_voice_offline/install/grasp_bag/lib/python3.10/site-packages'
+[8.818s] Level 1:colcon.colcon_core.shell:create_environment_hook('grasp_bag', 'pythonpath')
+[8.820s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuto/happymini_voice_offline/install/grasp_bag/share/grasp_bag/hook/pythonpath.ps1'
+[8.820s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yuto/happymini_voice_offline/install/grasp_bag/share/grasp_bag/hook/pythonpath.dsv'
+[8.823s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuto/happymini_voice_offline/install/grasp_bag/share/grasp_bag/hook/pythonpath.sh'
+[8.824s] Level 1:colcon.colcon_core.environment:checking '/home/yuto/happymini_voice_offline/install/grasp_bag/bin'
+[8.824s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(grasp_bag)
+[8.826s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuto/happymini_voice_offline/install/grasp_bag/share/grasp_bag/package.ps1'
+[8.826s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yuto/happymini_voice_offline/install/grasp_bag/share/grasp_bag/package.dsv'
+[8.827s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuto/happymini_voice_offline/install/grasp_bag/share/grasp_bag/package.sh'
+[8.828s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuto/happymini_voice_offline/install/grasp_bag/share/grasp_bag/package.bash'
+[8.829s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuto/happymini_voice_offline/install/grasp_bag/share/grasp_bag/package.zsh'
+[8.829s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yuto/happymini_voice_offline/install/grasp_bag/share/colcon-core/packages/grasp_bag)
+[9.075s] Level 1:colcon.colcon_core.environment:checking '/home/yuto/happymini_voice_offline/install/happymini_teleop' for CMake module files
+[9.076s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yuto/happymini_voice_offline/src/happymini_ros2/happymini_teleop' returned '0': PYTHONPATH=/home/yuto/happymini_voice_offline/build/happymini_teleop/prefix_override:/home/yuto/happymini_voice_offline/install/happymini_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/happymini_teleop build --build-base /home/yuto/happymini_voice_offline/build/happymini_teleop/build install --record /home/yuto/happymini_voice_offline/build/happymini_teleop/install.log --single-version-externally-managed
+[9.076s] Level 1:colcon.colcon_core.environment:checking '/home/yuto/happymini_voice_offline/install/happymini_teleop' for CMake config files
+[9.077s] Level 1:colcon.colcon_core.environment:checking '/home/yuto/happymini_voice_offline/install/happymini_teleop/lib'
+[9.077s] Level 1:colcon.colcon_core.environment:checking '/home/yuto/happymini_voice_offline/install/happymini_teleop/bin'
+[9.077s] Level 1:colcon.colcon_core.environment:checking '/home/yuto/happymini_voice_offline/install/happymini_teleop/lib/pkgconfig/happymini_teleop.pc'
+[9.077s] Level 1:colcon.colcon_core.environment:checking '/home/yuto/happymini_voice_offline/install/happymini_teleop/lib/python3.10/site-packages'
+[9.077s] Level 1:colcon.colcon_core.shell:create_environment_hook('happymini_teleop', 'pythonpath')
+[9.079s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuto/happymini_voice_offline/install/happymini_teleop/share/happymini_teleop/hook/pythonpath.ps1'
+[9.079s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yuto/happymini_voice_offline/install/happymini_teleop/share/happymini_teleop/hook/pythonpath.dsv'
+[9.083s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuto/happymini_voice_offline/install/happymini_teleop/share/happymini_teleop/hook/pythonpath.sh'
+[9.084s] Level 1:colcon.colcon_core.environment:checking '/home/yuto/happymini_voice_offline/install/happymini_teleop/bin'
+[9.084s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(happymini_teleop)
+[9.086s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuto/happymini_voice_offline/install/happymini_teleop/share/happymini_teleop/package.ps1'
+[9.086s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yuto/happymini_voice_offline/install/happymini_teleop/share/happymini_teleop/package.dsv'
+[9.094s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuto/happymini_voice_offline/install/happymini_teleop/share/happymini_teleop/package.sh'
+[9.096s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuto/happymini_voice_offline/install/happymini_teleop/share/happymini_teleop/package.bash'
+[9.096s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuto/happymini_voice_offline/install/happymini_teleop/share/happymini_teleop/package.zsh'
+[9.097s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yuto/happymini_voice_offline/install/happymini_teleop/share/colcon-core/packages/happymini_teleop)
+[9.101s] Level 1:colcon.colcon_core.environment:checking '/home/yuto/happymini_voice_offline/install/hand' for CMake module files
+[9.101s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yuto/happymini_voice_offline/src/happymini_ros2/hand' returned '0': PYTHONPATH=/home/yuto/happymini_voice_offline/build/hand/prefix_override:/home/yuto/happymini_voice_offline/install/hand/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/hand build --build-base /home/yuto/happymini_voice_offline/build/hand/build install --record /home/yuto/happymini_voice_offline/build/hand/install.log --single-version-externally-managed
+[9.102s] Level 1:colcon.colcon_core.environment:checking '/home/yuto/happymini_voice_offline/install/hand' for CMake config files
+[9.102s] Level 1:colcon.colcon_core.environment:checking '/home/yuto/happymini_voice_offline/install/hand/lib'
+[9.102s] Level 1:colcon.colcon_core.environment:checking '/home/yuto/happymini_voice_offline/install/hand/bin'
+[9.102s] Level 1:colcon.colcon_core.environment:checking '/home/yuto/happymini_voice_offline/install/hand/lib/pkgconfig/hand.pc'
+[9.102s] Level 1:colcon.colcon_core.environment:checking '/home/yuto/happymini_voice_offline/install/hand/lib/python3.10/site-packages'
+[9.103s] Level 1:colcon.colcon_core.shell:create_environment_hook('hand', 'pythonpath')
+[9.104s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuto/happymini_voice_offline/install/hand/share/hand/hook/pythonpath.ps1'
+[9.104s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yuto/happymini_voice_offline/install/hand/share/hand/hook/pythonpath.dsv'
+[9.105s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuto/happymini_voice_offline/install/hand/share/hand/hook/pythonpath.sh'
+[9.106s] Level 1:colcon.colcon_core.environment:checking '/home/yuto/happymini_voice_offline/install/hand/bin'
+[9.106s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hand)
+[9.108s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuto/happymini_voice_offline/install/hand/share/hand/package.ps1'
+[9.109s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yuto/happymini_voice_offline/install/hand/share/hand/package.dsv'
+[9.111s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuto/happymini_voice_offline/install/hand/share/hand/package.sh'
+[9.111s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuto/happymini_voice_offline/install/hand/share/hand/package.bash'
+[9.112s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuto/happymini_voice_offline/install/hand/share/hand/package.zsh'
+[9.113s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yuto/happymini_voice_offline/install/hand/share/colcon-core/packages/hand)
+[9.146s] Level 1:colcon.colcon_core.environment:checking '/home/yuto/happymini_voice_offline/install/speech_service' for CMake module files
+[9.147s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yuto/happymini_voice_offline/src/happymini_ros2/happymini_voice/speech_service' returned '0': PYTHONPATH=/home/yuto/happymini_voice_offline/build/speech_service/prefix_override:/home/yuto/happymini_voice_offline/install/speech_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/speech_service build --build-base /home/yuto/happymini_voice_offline/build/speech_service/build install --record /home/yuto/happymini_voice_offline/build/speech_service/install.log --install-scripts $base/lib/speech_service --single-version-externally-managed
+[9.147s] Level 1:colcon.colcon_core.environment:checking '/home/yuto/happymini_voice_offline/install/speech_service' for CMake config files
+[9.147s] Level 1:colcon.colcon_core.environment:checking '/home/yuto/happymini_voice_offline/install/speech_service/lib'
+[9.147s] Level 1:colcon.colcon_core.environment:checking '/home/yuto/happymini_voice_offline/install/speech_service/bin'
+[9.148s] Level 1:colcon.colcon_core.environment:checking '/home/yuto/happymini_voice_offline/install/speech_service/lib/pkgconfig/speech_service.pc'
+[9.148s] Level 1:colcon.colcon_core.environment:checking '/home/yuto/happymini_voice_offline/install/speech_service/lib/python3.10/site-packages'
+[9.148s] Level 1:colcon.colcon_core.shell:create_environment_hook('speech_service', 'pythonpath')
+[9.149s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuto/happymini_voice_offline/install/speech_service/share/speech_service/hook/pythonpath.ps1'
+[9.150s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yuto/happymini_voice_offline/install/speech_service/share/speech_service/hook/pythonpath.dsv'
+[9.153s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuto/happymini_voice_offline/install/speech_service/share/speech_service/hook/pythonpath.sh'
+[9.154s] Level 1:colcon.colcon_core.environment:checking '/home/yuto/happymini_voice_offline/install/speech_service/bin'
+[9.154s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(speech_service)
+[9.156s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuto/happymini_voice_offline/install/speech_service/share/speech_service/package.ps1'
+[9.156s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yuto/happymini_voice_offline/install/speech_service/share/speech_service/package.dsv'
+[9.157s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuto/happymini_voice_offline/install/speech_service/share/speech_service/package.sh'
+[9.158s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuto/happymini_voice_offline/install/speech_service/share/speech_service/package.bash'
+[9.158s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuto/happymini_voice_offline/install/speech_service/share/speech_service/package.zsh'
+[9.159s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yuto/happymini_voice_offline/install/speech_service/share/colcon-core/packages/speech_service)
+[9.741s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yuto/happymini_voice_offline/build/happymini_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yuto/happymini_voice_offline/install/speech_service:/home/yuto/happymini_voice_offline/install/happymini_teleop:/home/yuto/happymini_voice_offline/install/hand:/home/yuto/happymini_voice_offline/install/grasp_bag:/home/yuto/happymini_ws/install/speech_service:/home/yuto/hapyymini_voice/install/speech_service:/home/yuto/hapyymini_voice/install/happymini_teleop:/home/yuto/hapyymini_voice/install/hand:/home/yuto/hapyymini_voice/install/grasp_bag:/opt/ros/humble /home/yuto/.local/bin/cmake --build /home/yuto/happymini_voice_offline/build/happymini_msgs -- -j8 -l8
+[9.834s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yuto/happymini_voice_offline/build/happymini_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yuto/happymini_voice_offline/install/speech_service:/home/yuto/happymini_voice_offline/install/happymini_teleop:/home/yuto/happymini_voice_offline/install/hand:/home/yuto/happymini_voice_offline/install/grasp_bag:/home/yuto/happymini_ws/install/speech_service:/home/yuto/hapyymini_voice/install/speech_service:/home/yuto/hapyymini_voice/install/happymini_teleop:/home/yuto/hapyymini_voice/install/hand:/home/yuto/hapyymini_voice/install/grasp_bag:/opt/ros/humble /home/yuto/.local/bin/cmake --install /home/yuto/happymini_voice_offline/build/happymini_msgs
+[9.920s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(happymini_msgs)
+[9.922s] Level 1:colcon.colcon_core.environment:checking '/home/yuto/happymini_voice_offline/install/happymini_msgs' for CMake module files
+[9.923s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yuto/happymini_voice_offline/build/happymini_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yuto/happymini_voice_offline/install/speech_service:/home/yuto/happymini_voice_offline/install/happymini_teleop:/home/yuto/happymini_voice_offline/install/hand:/home/yuto/happymini_voice_offline/install/grasp_bag:/home/yuto/happymini_ws/install/speech_service:/home/yuto/hapyymini_voice/install/speech_service:/home/yuto/hapyymini_voice/install/happymini_teleop:/home/yuto/hapyymini_voice/install/hand:/home/yuto/hapyymini_voice/install/grasp_bag:/opt/ros/humble /home/yuto/.local/bin/cmake --install /home/yuto/happymini_voice_offline/build/happymini_msgs
+[9.923s] Level 1:colcon.colcon_core.environment:checking '/home/yuto/happymini_voice_offline/install/happymini_msgs' for CMake config files
+[9.924s] Level 1:colcon.colcon_core.shell:create_environment_hook('happymini_msgs', 'cmake_prefix_path')
+[9.925s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuto/happymini_voice_offline/install/happymini_msgs/share/happymini_msgs/hook/cmake_prefix_path.ps1'
+[9.925s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yuto/happymini_voice_offline/install/happymini_msgs/share/happymini_msgs/hook/cmake_prefix_path.dsv'
+[9.926s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuto/happymini_voice_offline/install/happymini_msgs/share/happymini_msgs/hook/cmake_prefix_path.sh'
+[9.927s] Level 1:colcon.colcon_core.environment:checking '/home/yuto/happymini_voice_offline/install/happymini_msgs/lib'
+[9.927s] Level 1:colcon.colcon_core.shell:create_environment_hook('happymini_msgs', 'ld_library_path_lib')
+[9.928s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuto/happymini_voice_offline/install/happymini_msgs/share/happymini_msgs/hook/ld_library_path_lib.ps1'
+[9.929s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yuto/happymini_voice_offline/install/happymini_msgs/share/happymini_msgs/hook/ld_library_path_lib.dsv'
+[9.929s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuto/happymini_voice_offline/install/happymini_msgs/share/happymini_msgs/hook/ld_library_path_lib.sh'
+[9.930s] Level 1:colcon.colcon_core.environment:checking '/home/yuto/happymini_voice_offline/install/happymini_msgs/bin'
+[9.930s] Level 1:colcon.colcon_core.environment:checking '/home/yuto/happymini_voice_offline/install/happymini_msgs/lib/pkgconfig/happymini_msgs.pc'
+[9.931s] Level 1:colcon.colcon_core.environment:checking '/home/yuto/happymini_voice_offline/install/happymini_msgs/lib/python3.10/site-packages'
+[9.931s] Level 1:colcon.colcon_core.environment:checking '/home/yuto/happymini_voice_offline/install/happymini_msgs/bin'
+[9.932s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuto/happymini_voice_offline/install/happymini_msgs/share/happymini_msgs/package.ps1'
+[9.933s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yuto/happymini_voice_offline/install/happymini_msgs/share/happymini_msgs/package.dsv'
+[9.933s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuto/happymini_voice_offline/install/happymini_msgs/share/happymini_msgs/package.sh'
+[9.934s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuto/happymini_voice_offline/install/happymini_msgs/share/happymini_msgs/package.bash'
+[9.935s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuto/happymini_voice_offline/install/happymini_msgs/share/happymini_msgs/package.zsh'
+[9.935s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yuto/happymini_voice_offline/install/happymini_msgs/share/colcon-core/packages/happymini_msgs)
+[10.032s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(happymini_msgs)
+[10.035s] Level 1:colcon.colcon_core.environment:checking '/home/yuto/happymini_voice_offline/install/happymini_msgs' for CMake module files
+[10.036s] Level 1:colcon.colcon_core.environment:checking '/home/yuto/happymini_voice_offline/install/happymini_msgs' for CMake config files
+[10.036s] Level 1:colcon.colcon_core.shell:create_environment_hook('happymini_msgs', 'cmake_prefix_path')
+[10.037s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuto/happymini_voice_offline/install/happymini_msgs/share/happymini_msgs/hook/cmake_prefix_path.ps1'
+[10.038s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yuto/happymini_voice_offline/install/happymini_msgs/share/happymini_msgs/hook/cmake_prefix_path.dsv'
+[10.040s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuto/happymini_voice_offline/install/happymini_msgs/share/happymini_msgs/hook/cmake_prefix_path.sh'
+[10.041s] Level 1:colcon.colcon_core.environment:checking '/home/yuto/happymini_voice_offline/install/happymini_msgs/lib'
+[10.041s] Level 1:colcon.colcon_core.shell:create_environment_hook('happymini_msgs', 'ld_library_path_lib')
+[10.042s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuto/happymini_voice_offline/install/happymini_msgs/share/happymini_msgs/hook/ld_library_path_lib.ps1'
+[10.043s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yuto/happymini_voice_offline/install/happymini_msgs/share/happymini_msgs/hook/ld_library_path_lib.dsv'
+[10.043s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuto/happymini_voice_offline/install/happymini_msgs/share/happymini_msgs/hook/ld_library_path_lib.sh'
+[10.044s] Level 1:colcon.colcon_core.environment:checking '/home/yuto/happymini_voice_offline/install/happymini_msgs/bin'
+[10.044s] Level 1:colcon.colcon_core.environment:checking '/home/yuto/happymini_voice_offline/install/happymini_msgs/lib/pkgconfig/happymini_msgs.pc'
+[10.044s] Level 1:colcon.colcon_core.environment:checking '/home/yuto/happymini_voice_offline/install/happymini_msgs/lib/python3.10/site-packages'
+[10.044s] Level 1:colcon.colcon_core.environment:checking '/home/yuto/happymini_voice_offline/install/happymini_msgs/bin'
+[10.046s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuto/happymini_voice_offline/install/happymini_msgs/share/happymini_msgs/package.ps1'
+[10.046s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yuto/happymini_voice_offline/install/happymini_msgs/share/happymini_msgs/package.dsv'
+[10.047s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuto/happymini_voice_offline/install/happymini_msgs/share/happymini_msgs/package.sh'
+[10.047s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuto/happymini_voice_offline/install/happymini_msgs/share/happymini_msgs/package.bash'
+[10.047s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuto/happymini_voice_offline/install/happymini_msgs/share/happymini_msgs/package.zsh'
+[10.048s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yuto/happymini_voice_offline/install/happymini_msgs/share/colcon-core/packages/happymini_msgs)
+[10.049s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[10.050s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[10.050s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[10.050s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[10.057s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[10.057s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[10.057s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[10.066s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[10.069s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yuto/happymini_voice_offline/install/local_setup.ps1'
+[10.070s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yuto/happymini_voice_offline/install/_local_setup_util_ps1.py'
+[10.072s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yuto/happymini_voice_offline/install/setup.ps1'
+[10.074s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yuto/happymini_voice_offline/install/local_setup.sh'
+[10.075s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yuto/happymini_voice_offline/install/_local_setup_util_sh.py'
+[10.075s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yuto/happymini_voice_offline/install/setup.sh'
+[10.078s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yuto/happymini_voice_offline/install/local_setup.bash'
+[10.079s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yuto/happymini_voice_offline/install/setup.bash'
+[10.081s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yuto/happymini_voice_offline/install/local_setup.zsh'
+[10.082s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yuto/happymini_voice_offline/install/setup.zsh'
