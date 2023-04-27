@@ -180,6 +180,36 @@ bool airobot_interfaces__srv__string_command__response__convert_from_py(PyObject
     Py_DECREF(encoded_field);
     Py_DECREF(field);
   }
+  {  // answer_gender
+    PyObject * field = PyObject_GetAttrString(_pymsg, "answer_gender");
+    if (!field) {
+      return false;
+    }
+    assert(PyUnicode_Check(field));
+    PyObject * encoded_field = PyUnicode_AsUTF8String(field);
+    if (!encoded_field) {
+      Py_DECREF(field);
+      return false;
+    }
+    rosidl_runtime_c__String__assign(&ros_message->answer_gender, PyBytes_AS_STRING(encoded_field));
+    Py_DECREF(encoded_field);
+    Py_DECREF(field);
+  }
+  {  // answer_name
+    PyObject * field = PyObject_GetAttrString(_pymsg, "answer_name");
+    if (!field) {
+      return false;
+    }
+    assert(PyUnicode_Check(field));
+    PyObject * encoded_field = PyUnicode_AsUTF8String(field);
+    if (!encoded_field) {
+      Py_DECREF(field);
+      return false;
+    }
+    rosidl_runtime_c__String__assign(&ros_message->answer_name, PyBytes_AS_STRING(encoded_field));
+    Py_DECREF(encoded_field);
+    Py_DECREF(field);
+  }
 
   return true;
 }
@@ -213,6 +243,40 @@ PyObject * airobot_interfaces__srv__string_command__response__convert_to_py(void
     }
     {
       int rc = PyObject_SetAttrString(_pymessage, "answer", field);
+      Py_DECREF(field);
+      if (rc) {
+        return NULL;
+      }
+    }
+  }
+  {  // answer_gender
+    PyObject * field = NULL;
+    field = PyUnicode_DecodeUTF8(
+      ros_message->answer_gender.data,
+      strlen(ros_message->answer_gender.data),
+      "replace");
+    if (!field) {
+      return NULL;
+    }
+    {
+      int rc = PyObject_SetAttrString(_pymessage, "answer_gender", field);
+      Py_DECREF(field);
+      if (rc) {
+        return NULL;
+      }
+    }
+  }
+  {  // answer_name
+    PyObject * field = NULL;
+    field = PyUnicode_DecodeUTF8(
+      ros_message->answer_name.data,
+      strlen(ros_message->answer_name.data),
+      "replace");
+    if (!field) {
+      return NULL;
+    }
+    {
+      int rc = PyObject_SetAttrString(_pymessage, "answer_name", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;

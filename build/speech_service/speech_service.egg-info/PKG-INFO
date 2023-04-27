@@ -1,7 +1,7 @@
 Metadata-Version: 2.1
 Name: speech-service
 Version: 0.0.0
-Summary: ROS2 package for speech recognition and speech synthesis
+Summary: ROS2 package for speech recognition and speech synthesis and speech make_audio_file
 Maintainer: Masaki Ito
 Maintainer-email: ai-robot-book@googlegroups.com
 License: Apache License 2.0

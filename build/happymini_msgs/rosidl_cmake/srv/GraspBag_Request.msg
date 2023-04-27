@@ -1,2 +1,0 @@
-string left_right
-float64[] coordinate

@@ -42,6 +42,8 @@ typedef struct airobot_interfaces__srv__StringCommand_Request__Sequence
 
 // Include directives for member types
 // Member 'answer'
+// Member 'answer_gender'
+// Member 'answer_name'
 // already included above
 // #include "rosidl_runtime_c/string.h"
 
@@ -49,6 +51,8 @@ typedef struct airobot_interfaces__srv__StringCommand_Request__Sequence
 typedef struct airobot_interfaces__srv__StringCommand_Response
 {
   rosidl_runtime_c__String answer;
+  rosidl_runtime_c__String answer_gender;
+  rosidl_runtime_c__String answer_name;
 } airobot_interfaces__srv__StringCommand_Response;
 
 // Struct for a sequence of airobot_interfaces__srv__StringCommand_Response.

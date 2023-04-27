@@ -1,7 +1,7 @@
-/home/yuto/happymini_voice_offline/install/speech_service/lib/python3.10/site-packages/speech_service/client.py
-/home/yuto/happymini_voice_offline/install/speech_service/lib/python3.10/site-packages/speech_service/speech_service.py
-/home/yuto/happymini_voice_offline/install/speech_service/lib/python3.10/site-packages/speech_service/__pycache__/client.cpython-310.pyc
-/home/yuto/happymini_voice_offline/install/speech_service/lib/python3.10/site-packages/speech_service/__pycache__/speech_service.cpython-310.pyc
+/home/yuto/happymini_voice_offline/install/speech_service/lib/python3.10/site-packages/speech_service/cml_speech_service.py
+/home/yuto/happymini_voice_offline/install/speech_service/lib/python3.10/site-packages/speech_service/cml_client.py
+/home/yuto/happymini_voice_offline/install/speech_service/lib/python3.10/site-packages/speech_service/__pycache__/cml_speech_service.cpython-310.pyc
+/home/yuto/happymini_voice_offline/install/speech_service/lib/python3.10/site-packages/speech_service/__pycache__/cml_client.cpython-310.pyc
 /home/yuto/happymini_voice_offline/install/speech_service/share/ament_index/resource_index/packages/speech_service
 /home/yuto/happymini_voice_offline/install/speech_service/share/speech_service/package.xml
 /home/yuto/happymini_voice_offline/install/speech_service/lib/python3.10/site-packages/speech_service-0.0.0-py3.10.egg-info/requires.txt
@@ -11,5 +11,5 @@
 /home/yuto/happymini_voice_offline/install/speech_service/lib/python3.10/site-packages/speech_service-0.0.0-py3.10.egg-info/top_level.txt
 /home/yuto/happymini_voice_offline/install/speech_service/lib/python3.10/site-packages/speech_service-0.0.0-py3.10.egg-info/SOURCES.txt
 /home/yuto/happymini_voice_offline/install/speech_service/lib/python3.10/site-packages/speech_service-0.0.0-py3.10.egg-info/PKG-INFO
-/home/yuto/happymini_voice_offline/install/speech_service/lib/speech_service/client
-/home/yuto/happymini_voice_offline/install/speech_service/lib/speech_service/speech_service
+/home/yuto/happymini_voice_offline/install/speech_service/lib/speech_service/cml_client
+/home/yuto/happymini_voice_offline/install/speech_service/lib/speech_service/cml_speech_service

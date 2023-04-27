@@ -1,0 +1,43 @@
+[5.922s] Invoking command in '/home/yuto/happymini_voice_offline/src/happymini_ros2/fmm_speech_service': PYTHONPATH=/home/yuto/happymini_voice_offline/build/fmm_speech_service/prefix_override:/home/yuto/happymini_voice_offline/install/fmm_speech_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/fmm_speech_service build --build-base /home/yuto/happymini_voice_offline/build/fmm_speech_service/build install --record /home/yuto/happymini_voice_offline/build/fmm_speech_service/install.log --install-scripts $base/lib/fmm_speech_service --single-version-externally-managed
+[6.476s] /home/yuto/.local/lib/python3.10/site-packages/setuptools/dist.py:788: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[6.477s]   warnings.warn(
+[6.875s] running egg_info
+[6.877s] creating ../../../build/fmm_speech_service/fmm_speech_service.egg-info
+[6.937s] writing ../../../build/fmm_speech_service/fmm_speech_service.egg-info/PKG-INFO
+[6.938s] writing dependency_links to ../../../build/fmm_speech_service/fmm_speech_service.egg-info/dependency_links.txt
+[6.939s] writing entry points to ../../../build/fmm_speech_service/fmm_speech_service.egg-info/entry_points.txt
+[6.940s] writing requirements to ../../../build/fmm_speech_service/fmm_speech_service.egg-info/requires.txt
+[6.940s] writing top-level names to ../../../build/fmm_speech_service/fmm_speech_service.egg-info/top_level.txt
+[6.941s] writing manifest file '../../../build/fmm_speech_service/fmm_speech_service.egg-info/SOURCES.txt'
+[7.072s] reading manifest file '../../../build/fmm_speech_service/fmm_speech_service.egg-info/SOURCES.txt'
+[7.073s] adding license file 'LICENSE'
+[7.076s] writing manifest file '../../../build/fmm_speech_service/fmm_speech_service.egg-info/SOURCES.txt'
+[7.077s] running build
+[7.078s] running build_py
+[7.079s] creating /home/yuto/happymini_voice_offline/build/fmm_speech_service/build
+[7.079s] creating /home/yuto/happymini_voice_offline/build/fmm_speech_service/build/lib
+[7.080s] creating /home/yuto/happymini_voice_offline/build/fmm_speech_service/build/lib/fmm_speech_service
+[7.081s] copying fmm_speech_service/fmm_client.py -> /home/yuto/happymini_voice_offline/build/fmm_speech_service/build/lib/fmm_speech_service
+[7.081s] copying fmm_speech_service/fmm_speech_service.py -> /home/yuto/happymini_voice_offline/build/fmm_speech_service/build/lib/fmm_speech_service
+[7.082s] running install
+[7.083s] /home/yuto/.local/lib/python3.10/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[7.083s]   warnings.warn(
+[7.107s] running install_lib
+[7.175s] creating /home/yuto/happymini_voice_offline/install/fmm_speech_service/lib/python3.10/site-packages/fmm_speech_service
+[7.176s] copying /home/yuto/happymini_voice_offline/build/fmm_speech_service/build/lib/fmm_speech_service/fmm_client.py -> /home/yuto/happymini_voice_offline/install/fmm_speech_service/lib/python3.10/site-packages/fmm_speech_service
+[7.177s] copying /home/yuto/happymini_voice_offline/build/fmm_speech_service/build/lib/fmm_speech_service/fmm_speech_service.py -> /home/yuto/happymini_voice_offline/install/fmm_speech_service/lib/python3.10/site-packages/fmm_speech_service
+[7.179s] byte-compiling /home/yuto/happymini_voice_offline/install/fmm_speech_service/lib/python3.10/site-packages/fmm_speech_service/fmm_client.py to fmm_client.cpython-310.pyc
+[7.181s] byte-compiling /home/yuto/happymini_voice_offline/install/fmm_speech_service/lib/python3.10/site-packages/fmm_speech_service/fmm_speech_service.py to fmm_speech_service.cpython-310.pyc
+[7.188s] running install_data
+[7.266s] creating /home/yuto/happymini_voice_offline/install/fmm_speech_service/share/ament_index
+[7.267s] creating /home/yuto/happymini_voice_offline/install/fmm_speech_service/share/ament_index/resource_index
+[7.267s] creating /home/yuto/happymini_voice_offline/install/fmm_speech_service/share/ament_index/resource_index/packages
+[7.268s] copying resource/fmm_speech_service -> /home/yuto/happymini_voice_offline/install/fmm_speech_service/share/ament_index/resource_index/packages
+[7.269s] copying package.xml -> /home/yuto/happymini_voice_offline/install/fmm_speech_service/share/fmm_speech_service
+[7.270s] running install_egg_info
+[7.347s] Copying ../../../build/fmm_speech_service/fmm_speech_service.egg-info to /home/yuto/happymini_voice_offline/install/fmm_speech_service/lib/python3.10/site-packages/fmm_speech_service-0.0.0-py3.10.egg-info
+[7.348s] running install_scripts
+[8.445s] Installing fmm_client script to /home/yuto/happymini_voice_offline/install/fmm_speech_service/lib/fmm_speech_service
+[8.446s] Installing fmm_speech_service script to /home/yuto/happymini_voice_offline/install/fmm_speech_service/lib/fmm_speech_service
+[8.447s] writing list of installed files to '/home/yuto/happymini_voice_offline/build/fmm_speech_service/install.log'
+[8.548s] Invoked command in '/home/yuto/happymini_voice_offline/src/happymini_ros2/fmm_speech_service' returned '0': PYTHONPATH=/home/yuto/happymini_voice_offline/build/fmm_speech_service/prefix_override:/home/yuto/happymini_voice_offline/install/fmm_speech_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/fmm_speech_service build --build-base /home/yuto/happymini_voice_offline/build/fmm_speech_service/build install --record /home/yuto/happymini_voice_offline/build/fmm_speech_service/install.log --install-scripts $base/lib/fmm_speech_service --single-version-externally-managed

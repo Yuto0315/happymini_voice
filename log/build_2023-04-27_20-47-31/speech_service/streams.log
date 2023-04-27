@@ -1,0 +1,27 @@
+[5.915s] Invoking command in '/home/yuto/happymini_voice_offline/src/happymini_ros2/happymini_voice/speech_service': PYTHONPATH=/home/yuto/happymini_voice_offline/build/speech_service/prefix_override:/home/yuto/happymini_voice_offline/install/speech_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/speech_service build --build-base /home/yuto/happymini_voice_offline/build/speech_service/build install --record /home/yuto/happymini_voice_offline/build/speech_service/install.log --install-scripts $base/lib/speech_service --single-version-externally-managed
+[6.482s] /home/yuto/.local/lib/python3.10/site-packages/setuptools/dist.py:788: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[6.482s]   warnings.warn(
+[6.879s] running egg_info
+[6.942s] writing ../../../../build/speech_service/speech_service.egg-info/PKG-INFO
+[6.943s] writing dependency_links to ../../../../build/speech_service/speech_service.egg-info/dependency_links.txt
+[6.948s] writing entry points to ../../../../build/speech_service/speech_service.egg-info/entry_points.txt
+[6.949s] writing requirements to ../../../../build/speech_service/speech_service.egg-info/requires.txt
+[6.949s] writing top-level names to ../../../../build/speech_service/speech_service.egg-info/top_level.txt
+[7.084s] reading manifest file '../../../../build/speech_service/speech_service.egg-info/SOURCES.txt'
+[7.085s] adding license file 'LICENSE'
+[7.088s] writing manifest file '../../../../build/speech_service/speech_service.egg-info/SOURCES.txt'
+[7.089s] running build
+[7.089s] running build_py
+[7.090s] running install
+[7.091s] /home/yuto/.local/lib/python3.10/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[7.092s]   warnings.warn(
+[7.114s] running install_lib
+[7.182s] running install_data
+[7.248s] running install_egg_info
+[7.315s] removing '/home/yuto/happymini_voice_offline/install/speech_service/lib/python3.10/site-packages/speech_service-0.0.0-py3.10.egg-info' (and everything under it)
+[7.316s] Copying ../../../../build/speech_service/speech_service.egg-info to /home/yuto/happymini_voice_offline/install/speech_service/lib/python3.10/site-packages/speech_service-0.0.0-py3.10.egg-info
+[7.319s] running install_scripts
+[8.053s] Installing cml_client script to /home/yuto/happymini_voice_offline/install/speech_service/lib/speech_service
+[8.054s] Installing cml_speech_service script to /home/yuto/happymini_voice_offline/install/speech_service/lib/speech_service
+[8.057s] writing list of installed files to '/home/yuto/happymini_voice_offline/build/speech_service/install.log'
+[8.176s] Invoked command in '/home/yuto/happymini_voice_offline/src/happymini_ros2/happymini_voice/speech_service' returned '0': PYTHONPATH=/home/yuto/happymini_voice_offline/build/speech_service/prefix_override:/home/yuto/happymini_voice_offline/install/speech_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/speech_service build --build-base /home/yuto/happymini_voice_offline/build/speech_service/build install --record /home/yuto/happymini_voice_offline/build/speech_service/install.log --install-scripts $base/lib/speech_service --single-version-externally-managed

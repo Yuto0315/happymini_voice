@@ -1,0 +1,232 @@
+[0.129s] Invoking command in '/home/yuto/happymini_voice_offline/build/airobot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yuto/happymini_voice_offline/install/speech_service:/home/yuto/happymini_ws/install/speech_service:/home/yuto/hapyymini_voice/install/speech_service:/home/yuto/hapyymini_voice/install/happymini_teleop:/home/yuto/hapyymini_voice/install/hand:/home/yuto/hapyymini_voice/install/grasp_bag:/opt/ros/humble /home/yuto/.local/bin/cmake /home/yuto/happymini_voice_offline/src/happymini_ros2/happymini_voice/airobot_interfaces -DCMAKE_INSTALL_PREFIX=/home/yuto/happymini_voice_offline/install/airobot_interfaces
+[2.076s] -- The C compiler identification is GNU 11.3.0
+[2.077s] -- The CXX compiler identification is GNU 11.3.0
+[2.079s] -- Detecting C compiler ABI info
+[2.080s] -- Detecting C compiler ABI info - done
+[2.081s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.082s] -- Detecting C compile features
+[2.082s] -- Detecting C compile features - done
+[2.083s] -- Detecting CXX compiler ABI info
+[2.083s] -- Detecting CXX compiler ABI info - done
+[2.084s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.084s] -- Detecting CXX compile features
+[2.085s] -- Detecting CXX compile features - done
+[2.085s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.544s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[3.965s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[3.984s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.016s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.232s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.319s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[5.765s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.384s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.501s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") 
+[6.508s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[6.653s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") 
+[6.654s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.654s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[6.654s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[6.769s] -- Found PythonExtra: .so  
+[6.955s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[7.054s] -- Added test 'copyright' to check source files copyright and LICENSE
+[7.062s] -- Added test 'lint_cmake' to check CMake code style
+[7.066s] -- Added test 'xmllint' to check XML markup files
+[7.081s] -- Configuring done (6.8s)
+[7.204s] -- Generating done (0.1s)
+[7.216s] -- Build files have been written to: /home/yuto/happymini_voice_offline/build/airobot_interfaces
+[7.261s] Invoked command in '/home/yuto/happymini_voice_offline/build/airobot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yuto/happymini_voice_offline/install/speech_service:/home/yuto/happymini_ws/install/speech_service:/home/yuto/hapyymini_voice/install/speech_service:/home/yuto/hapyymini_voice/install/happymini_teleop:/home/yuto/hapyymini_voice/install/hand:/home/yuto/hapyymini_voice/install/grasp_bag:/opt/ros/humble /home/yuto/.local/bin/cmake /home/yuto/happymini_voice_offline/src/happymini_ros2/happymini_voice/airobot_interfaces -DCMAKE_INSTALL_PREFIX=/home/yuto/happymini_voice_offline/install/airobot_interfaces
+[7.270s] Invoking command in '/home/yuto/happymini_voice_offline/build/airobot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yuto/happymini_voice_offline/install/speech_service:/home/yuto/happymini_ws/install/speech_service:/home/yuto/hapyymini_voice/install/speech_service:/home/yuto/hapyymini_voice/install/happymini_teleop:/home/yuto/hapyymini_voice/install/hand:/home/yuto/hapyymini_voice/install/grasp_bag:/opt/ros/humble /home/yuto/.local/bin/cmake --build /home/yuto/happymini_voice_offline/build/airobot_interfaces -- -j8 -l8
+[7.465s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[7.466s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[7.487s] [  6%] Built target ament_cmake_python_copy_airobot_interfaces
+[8.652s] running egg_info
+[8.658s] creating airobot_interfaces.egg-info
+[8.668s] [  6%] Built target airobot_interfaces__cpp
+[8.683s] [  9%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[8.684s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[8.685s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[8.697s] [ 19%] [32mBuilding C object CMakeFiles/airobot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/airobot_interfaces/srv/detail/string_command__functions.c.o[0m
+[8.733s] writing airobot_interfaces.egg-info/PKG-INFO
+[8.734s] writing dependency_links to airobot_interfaces.egg-info/dependency_links.txt
+[8.735s] writing top-level names to airobot_interfaces.egg-info/top_level.txt
+[8.736s] writing manifest file 'airobot_interfaces.egg-info/SOURCES.txt'
+[8.927s] reading manifest file 'airobot_interfaces.egg-info/SOURCES.txt'
+[8.930s] writing manifest file 'airobot_interfaces.egg-info/SOURCES.txt'
+[9.013s] [ 19%] Built target ament_cmake_python_build_airobot_interfaces_egg
+[9.022s] [ 22%] [32m[1mLinking C shared library libairobot_interfaces__rosidl_generator_c.so[0m
+[9.114s] [ 22%] Built target airobot_interfaces__rosidl_generator_c
+[9.129s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[9.135s] [ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[9.135s] [ 32%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[9.706s] [ 35%] [32mBuilding CXX object CMakeFiles/airobot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/airobot_interfaces/srv/string_command__type_support.cpp.o[0m
+[9.825s] [ 38%] [32mBuilding CXX object CMakeFiles/airobot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/airobot_interfaces/srv/detail/dds_fastrtps/string_command__type_support.cpp.o[0m
+[10.452s] [ 41%] [32mBuilding CXX object CMakeFiles/airobot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/airobot_interfaces/srv/detail/string_command__type_support.cpp.o[0m
+[10.787s] [ 45%] [32mBuilding C object CMakeFiles/airobot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/airobot_interfaces/srv/detail/string_command__type_support.c.o[0m
+[10.805s] [ 48%] [32m[1mLinking CXX shared library libairobot_interfaces__rosidl_typesupport_cpp.so[0m
+[10.842s] [ 51%] [32mBuilding CXX object CMakeFiles/airobot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/airobot_interfaces/srv/string_command__type_support.cpp.o[0m
+[10.912s] [ 54%] [32m[1mLinking C shared library libairobot_interfaces__rosidl_typesupport_introspection_c.so[0m
+[10.979s] [ 58%] [32mBuilding CXX object CMakeFiles/airobot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/airobot_interfaces/srv/detail/string_command__type_support_c.cpp.o[0m
+[10.993s] [ 61%] [32m[1mLinking CXX shared library libairobot_interfaces__rosidl_typesupport_c.so[0m
+[11.031s] [ 61%] Built target airobot_interfaces__rosidl_typesupport_introspection_c
+[11.033s] [ 61%] Built target airobot_interfaces__rosidl_typesupport_cpp
+[11.102s] [ 61%] Built target airobot_interfaces__rosidl_typesupport_c
+[11.616s] [ 64%] [32m[1mLinking CXX shared library libairobot_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[11.853s] [ 64%] Built target airobot_interfaces__rosidl_typesupport_fastrtps_cpp
+[12.156s] [ 67%] [32m[1mLinking CXX shared library libairobot_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[12.342s] [ 67%] Built target airobot_interfaces__rosidl_typesupport_introspection_cpp
+[12.418s] [ 70%] [32m[1mLinking CXX shared library libairobot_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[12.681s] [ 70%] Built target airobot_interfaces__rosidl_typesupport_fastrtps_c
+[12.711s] [ 70%] Built target airobot_interfaces
+[12.739s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[14.217s] [ 74%] Built target airobot_interfaces__py
+[14.244s] [ 77%] [32mBuilding C object CMakeFiles/airobot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/airobot_interfaces/srv/_string_command_s.c.o[0m
+[14.651s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/airobot_interfaces/libairobot_interfaces__rosidl_generator_py.so[0m
+[14.757s] [ 80%] Built target airobot_interfaces__rosidl_generator_py
+[14.786s] [ 83%] [32mBuilding C object CMakeFiles/airobot_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/airobot_interfaces/_airobot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[14.787s] [ 87%] [32mBuilding C object CMakeFiles/airobot_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/airobot_interfaces/_airobot_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[14.787s] [ 90%] [32mBuilding C object CMakeFiles/airobot_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/airobot_interfaces/_airobot_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[15.246s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/airobot_interfaces/airobot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[15.269s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/airobot_interfaces/airobot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[15.286s] [100%] [32m[1mLinking C shared library rosidl_generator_py/airobot_interfaces/airobot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[15.524s] [100%] Built target airobot_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[15.533s] [100%] Built target airobot_interfaces__rosidl_typesupport_c__pyext
+[15.585s] [100%] Built target airobot_interfaces__rosidl_typesupport_introspection_c__pyext
+[15.620s] Invoked command in '/home/yuto/happymini_voice_offline/build/airobot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yuto/happymini_voice_offline/install/speech_service:/home/yuto/happymini_ws/install/speech_service:/home/yuto/hapyymini_voice/install/speech_service:/home/yuto/hapyymini_voice/install/happymini_teleop:/home/yuto/hapyymini_voice/install/hand:/home/yuto/hapyymini_voice/install/grasp_bag:/opt/ros/humble /home/yuto/.local/bin/cmake --build /home/yuto/happymini_voice_offline/build/airobot_interfaces -- -j8 -l8
+[16.052s] Invoking command in '/home/yuto/happymini_voice_offline/build/airobot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yuto/happymini_voice_offline/install/speech_service:/home/yuto/happymini_ws/install/speech_service:/home/yuto/hapyymini_voice/install/speech_service:/home/yuto/hapyymini_voice/install/happymini_teleop:/home/yuto/hapyymini_voice/install/hand:/home/yuto/hapyymini_voice/install/grasp_bag:/opt/ros/humble /home/yuto/.local/bin/cmake --install /home/yuto/happymini_voice_offline/build/airobot_interfaces
+[16.180s] -- Install configuration: ""
+[16.180s] -- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/share/ament_index/resource_index/rosidl_interfaces/airobot_interfaces
+[16.181s] -- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/include/airobot_interfaces/airobot_interfaces
+[16.182s] -- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/include/airobot_interfaces/airobot_interfaces/msg
+[16.182s] -- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/include/airobot_interfaces/airobot_interfaces/msg/rosidl_generator_c__visibility_control.h
+[16.183s] -- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/include/airobot_interfaces/airobot_interfaces/srv
+[16.183s] -- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/include/airobot_interfaces/airobot_interfaces/srv/detail
+[16.184s] -- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/include/airobot_interfaces/airobot_interfaces/srv/detail/string_command__type_support.h
+[16.184s] -- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/include/airobot_interfaces/airobot_interfaces/srv/detail/string_command__struct.h
+[16.185s] -- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/include/airobot_interfaces/airobot_interfaces/srv/detail/string_command__functions.h
+[16.185s] -- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/include/airobot_interfaces/airobot_interfaces/srv/detail/string_command__functions.c
+[16.185s] -- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/include/airobot_interfaces/airobot_interfaces/srv/string_command.h
+[16.185s] -- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/environment/library_path.sh
+[16.186s] -- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/environment/library_path.dsv
+[16.186s] -- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/lib/libairobot_interfaces__rosidl_generator_c.so
+[16.187s] -- Set runtime path of "/home/yuto/happymini_voice_offline/install/airobot_interfaces/lib/libairobot_interfaces__rosidl_generator_c.so" to ""
+[16.187s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/airobot_interfaces/include/airobot_interfaces/airobot_interfaces
+[16.188s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/airobot_interfaces/include/airobot_interfaces/airobot_interfaces/msg
+[16.188s] -- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/include/airobot_interfaces/airobot_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[16.188s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/airobot_interfaces/include/airobot_interfaces/airobot_interfaces/srv
+[16.189s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/airobot_interfaces/include/airobot_interfaces/airobot_interfaces/srv/detail
+[16.189s] -- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/include/airobot_interfaces/airobot_interfaces/srv/detail/string_command__rosidl_typesupport_fastrtps_c.h
+[16.189s] -- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/lib/libairobot_interfaces__rosidl_typesupport_fastrtps_c.so
+[16.190s] -- Set runtime path of "/home/yuto/happymini_voice_offline/install/airobot_interfaces/lib/libairobot_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[16.190s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/airobot_interfaces/include/airobot_interfaces/airobot_interfaces
+[16.191s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/airobot_interfaces/include/airobot_interfaces/airobot_interfaces/msg
+[16.191s] -- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/include/airobot_interfaces/airobot_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[16.191s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/airobot_interfaces/include/airobot_interfaces/airobot_interfaces/srv
+[16.192s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/airobot_interfaces/include/airobot_interfaces/airobot_interfaces/srv/detail
+[16.192s] -- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/include/airobot_interfaces/airobot_interfaces/srv/detail/string_command__type_support.c
+[16.192s] -- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/include/airobot_interfaces/airobot_interfaces/srv/detail/string_command__rosidl_typesupport_introspection_c.h
+[16.193s] -- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/lib/libairobot_interfaces__rosidl_typesupport_introspection_c.so
+[16.193s] -- Set runtime path of "/home/yuto/happymini_voice_offline/install/airobot_interfaces/lib/libairobot_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[16.193s] -- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/lib/libairobot_interfaces__rosidl_typesupport_c.so
+[16.194s] -- Set runtime path of "/home/yuto/happymini_voice_offline/install/airobot_interfaces/lib/libairobot_interfaces__rosidl_typesupport_c.so" to ""
+[16.194s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/airobot_interfaces/include/airobot_interfaces/airobot_interfaces
+[16.194s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/airobot_interfaces/include/airobot_interfaces/airobot_interfaces/srv
+[16.195s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/airobot_interfaces/include/airobot_interfaces/airobot_interfaces/srv/detail
+[16.195s] -- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/include/airobot_interfaces/airobot_interfaces/srv/detail/string_command__traits.hpp
+[16.196s] -- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/include/airobot_interfaces/airobot_interfaces/srv/detail/string_command__struct.hpp
+[16.196s] -- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/include/airobot_interfaces/airobot_interfaces/srv/detail/string_command__builder.hpp
+[16.196s] -- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/include/airobot_interfaces/airobot_interfaces/srv/string_command.hpp
+[16.197s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/airobot_interfaces/include/airobot_interfaces/airobot_interfaces
+[16.197s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/airobot_interfaces/include/airobot_interfaces/airobot_interfaces/msg
+[16.197s] -- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/include/airobot_interfaces/airobot_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[16.197s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/airobot_interfaces/include/airobot_interfaces/airobot_interfaces/srv
+[16.198s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/airobot_interfaces/include/airobot_interfaces/airobot_interfaces/srv/detail
+[16.198s] -- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/include/airobot_interfaces/airobot_interfaces/srv/detail/dds_fastrtps
+[16.199s] -- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/include/airobot_interfaces/airobot_interfaces/srv/detail/string_command__rosidl_typesupport_fastrtps_cpp.hpp
+[16.199s] -- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/lib/libairobot_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[16.199s] -- Set runtime path of "/home/yuto/happymini_voice_offline/install/airobot_interfaces/lib/libairobot_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[16.199s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/airobot_interfaces/include/airobot_interfaces/airobot_interfaces
+[16.200s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/airobot_interfaces/include/airobot_interfaces/airobot_interfaces/srv
+[16.200s] -- Up-to-date: /home/yuto/happymini_voice_offline/install/airobot_interfaces/include/airobot_interfaces/airobot_interfaces/srv/detail
+[16.200s] -- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/include/airobot_interfaces/airobot_interfaces/srv/detail/string_command__rosidl_typesupport_introspection_cpp.hpp
+[16.201s] -- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/include/airobot_interfaces/airobot_interfaces/srv/detail/string_command__type_support.cpp
+[16.201s] -- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/lib/libairobot_interfaces__rosidl_typesupport_introspection_cpp.so
+[16.201s] -- Set runtime path of "/home/yuto/happymini_voice_offline/install/airobot_interfaces/lib/libairobot_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[16.202s] -- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/lib/libairobot_interfaces__rosidl_typesupport_cpp.so
+[16.202s] -- Set runtime path of "/home/yuto/happymini_voice_offline/install/airobot_interfaces/lib/libairobot_interfaces__rosidl_typesupport_cpp.so" to ""
+[16.202s] -- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/environment/pythonpath.sh
+[16.203s] -- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/environment/pythonpath.dsv
+[16.203s] -- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/local/lib/python3.10/dist-packages/airobot_interfaces-1.0.0-py3.10.egg-info
+[16.203s] -- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/local/lib/python3.10/dist-packages/airobot_interfaces-1.0.0-py3.10.egg-info/dependency_links.txt
+[16.204s] -- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/local/lib/python3.10/dist-packages/airobot_interfaces-1.0.0-py3.10.egg-info/top_level.txt
+[16.204s] -- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/local/lib/python3.10/dist-packages/airobot_interfaces-1.0.0-py3.10.egg-info/SOURCES.txt
+[16.204s] -- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/local/lib/python3.10/dist-packages/airobot_interfaces-1.0.0-py3.10.egg-info/PKG-INFO
+[16.205s] -- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/local/lib/python3.10/dist-packages/airobot_interfaces
+[16.205s] -- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/local/lib/python3.10/dist-packages/airobot_interfaces/_airobot_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[16.205s] -- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/local/lib/python3.10/dist-packages/airobot_interfaces/airobot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[16.206s] -- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/local/lib/python3.10/dist-packages/airobot_interfaces/_airobot_interfaces_s.ep.rosidl_typesupport_c.c
+[16.207s] -- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/local/lib/python3.10/dist-packages/airobot_interfaces/__init__.py
+[16.207s] -- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/local/lib/python3.10/dist-packages/airobot_interfaces/_airobot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[16.207s] -- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/local/lib/python3.10/dist-packages/airobot_interfaces/srv
+[16.208s] -- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/local/lib/python3.10/dist-packages/airobot_interfaces/srv/_string_command_s.c
+[16.208s] -- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/local/lib/python3.10/dist-packages/airobot_interfaces/srv/__init__.py
+[16.209s] -- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/local/lib/python3.10/dist-packages/airobot_interfaces/srv/_string_command.py
+[16.209s] -- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/local/lib/python3.10/dist-packages/airobot_interfaces/airobot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[16.209s] -- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/local/lib/python3.10/dist-packages/airobot_interfaces/airobot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[16.209s] -- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/local/lib/python3.10/dist-packages/airobot_interfaces/libairobot_interfaces__rosidl_generator_py.so
+[16.369s] Listing '/home/yuto/happymini_voice_offline/install/airobot_interfaces/local/lib/python3.10/dist-packages/airobot_interfaces'...
+[16.370s] Compiling '/home/yuto/happymini_voice_offline/install/airobot_interfaces/local/lib/python3.10/dist-packages/airobot_interfaces/__init__.py'...
+[16.370s] Listing '/home/yuto/happymini_voice_offline/install/airobot_interfaces/local/lib/python3.10/dist-packages/airobot_interfaces/srv'...
+[16.371s] Compiling '/home/yuto/happymini_voice_offline/install/airobot_interfaces/local/lib/python3.10/dist-packages/airobot_interfaces/srv/__init__.py'...
+[16.371s] Compiling '/home/yuto/happymini_voice_offline/install/airobot_interfaces/local/lib/python3.10/dist-packages/airobot_interfaces/srv/_string_command.py'...
+[16.388s] -- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/local/lib/python3.10/dist-packages/airobot_interfaces/airobot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[16.389s] -- Set runtime path of "/home/yuto/happymini_voice_offline/install/airobot_interfaces/local/lib/python3.10/dist-packages/airobot_interfaces/airobot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[16.389s] -- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/local/lib/python3.10/dist-packages/airobot_interfaces/airobot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[16.390s] -- Set runtime path of "/home/yuto/happymini_voice_offline/install/airobot_interfaces/local/lib/python3.10/dist-packages/airobot_interfaces/airobot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[16.391s] -- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/local/lib/python3.10/dist-packages/airobot_interfaces/airobot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[16.392s] -- Set runtime path of "/home/yuto/happymini_voice_offline/install/airobot_interfaces/local/lib/python3.10/dist-packages/airobot_interfaces/airobot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[16.393s] -- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/lib/libairobot_interfaces__rosidl_generator_py.so
+[16.393s] -- Set runtime path of "/home/yuto/happymini_voice_offline/install/airobot_interfaces/lib/libairobot_interfaces__rosidl_generator_py.so" to ""
+[16.394s] -- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/srv/StringCommand.idl
+[16.394s] -- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/srv/StringCommand.srv
+[16.395s] -- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/srv/StringCommand_Request.msg
+[16.395s] -- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/srv/StringCommand_Response.msg
+[16.396s] -- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/share/ament_index/resource_index/package_run_dependencies/airobot_interfaces
+[16.396s] -- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/share/ament_index/resource_index/parent_prefix_path/airobot_interfaces
+[16.397s] -- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/environment/ament_prefix_path.sh
+[16.397s] -- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/environment/ament_prefix_path.dsv
+[16.397s] -- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/environment/path.sh
+[16.398s] -- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/environment/path.dsv
+[16.398s] -- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/local_setup.bash
+[16.399s] -- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/local_setup.sh
+[16.399s] -- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/local_setup.zsh
+[16.399s] -- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/local_setup.dsv
+[16.400s] -- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/package.dsv
+[16.400s] -- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/share/ament_index/resource_index/packages/airobot_interfaces
+[16.401s] -- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/cmake/export_airobot_interfaces__rosidl_generator_cExport.cmake
+[16.402s] -- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/cmake/export_airobot_interfaces__rosidl_generator_cExport-noconfig.cmake
+[16.402s] -- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/cmake/export_airobot_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[16.403s] -- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/cmake/export_airobot_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[16.403s] -- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/cmake/airobot_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[16.404s] -- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/cmake/airobot_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[16.404s] -- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/cmake/airobot_interfaces__rosidl_typesupport_cExport.cmake
+[16.404s] -- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/cmake/airobot_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[16.405s] -- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/cmake/export_airobot_interfaces__rosidl_generator_cppExport.cmake
+[16.405s] -- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/cmake/export_airobot_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[16.406s] -- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/cmake/export_airobot_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[16.407s] -- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/cmake/airobot_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[16.407s] -- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/cmake/airobot_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[16.408s] -- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/cmake/airobot_interfaces__rosidl_typesupport_cppExport.cmake
+[16.408s] -- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/cmake/airobot_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[16.408s] -- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/cmake/export_airobot_interfaces__rosidl_generator_pyExport.cmake
+[16.409s] -- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/cmake/export_airobot_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[16.409s] -- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/cmake/rosidl_cmake-extras.cmake
+[16.410s] -- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[16.410s] -- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[16.411s] -- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[16.411s] -- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[16.412s] -- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[16.412s] -- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[16.412s] -- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/cmake/airobot_interfacesConfig.cmake
+[16.413s] -- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/cmake/airobot_interfacesConfig-version.cmake
+[16.413s] -- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/package.xml
+[16.439s] Invoked command in '/home/yuto/happymini_voice_offline/build/airobot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yuto/happymini_voice_offline/install/speech_service:/home/yuto/happymini_ws/install/speech_service:/home/yuto/hapyymini_voice/install/speech_service:/home/yuto/hapyymini_voice/install/happymini_teleop:/home/yuto/hapyymini_voice/install/hand:/home/yuto/hapyymini_voice/install/grasp_bag:/opt/ros/humble /home/yuto/.local/bin/cmake --install /home/yuto/happymini_voice_offline/build/airobot_interfaces

@@ -1,0 +1,3 @@
+[console_scripts]
+fmm_client = speech_service.fmm_client:main
+fmm_speech_service = speech_service.fmm_speech_service:main

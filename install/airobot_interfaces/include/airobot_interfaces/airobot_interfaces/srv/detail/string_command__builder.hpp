@@ -63,16 +63,48 @@ namespace srv
 namespace builder
 {
 
+class Init_StringCommand_Response_answer_name
+{
+public:
+  explicit Init_StringCommand_Response_answer_name(::airobot_interfaces::srv::StringCommand_Response & msg)
+  : msg_(msg)
+  {}
+  ::airobot_interfaces::srv::StringCommand_Response answer_name(::airobot_interfaces::srv::StringCommand_Response::_answer_name_type arg)
+  {
+    msg_.answer_name = std::move(arg);
+    return std::move(msg_);
+  }
+
+private:
+  ::airobot_interfaces::srv::StringCommand_Response msg_;
+};
+
+class Init_StringCommand_Response_answer_gender
+{
+public:
+  explicit Init_StringCommand_Response_answer_gender(::airobot_interfaces::srv::StringCommand_Response & msg)
+  : msg_(msg)
+  {}
+  Init_StringCommand_Response_answer_name answer_gender(::airobot_interfaces::srv::StringCommand_Response::_answer_gender_type arg)
+  {
+    msg_.answer_gender = std::move(arg);
+    return Init_StringCommand_Response_answer_name(msg_);
+  }
+
+private:
+  ::airobot_interfaces::srv::StringCommand_Response msg_;
+};
+
 class Init_StringCommand_Response_answer
 {
 public:
   Init_StringCommand_Response_answer()
   : msg_(::rosidl_runtime_cpp::MessageInitialization::SKIP)
   {}
-  ::airobot_interfaces::srv::StringCommand_Response answer(::airobot_interfaces::srv::StringCommand_Response::_answer_type arg)
+  Init_StringCommand_Response_answer_gender answer(::airobot_interfaces::srv::StringCommand_Response::_answer_type arg)
   {
     msg_.answer = std::move(arg);
-    return std::move(msg_);
+    return Init_StringCommand_Response_answer_gender(msg_);
   }
 
 private:

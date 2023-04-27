@@ -1,8 +1,0 @@
-{
-  "package_name": "happymini_msgs",
-  "non_idl_tuples": [
-    "/home/yuto/happymini_voice_offline/src/happymini_ros2/happymini_msgs:srv/GraspBag.srv",
-    "/home/yuto/happymini_voice_offline/src/happymini_ros2/happymini_msgs:srv/BagLocalization.srv",
-    "/home/yuto/happymini_voice_offline/src/happymini_ros2/happymini_msgs:action/GraspBag.action"
-  ]
-}

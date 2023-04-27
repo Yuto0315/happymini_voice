@@ -153,16 +153,22 @@ struct StringCommand_Response_
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
       this->answer = "";
+      this->answer_gender = "";
+      this->answer_name = "";
     }
   }
 
   explicit StringCommand_Response_(const ContainerAllocator & _alloc, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
-  : answer(_alloc)
+  : answer(_alloc),
+    answer_gender(_alloc),
+    answer_name(_alloc)
   {
     if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
       this->answer = "";
+      this->answer_gender = "";
+      this->answer_name = "";
     }
   }
 
@@ -170,12 +176,30 @@ struct StringCommand_Response_
   using _answer_type =
     std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>;
   _answer_type answer;
+  using _answer_gender_type =
+    std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>;
+  _answer_gender_type answer_gender;
+  using _answer_name_type =
+    std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>;
+  _answer_name_type answer_name;
 
   // setters for named parameter idiom
   Type & set__answer(
     const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> & _arg)
   {
     this->answer = _arg;
+    return *this;
+  }
+  Type & set__answer_gender(
+    const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> & _arg)
+  {
+    this->answer_gender = _arg;
+    return *this;
+  }
+  Type & set__answer_name(
+    const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> & _arg)
+  {
+    this->answer_name = _arg;
     return *this;
   }
 
@@ -222,6 +246,12 @@ struct StringCommand_Response_
   bool operator==(const StringCommand_Response_ & other) const
   {
     if (this->answer != other.answer) {
+      return false;
+    }
+    if (this->answer_gender != other.answer_gender) {
+      return false;
+    }
+    if (this->answer_name != other.answer_name) {
       return false;
     }
     return true;

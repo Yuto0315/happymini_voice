@@ -234,6 +234,10 @@ cdr_serialize(
 {
   // Member: answer
   cdr << ros_message.answer;
+  // Member: answer_gender
+  cdr << ros_message.answer_gender;
+  // Member: answer_name
+  cdr << ros_message.answer_name;
   return true;
 }
 
@@ -245,6 +249,12 @@ cdr_deserialize(
 {
   // Member: answer
   cdr >> ros_message.answer;
+
+  // Member: answer_gender
+  cdr >> ros_message.answer_gender;
+
+  // Member: answer_name
+  cdr >> ros_message.answer_name;
 
   return true;
 }
@@ -266,6 +276,14 @@ get_serialized_size(
   current_alignment += padding +
     eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
     (ros_message.answer.size() + 1);
+  // Member: answer_gender
+  current_alignment += padding +
+    eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
+    (ros_message.answer_gender.size() + 1);
+  // Member: answer_name
+  current_alignment += padding +
+    eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
+    (ros_message.answer_name.size() + 1);
 
   return current_alignment - initial_alignment;
 }
@@ -289,6 +307,32 @@ max_serialized_size_StringCommand_Response(
 
 
   // Member: answer
+  {
+    size_t array_size = 1;
+
+    full_bounded = false;
+    is_plain = false;
+    for (size_t index = 0; index < array_size; ++index) {
+      current_alignment += padding +
+        eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
+        1;
+    }
+  }
+
+  // Member: answer_gender
+  {
+    size_t array_size = 1;
+
+    full_bounded = false;
+    is_plain = false;
+    for (size_t index = 0; index < array_size; ++index) {
+      current_alignment += padding +
+        eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
+        1;
+    }
+  }
+
+  // Member: answer_name
   {
     size_t array_size = 1;
 

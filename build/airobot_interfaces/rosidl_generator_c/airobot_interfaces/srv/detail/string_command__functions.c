@@ -252,6 +252,8 @@ airobot_interfaces__srv__StringCommand_Request__Sequence__copy(
 
 // Include directives for member types
 // Member `answer`
+// Member `answer_gender`
+// Member `answer_name`
 // already included above
 // #include "rosidl_runtime_c/string_functions.h"
 
@@ -266,6 +268,16 @@ airobot_interfaces__srv__StringCommand_Response__init(airobot_interfaces__srv__S
     airobot_interfaces__srv__StringCommand_Response__fini(msg);
     return false;
   }
+  // answer_gender
+  if (!rosidl_runtime_c__String__init(&msg->answer_gender)) {
+    airobot_interfaces__srv__StringCommand_Response__fini(msg);
+    return false;
+  }
+  // answer_name
+  if (!rosidl_runtime_c__String__init(&msg->answer_name)) {
+    airobot_interfaces__srv__StringCommand_Response__fini(msg);
+    return false;
+  }
   return true;
 }
 
@@ -277,6 +289,10 @@ airobot_interfaces__srv__StringCommand_Response__fini(airobot_interfaces__srv__S
   }
   // answer
   rosidl_runtime_c__String__fini(&msg->answer);
+  // answer_gender
+  rosidl_runtime_c__String__fini(&msg->answer_gender);
+  // answer_name
+  rosidl_runtime_c__String__fini(&msg->answer_name);
 }
 
 bool
@@ -288,6 +304,18 @@ airobot_interfaces__srv__StringCommand_Response__are_equal(const airobot_interfa
   // answer
   if (!rosidl_runtime_c__String__are_equal(
       &(lhs->answer), &(rhs->answer)))
+  {
+    return false;
+  }
+  // answer_gender
+  if (!rosidl_runtime_c__String__are_equal(
+      &(lhs->answer_gender), &(rhs->answer_gender)))
+  {
+    return false;
+  }
+  // answer_name
+  if (!rosidl_runtime_c__String__are_equal(
+      &(lhs->answer_name), &(rhs->answer_name)))
   {
     return false;
   }
@@ -305,6 +333,18 @@ airobot_interfaces__srv__StringCommand_Response__copy(
   // answer
   if (!rosidl_runtime_c__String__copy(
       &(input->answer), &(output->answer)))
+  {
+    return false;
+  }
+  // answer_gender
+  if (!rosidl_runtime_c__String__copy(
+      &(input->answer_gender), &(output->answer_gender)))
+  {
+    return false;
+  }
+  // answer_name
+  if (!rosidl_runtime_c__String__copy(
+      &(input->answer_name), &(output->answer_name)))
   {
     return false;
   }

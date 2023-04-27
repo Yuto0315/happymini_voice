@@ -106,6 +106,8 @@ ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspecti
 
 // Include directives for member types
 // Member `answer`
+// Member `answer_gender`
+// Member `answer_name`
 // already included above
 // #include "rosidl_runtime_c/string_functions.h"
 
@@ -128,7 +130,7 @@ void airobot_interfaces__srv__StringCommand_Response__rosidl_typesupport_introsp
   airobot_interfaces__srv__StringCommand_Response__fini(message_memory);
 }
 
-static rosidl_typesupport_introspection_c__MessageMember airobot_interfaces__srv__StringCommand_Response__rosidl_typesupport_introspection_c__StringCommand_Response_message_member_array[1] = {
+static rosidl_typesupport_introspection_c__MessageMember airobot_interfaces__srv__StringCommand_Response__rosidl_typesupport_introspection_c__StringCommand_Response_message_member_array[3] = {
   {
     "answer",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_STRING,  // type
@@ -145,13 +147,47 @@ static rosidl_typesupport_introspection_c__MessageMember airobot_interfaces__srv
     NULL,  // fetch(index, &value) function pointer
     NULL,  // assign(index, value) function pointer
     NULL  // resize(index) function pointer
+  },
+  {
+    "answer_gender",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_STRING,  // type
+    0,  // upper bound of string
+    NULL,  // members of sub message
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(airobot_interfaces__srv__StringCommand_Response, answer_gender),  // bytes offset in struct
+    NULL,  // default value
+    NULL,  // size() function pointer
+    NULL,  // get_const(index) function pointer
+    NULL,  // get(index) function pointer
+    NULL,  // fetch(index, &value) function pointer
+    NULL,  // assign(index, value) function pointer
+    NULL  // resize(index) function pointer
+  },
+  {
+    "answer_name",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_STRING,  // type
+    0,  // upper bound of string
+    NULL,  // members of sub message
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(airobot_interfaces__srv__StringCommand_Response, answer_name),  // bytes offset in struct
+    NULL,  // default value
+    NULL,  // size() function pointer
+    NULL,  // get_const(index) function pointer
+    NULL,  // get(index) function pointer
+    NULL,  // fetch(index, &value) function pointer
+    NULL,  // assign(index, value) function pointer
+    NULL  // resize(index) function pointer
   }
 };
 
 static const rosidl_typesupport_introspection_c__MessageMembers airobot_interfaces__srv__StringCommand_Response__rosidl_typesupport_introspection_c__StringCommand_Response_message_members = {
   "airobot_interfaces__srv",  // message namespace
   "StringCommand_Response",  // message name
-  1,  // number of fields
+  3,  // number of fields
   sizeof(airobot_interfaces__srv__StringCommand_Response),
   airobot_interfaces__srv__StringCommand_Response__rosidl_typesupport_introspection_c__StringCommand_Response_message_member_array,  // message members
   airobot_interfaces__srv__StringCommand_Response__rosidl_typesupport_introspection_c__StringCommand_Response_init_function,  // function to initialize message memory (memory has to be allocated)

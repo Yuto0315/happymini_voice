@@ -10,6 +10,10 @@ module airobot_interfaces {
     };
     struct StringCommand_Response {
       string answer;
+
+      string answer_gender;
+
+      string answer_name;
     };
   };
 };

@@ -1,0 +1,623 @@
+[0.000000] (-) TimerEvent: {}
+[0.000287] (airobot_interfaces) JobQueued: {'identifier': 'airobot_interfaces', 'dependencies': OrderedDict()}
+[0.000373] (fmm_speech_service) JobQueued: {'identifier': 'fmm_speech_service', 'dependencies': OrderedDict()}
+[0.000435] (openai-whisper) JobQueued: {'identifier': 'openai-whisper', 'dependencies': OrderedDict()}
+[0.000487] (speech_service) JobQueued: {'identifier': 'speech_service', 'dependencies': OrderedDict()}
+[0.000538] (airobot_interfaces) JobStarted: {'identifier': 'airobot_interfaces'}
+[0.033240] (fmm_speech_service) JobStarted: {'identifier': 'fmm_speech_service'}
+[0.065123] (openai-whisper) JobStarted: {'identifier': 'openai-whisper'}
+[0.088735] (speech_service) JobStarted: {'identifier': 'speech_service'}
+[0.099592] (-) TimerEvent: {}
+[0.123115] (airobot_interfaces) JobProgress: {'identifier': 'airobot_interfaces', 'progress': 'cmake'}
+[0.123950] (airobot_interfaces) Command: {'cmd': ['/home/yuto/.local/bin/cmake', '/home/yuto/happymini_voice_offline/src/happymini_ros2/happymini_voice/airobot_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/yuto/happymini_voice_offline/install/airobot_interfaces'], 'cwd': '/home/yuto/happymini_voice_offline/build/airobot_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yuto'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yuto/happymini_voice_offline/install/airobot_interfaces/lib:/home/yuto/happymini_ws/install/airobot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yuto'), ('OLDPWD', '/home/yuto'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1579'), ('SYSTEMD_EXEC_PID', '1744'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6210'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yuto/happymini_voice_offline/install:/home/yuto/happymini_ws/install:/home/yuto/hapyymini_voice/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yuto'), ('JOURNAL_STREAM', '8:30484'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yuto'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/yuto/happymini_voice_offline/install/openai-whisper/bin:/home/yuto/happymini_ws/install/openai-whisper/bin:/home/yuto/hapyymini_voice/install/openai-whisper/bin:/opt/ros/humble/bin:/home/yuto/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yuto:@/tmp/.ICE-unix/1722,unix/yuto:/tmp/.ICE-unix/1722'), ('INVOCATION_ID', 'bf3c5bca7cda452cb79bac806cdc3e30'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'ja_JP.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.WRVY31'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yuto/happymini_voice_offline/install/speech_service:/home/yuto/happymini_voice_offline/install/airobot_interfaces:/home/yuto/happymini_ws/install/speech_service:/home/yuto/happymini_ws/install/airobot_interfaces:/home/yuto/hapyymini_voice/install/speech_service:/home/yuto/hapyymini_voice/install/happymini_teleop:/home/yuto/hapyymini_voice/install/hand:/home/yuto/hapyymini_voice/install/grasp_bag:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:3eef03d6-f105-42ba-ae03-a851c9a1aa1d'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yuto/happymini_voice_offline/build/airobot_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yuto/happymini_voice_offline/install/speech_service/lib/python3.10/site-packages:/home/yuto/happymini_voice_offline/install/openai-whisper/lib/python3.10/site-packages:/home/yuto/happymini_voice_offline/install/airobot_interfaces/local/lib/python3.10/dist-packages:/home/yuto/happymini_ws/install/speech_service/lib/python3.10/site-packages:/home/yuto/happymini_ws/install/openai-whisper/lib/python3.10/site-packages:/home/yuto/happymini_ws/install/airobot_interfaces/local/lib/python3.10/dist-packages:/home/yuto/hapyymini_voice/install/speech_service/lib/python3.10/site-packages:/home/yuto/hapyymini_voice/install/openai-whisper/lib/python3.10/site-packages:/home/yuto/hapyymini_voice/install/happymini_teleop/lib/python3.10/site-packages:/home/yuto/hapyymini_voice/install/hand/lib/python3.10/site-packages:/home/yuto/hapyymini_voice/install/grasp_bag/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yuto/happymini_voice_offline/install/airobot_interfaces:/home/yuto/happymini_ws/install/airobot_interfaces:/home/yuto/happymini_voice_offline/install/speech_service:/home/yuto/happymini_ws/install/speech_service:/home/yuto/hapyymini_voice/install/speech_service:/home/yuto/hapyymini_voice/install/happymini_teleop:/home/yuto/hapyymini_voice/install/hand:/home/yuto/hapyymini_voice/install/grasp_bag:/opt/ros/humble')]), 'shell': False}
+[0.199806] (-) TimerEvent: {}
+[0.300465] (-) TimerEvent: {}
+[0.401129] (-) TimerEvent: {}
+[0.501766] (-) TimerEvent: {}
+[0.602385] (-) TimerEvent: {}
+[0.702965] (-) TimerEvent: {}
+[0.803601] (-) TimerEvent: {}
+[0.904231] (-) TimerEvent: {}
+[1.004904] (-) TimerEvent: {}
+[1.105575] (-) TimerEvent: {}
+[1.206238] (-) TimerEvent: {}
+[1.306890] (-) TimerEvent: {}
+[1.407521] (-) TimerEvent: {}
+[1.508314] (-) TimerEvent: {}
+[1.608944] (-) TimerEvent: {}
+[1.709617] (-) TimerEvent: {}
+[1.810268] (-) TimerEvent: {}
+[1.910914] (-) TimerEvent: {}
+[2.011584] (-) TimerEvent: {}
+[2.076366] (airobot_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[2.077212] (airobot_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[2.078017] (airobot_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.079274] (airobot_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.081074] (airobot_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.081664] (airobot_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.082394] (airobot_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.082952] (airobot_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.083460] (airobot_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.083976] (airobot_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.084463] (airobot_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.084959] (airobot_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.085472] (airobot_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.111783] (-) TimerEvent: {}
+[2.212684] (-) TimerEvent: {}
+[2.313643] (-) TimerEvent: {}
+[2.414548] (-) TimerEvent: {}
+[2.515406] (-) TimerEvent: {}
+[2.616257] (-) TimerEvent: {}
+[2.717137] (-) TimerEvent: {}
+[2.818039] (-) TimerEvent: {}
+[2.919068] (-) TimerEvent: {}
+[3.020804] (-) TimerEvent: {}
+[3.121735] (-) TimerEvent: {}
+[3.222648] (-) TimerEvent: {}
+[3.323560] (-) TimerEvent: {}
+[3.424471] (-) TimerEvent: {}
+[3.525371] (-) TimerEvent: {}
+[3.544312] (airobot_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[3.625567] (-) TimerEvent: {}
+[3.726486] (-) TimerEvent: {}
+[3.827361] (-) TimerEvent: {}
+[3.928477] (-) TimerEvent: {}
+[3.964837] (airobot_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[3.983605] (airobot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.016042] (airobot_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[4.028666] (-) TimerEvent: {}
+[4.129552] (-) TimerEvent: {}
+[4.230448] (-) TimerEvent: {}
+[4.231658] (airobot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.330631] (-) TimerEvent: {}
+[4.431480] (-) TimerEvent: {}
+[4.532359] (-) TimerEvent: {}
+[4.633260] (-) TimerEvent: {}
+[4.734168] (-) TimerEvent: {}
+[4.835205] (-) TimerEvent: {}
+[4.936441] (-) TimerEvent: {}
+[4.947889] (openai-whisper) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../../../../../build/openai-whisper', 'build', '--build-base', '/home/yuto/happymini_voice_offline/build/openai-whisper/build', 'install', '--record', '/home/yuto/happymini_voice_offline/build/openai-whisper/install.log', '--single-version-externally-managed'], 'cwd': '/home/yuto/happymini_voice_offline/src/happymini_ros2/happymini_voice/whisper/src/whisper', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'yuto', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/yuto/happymini_voice_offline/install/airobot_interfaces/lib:/home/yuto/happymini_ws/install/airobot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/yuto', 'OLDPWD': '/home/yuto', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1579', 'SYSTEMD_EXEC_PID': '1744', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '6210', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/yuto/happymini_voice_offline/install:/home/yuto/happymini_ws/install:/home/yuto/hapyymini_voice/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'yuto', 'JOURNAL_STREAM': '8:30484', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'yuto', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/yuto/happymini_voice_offline/install/openai-whisper/bin:/home/yuto/happymini_ws/install/openai-whisper/bin:/home/yuto/hapyymini_voice/install/openai-whisper/bin:/opt/ros/humble/bin:/home/yuto/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/yuto:@/tmp/.ICE-unix/1722,unix/yuto:/tmp/.ICE-unix/1722', 'INVOCATION_ID': 'bf3c5bca7cda452cb79bac806cdc3e30', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'ja_JP.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.WRVY31', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/yuto/happymini_voice_offline/install/speech_service:/home/yuto/happymini_voice_offline/install/airobot_interfaces:/home/yuto/happymini_ws/install/speech_service:/home/yuto/happymini_ws/install/airobot_interfaces:/home/yuto/hapyymini_voice/install/speech_service:/home/yuto/hapyymini_voice/install/happymini_teleop:/home/yuto/hapyymini_voice/install/hand:/home/yuto/hapyymini_voice/install/grasp_bag:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:3eef03d6-f105-42ba-ae03-a851c9a1aa1d', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/yuto/happymini_voice_offline/build/openai-whisper', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/yuto/happymini_voice_offline/build/openai-whisper/prefix_override:/home/yuto/happymini_voice_offline/install/openai-whisper/lib/python3.10/site-packages:/home/yuto/happymini_voice_offline/install/speech_service/lib/python3.10/site-packages:/home/yuto/happymini_voice_offline/install/openai-whisper/lib/python3.10/site-packages:/home/yuto/happymini_voice_offline/install/airobot_interfaces/local/lib/python3.10/dist-packages:/home/yuto/happymini_ws/install/speech_service/lib/python3.10/site-packages:/home/yuto/happymini_ws/install/openai-whisper/lib/python3.10/site-packages:/home/yuto/happymini_ws/install/airobot_interfaces/local/lib/python3.10/dist-packages:/home/yuto/hapyymini_voice/install/speech_service/lib/python3.10/site-packages:/home/yuto/hapyymini_voice/install/openai-whisper/lib/python3.10/site-packages:/home/yuto/hapyymini_voice/install/happymini_teleop/lib/python3.10/site-packages:/home/yuto/hapyymini_voice/install/hand/lib/python3.10/site-packages:/home/yuto/hapyymini_voice/install/grasp_bag/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/yuto/happymini_voice_offline/install/airobot_interfaces:/home/yuto/happymini_ws/install/airobot_interfaces'}, 'shell': False}
+[5.036647] (-) TimerEvent: {}
+[5.137588] (-) TimerEvent: {}
+[5.238576] (-) TimerEvent: {}
+[5.319313] (airobot_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[5.338769] (-) TimerEvent: {}
+[5.439657] (-) TimerEvent: {}
+[5.540544] (-) TimerEvent: {}
+[5.641426] (-) TimerEvent: {}
+[5.742910] (-) TimerEvent: {}
+[5.764485] (airobot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.843157] (-) TimerEvent: {}
+[5.920002] (speech_service) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../../../build/speech_service', 'build', '--build-base', '/home/yuto/happymini_voice_offline/build/speech_service/build', 'install', '--record', '/home/yuto/happymini_voice_offline/build/speech_service/install.log', '--install-scripts', '$base/lib/speech_service', '--single-version-externally-managed'], 'cwd': '/home/yuto/happymini_voice_offline/src/happymini_ros2/happymini_voice/speech_service', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'yuto', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/yuto/happymini_voice_offline/install/airobot_interfaces/lib:/home/yuto/happymini_ws/install/airobot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/yuto', 'OLDPWD': '/home/yuto', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1579', 'SYSTEMD_EXEC_PID': '1744', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '6210', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/yuto/happymini_voice_offline/install:/home/yuto/happymini_ws/install:/home/yuto/hapyymini_voice/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'yuto', 'JOURNAL_STREAM': '8:30484', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'yuto', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/yuto/happymini_voice_offline/install/openai-whisper/bin:/home/yuto/happymini_ws/install/openai-whisper/bin:/home/yuto/hapyymini_voice/install/openai-whisper/bin:/opt/ros/humble/bin:/home/yuto/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/yuto:@/tmp/.ICE-unix/1722,unix/yuto:/tmp/.ICE-unix/1722', 'INVOCATION_ID': 'bf3c5bca7cda452cb79bac806cdc3e30', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'ja_JP.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.WRVY31', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/yuto/happymini_voice_offline/install/speech_service:/home/yuto/happymini_voice_offline/install/airobot_interfaces:/home/yuto/happymini_ws/install/speech_service:/home/yuto/happymini_ws/install/airobot_interfaces:/home/yuto/hapyymini_voice/install/speech_service:/home/yuto/hapyymini_voice/install/happymini_teleop:/home/yuto/hapyymini_voice/install/hand:/home/yuto/hapyymini_voice/install/grasp_bag:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:3eef03d6-f105-42ba-ae03-a851c9a1aa1d', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/yuto/happymini_voice_offline/build/speech_service', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/yuto/happymini_voice_offline/build/speech_service/prefix_override:/home/yuto/happymini_voice_offline/install/speech_service/lib/python3.10/site-packages:/home/yuto/happymini_voice_offline/install/speech_service/lib/python3.10/site-packages:/home/yuto/happymini_voice_offline/install/openai-whisper/lib/python3.10/site-packages:/home/yuto/happymini_voice_offline/install/airobot_interfaces/local/lib/python3.10/dist-packages:/home/yuto/happymini_ws/install/speech_service/lib/python3.10/site-packages:/home/yuto/happymini_ws/install/openai-whisper/lib/python3.10/site-packages:/home/yuto/happymini_ws/install/airobot_interfaces/local/lib/python3.10/dist-packages:/home/yuto/hapyymini_voice/install/speech_service/lib/python3.10/site-packages:/home/yuto/hapyymini_voice/install/openai-whisper/lib/python3.10/site-packages:/home/yuto/hapyymini_voice/install/happymini_teleop/lib/python3.10/site-packages:/home/yuto/hapyymini_voice/install/hand/lib/python3.10/site-packages:/home/yuto/hapyymini_voice/install/grasp_bag/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/yuto/happymini_voice_offline/install/airobot_interfaces:/home/yuto/happymini_ws/install/airobot_interfaces'}, 'shell': False}
+[5.943380] (-) TimerEvent: {}
+[5.949084] (fmm_speech_service) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../../build/fmm_speech_service', 'build', '--build-base', '/home/yuto/happymini_voice_offline/build/fmm_speech_service/build', 'install', '--record', '/home/yuto/happymini_voice_offline/build/fmm_speech_service/install.log', '--install-scripts', '$base/lib/fmm_speech_service', '--single-version-externally-managed'], 'cwd': '/home/yuto/happymini_voice_offline/src/happymini_ros2/fmm_speech_service', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'yuto', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/yuto/happymini_voice_offline/install/airobot_interfaces/lib:/home/yuto/happymini_ws/install/airobot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/yuto', 'OLDPWD': '/home/yuto', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1579', 'SYSTEMD_EXEC_PID': '1744', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '6210', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/yuto/happymini_voice_offline/install:/home/yuto/happymini_ws/install:/home/yuto/hapyymini_voice/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'yuto', 'JOURNAL_STREAM': '8:30484', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'yuto', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/yuto/happymini_voice_offline/install/openai-whisper/bin:/home/yuto/happymini_ws/install/openai-whisper/bin:/home/yuto/hapyymini_voice/install/openai-whisper/bin:/opt/ros/humble/bin:/home/yuto/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/yuto:@/tmp/.ICE-unix/1722,unix/yuto:/tmp/.ICE-unix/1722', 'INVOCATION_ID': 'bf3c5bca7cda452cb79bac806cdc3e30', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'ja_JP.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.WRVY31', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/yuto/happymini_voice_offline/install/speech_service:/home/yuto/happymini_voice_offline/install/airobot_interfaces:/home/yuto/happymini_ws/install/speech_service:/home/yuto/happymini_ws/install/airobot_interfaces:/home/yuto/hapyymini_voice/install/speech_service:/home/yuto/hapyymini_voice/install/happymini_teleop:/home/yuto/hapyymini_voice/install/hand:/home/yuto/hapyymini_voice/install/grasp_bag:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:3eef03d6-f105-42ba-ae03-a851c9a1aa1d', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/yuto/happymini_voice_offline/build/fmm_speech_service', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/yuto/happymini_voice_offline/build/fmm_speech_service/prefix_override:/home/yuto/happymini_voice_offline/install/fmm_speech_service/lib/python3.10/site-packages:/home/yuto/happymini_voice_offline/install/speech_service/lib/python3.10/site-packages:/home/yuto/happymini_voice_offline/install/openai-whisper/lib/python3.10/site-packages:/home/yuto/happymini_voice_offline/install/airobot_interfaces/local/lib/python3.10/dist-packages:/home/yuto/happymini_ws/install/speech_service/lib/python3.10/site-packages:/home/yuto/happymini_ws/install/openai-whisper/lib/python3.10/site-packages:/home/yuto/happymini_ws/install/airobot_interfaces/local/lib/python3.10/dist-packages:/home/yuto/hapyymini_voice/install/speech_service/lib/python3.10/site-packages:/home/yuto/hapyymini_voice/install/openai-whisper/lib/python3.10/site-packages:/home/yuto/hapyymini_voice/install/happymini_teleop/lib/python3.10/site-packages:/home/yuto/hapyymini_voice/install/hand/lib/python3.10/site-packages:/home/yuto/hapyymini_voice/install/grasp_bag/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/yuto/happymini_voice_offline/install/airobot_interfaces:/home/yuto/happymini_ws/install/airobot_interfaces'}, 'shell': False}
+[6.043581] (-) TimerEvent: {}
+[6.110313] (openai-whisper) StderrLine: {'line': b"/home/yuto/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:265: UserWarning: Unknown distribution option: 'readme'\n"}
+[6.111103] (openai-whisper) StderrLine: {'line': b'  warnings.warn(msg)\n'}
+[6.143781] (-) TimerEvent: {}
+[6.244658] (-) TimerEvent: {}
+[6.345551] (-) TimerEvent: {}
+[6.384079] (airobot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.445750] (-) TimerEvent: {}
+[6.497116] (openai-whisper) StdoutLine: {'line': b'running egg_info\n'}
+[6.498276] (openai-whisper) StdoutLine: {'line': b'creating ../../../../../../build/openai-whisper/openai_whisper.egg-info\n'}
+[6.500531] (airobot_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") \n'}
+[6.501381] (speech_service) StderrLine: {'line': b"/home/yuto/.local/lib/python3.10/site-packages/setuptools/dist.py:788: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[6.502027] (speech_service) StderrLine: {'line': b'  warnings.warn(\n'}
+[6.507666] (airobot_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[6.508802] (fmm_speech_service) StderrLine: {'line': b"/home/yuto/.local/lib/python3.10/site-packages/setuptools/dist.py:788: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[6.509551] (fmm_speech_service) StderrLine: {'line': b'  warnings.warn(\n'}
+[6.545942] (-) TimerEvent: {}
+[6.559587] (openai-whisper) StdoutLine: {'line': b'writing ../../../../../../build/openai-whisper/openai_whisper.egg-info/PKG-INFO\n'}
+[6.560536] (openai-whisper) StdoutLine: {'line': b'writing dependency_links to ../../../../../../build/openai-whisper/openai_whisper.egg-info/dependency_links.txt\n'}
+[6.561425] (openai-whisper) StdoutLine: {'line': b'writing entry points to ../../../../../../build/openai-whisper/openai_whisper.egg-info/entry_points.txt\n'}
+[6.562237] (openai-whisper) StdoutLine: {'line': b'writing requirements to ../../../../../../build/openai-whisper/openai_whisper.egg-info/requires.txt\n'}
+[6.563022] (openai-whisper) StdoutLine: {'line': b'writing top-level names to ../../../../../../build/openai-whisper/openai_whisper.egg-info/top_level.txt\n'}
+[6.563773] (openai-whisper) StdoutLine: {'line': b"writing manifest file '../../../../../../build/openai-whisper/openai_whisper.egg-info/SOURCES.txt'\n"}
+[6.630290] (openai-whisper) StderrLine: {'line': b'file whisper.py (for module whisper) not found\n'}
+[6.646126] (-) TimerEvent: {}
+[6.653055] (airobot_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") \n'}
+[6.653842] (airobot_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[6.654317] (airobot_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[6.654649] (airobot_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[6.695103] (openai-whisper) StdoutLine: {'line': b"reading manifest file '../../../../../../build/openai-whisper/openai_whisper.egg-info/SOURCES.txt'\n"}
+[6.696063] (openai-whisper) StdoutLine: {'line': b"reading manifest template 'MANIFEST.in'\n"}
+[6.696843] (openai-whisper) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[6.700124] (openai-whisper) StdoutLine: {'line': b"writing manifest file '../../../../../../build/openai-whisper/openai_whisper.egg-info/SOURCES.txt'\n"}
+[6.701170] (openai-whisper) StdoutLine: {'line': b'running build\n'}
+[6.701809] (openai-whisper) StdoutLine: {'line': b'running build_py\n'}
+[6.702562] (openai-whisper) StderrLine: {'line': b'file whisper.py (for module whisper) not found\n'}
+[6.703245] (openai-whisper) StdoutLine: {'line': b'creating /home/yuto/happymini_voice_offline/build/openai-whisper/build\n'}
+[6.703805] (openai-whisper) StdoutLine: {'line': b'creating /home/yuto/happymini_voice_offline/build/openai-whisper/build/lib\n'}
+[6.704322] (openai-whisper) StdoutLine: {'line': b'creating /home/yuto/happymini_voice_offline/build/openai-whisper/build/lib/whisper\n'}
+[6.705073] (openai-whisper) StdoutLine: {'line': b'copying whisper/__main__.py -> /home/yuto/happymini_voice_offline/build/openai-whisper/build/lib/whisper\n'}
+[6.705803] (openai-whisper) StdoutLine: {'line': b'copying whisper/model.py -> /home/yuto/happymini_voice_offline/build/openai-whisper/build/lib/whisper\n'}
+[6.706390] (openai-whisper) StdoutLine: {'line': b'copying whisper/tokenizer.py -> /home/yuto/happymini_voice_offline/build/openai-whisper/build/lib/whisper\n'}
+[6.706942] (openai-whisper) StdoutLine: {'line': b'copying whisper/utils.py -> /home/yuto/happymini_voice_offline/build/openai-whisper/build/lib/whisper\n'}
+[6.707678] (openai-whisper) StdoutLine: {'line': b'copying whisper/__init__.py -> /home/yuto/happymini_voice_offline/build/openai-whisper/build/lib/whisper\n'}
+[6.708486] (openai-whisper) StdoutLine: {'line': b'copying whisper/triton_ops.py -> /home/yuto/happymini_voice_offline/build/openai-whisper/build/lib/whisper\n'}
+[6.709041] (openai-whisper) StdoutLine: {'line': b'copying whisper/version.py -> /home/yuto/happymini_voice_offline/build/openai-whisper/build/lib/whisper\n'}
+[6.709719] (openai-whisper) StdoutLine: {'line': b'copying whisper/timing.py -> /home/yuto/happymini_voice_offline/build/openai-whisper/build/lib/whisper\n'}
+[6.710430] (openai-whisper) StdoutLine: {'line': b'copying whisper/transcribe.py -> /home/yuto/happymini_voice_offline/build/openai-whisper/build/lib/whisper\n'}
+[6.710995] (openai-whisper) StdoutLine: {'line': b'copying whisper/audio.py -> /home/yuto/happymini_voice_offline/build/openai-whisper/build/lib/whisper\n'}
+[6.711537] (openai-whisper) StdoutLine: {'line': b'copying whisper/decoding.py -> /home/yuto/happymini_voice_offline/build/openai-whisper/build/lib/whisper\n'}
+[6.712067] (openai-whisper) StdoutLine: {'line': b'creating /home/yuto/happymini_voice_offline/build/openai-whisper/build/lib/whisper/normalizers\n'}
+[6.712803] (openai-whisper) StdoutLine: {'line': b'copying whisper/normalizers/__init__.py -> /home/yuto/happymini_voice_offline/build/openai-whisper/build/lib/whisper/normalizers\n'}
+[6.713534] (openai-whisper) StdoutLine: {'line': b'copying whisper/normalizers/basic.py -> /home/yuto/happymini_voice_offline/build/openai-whisper/build/lib/whisper/normalizers\n'}
+[6.714103] (openai-whisper) StdoutLine: {'line': b'copying whisper/normalizers/english.py -> /home/yuto/happymini_voice_offline/build/openai-whisper/build/lib/whisper/normalizers\n'}
+[6.715410] (openai-whisper) StderrLine: {'line': b"/home/yuto/.local/lib/python3.10/site-packages/setuptools/command/build_py.py:202: SetuptoolsDeprecationWarning:     Installing 'whisper.assets' as data is deprecated, please list it in `packages`.\n"}
+[6.715995] (openai-whisper) StderrLine: {'line': b'    !!\n'}
+[6.716508] (openai-whisper) StderrLine: {'line': b'\n'}
+[6.716988] (openai-whisper) StderrLine: {'line': b'\n'}
+[6.717509] (openai-whisper) StderrLine: {'line': b'    ############################\n'}
+[6.718029] (openai-whisper) StderrLine: {'line': b'    # Package would be ignored #\n'}
+[6.718757] (openai-whisper) StderrLine: {'line': b'    ############################\n'}
+[6.719296] (openai-whisper) StderrLine: {'line': b"    Python recognizes 'whisper.assets' as an importable package,\n"}
+[6.719956] (openai-whisper) StderrLine: {'line': b'    but it is not listed in the `packages` configuration of setuptools.\n'}
+[6.720453] (openai-whisper) StderrLine: {'line': b'\n'}
+[6.720938] (openai-whisper) StderrLine: {'line': b"    'whisper.assets' has been automatically added to the distribution only\n"}
+[6.721451] (openai-whisper) StderrLine: {'line': b'    because it may contain data files, but this behavior is likely to change\n'}
+[6.721956] (openai-whisper) StderrLine: {'line': b'    in future versions of setuptools (and therefore is considered deprecated).\n'}
+[6.722508] (openai-whisper) StderrLine: {'line': b'\n'}
+[6.723412] (openai-whisper) StderrLine: {'line': b"    Please make sure that 'whisper.assets' is included as a package by using\n"}
+[6.723989] (openai-whisper) StderrLine: {'line': b'    the `packages` configuration field or the proper discovery methods\n'}
+[6.724776] (openai-whisper) StderrLine: {'line': b'    (for example by using `find_namespace_packages(...)`/`find_namespace:`\n'}
+[6.725344] (openai-whisper) StderrLine: {'line': b'    instead of `find_packages(...)`/`find:`).\n'}
+[6.725893] (openai-whisper) StderrLine: {'line': b'\n'}
+[6.726606] (openai-whisper) StderrLine: {'line': b'    You can read more about "package discovery" and "data files" on setuptools\n'}
+[6.727149] (openai-whisper) StderrLine: {'line': b'    documentation page.\n'}
+[6.727623] (openai-whisper) StderrLine: {'line': b'\n'}
+[6.728105] (openai-whisper) StderrLine: {'line': b'\n'}
+[6.728597] (openai-whisper) StderrLine: {'line': b'!!\n'}
+[6.729097] (openai-whisper) StderrLine: {'line': b'\n'}
+[6.729598] (openai-whisper) StderrLine: {'line': b'  check.warn(importable)\n'}
+[6.730072] (openai-whisper) StdoutLine: {'line': b'creating /home/yuto/happymini_voice_offline/build/openai-whisper/build/lib/whisper/assets\n'}
+[6.730648] (openai-whisper) StdoutLine: {'line': b'copying whisper/assets/gpt2.tiktoken -> /home/yuto/happymini_voice_offline/build/openai-whisper/build/lib/whisper/assets\n'}
+[6.731227] (openai-whisper) StdoutLine: {'line': b'copying whisper/assets/mel_filters.npz -> /home/yuto/happymini_voice_offline/build/openai-whisper/build/lib/whisper/assets\n'}
+[6.731765] (openai-whisper) StdoutLine: {'line': b'copying whisper/assets/multilingual.tiktoken -> /home/yuto/happymini_voice_offline/build/openai-whisper/build/lib/whisper/assets\n'}
+[6.732297] (openai-whisper) StderrLine: {'line': b'file whisper.py (for module whisper) not found\n'}
+[6.732826] (openai-whisper) StdoutLine: {'line': b'copying whisper/normalizers/english.json -> /home/yuto/happymini_voice_offline/build/openai-whisper/build/lib/whisper/normalizers\n'}
+[6.733357] (openai-whisper) StderrLine: {'line': b'/home/yuto/.local/lib/python3.10/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[6.733888] (openai-whisper) StderrLine: {'line': b'  warnings.warn(\n'}
+[6.734440] (openai-whisper) StdoutLine: {'line': b'running install\n'}
+[6.746326] (-) TimerEvent: {}
+[6.747661] (openai-whisper) StdoutLine: {'line': b'running install_lib\n'}
+[6.768720] (airobot_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[6.812943] (openai-whisper) StdoutLine: {'line': b'creating /home/yuto/happymini_voice_offline/install/openai-whisper/lib/python3.10/site-packages/whisper\n'}
+[6.813920] (openai-whisper) StdoutLine: {'line': b'copying /home/yuto/happymini_voice_offline/build/openai-whisper/build/lib/whisper/__main__.py -> /home/yuto/happymini_voice_offline/install/openai-whisper/lib/python3.10/site-packages/whisper\n'}
+[6.814932] (openai-whisper) StdoutLine: {'line': b'copying /home/yuto/happymini_voice_offline/build/openai-whisper/build/lib/whisper/model.py -> /home/yuto/happymini_voice_offline/install/openai-whisper/lib/python3.10/site-packages/whisper\n'}
+[6.815659] (openai-whisper) StdoutLine: {'line': b'creating /home/yuto/happymini_voice_offline/install/openai-whisper/lib/python3.10/site-packages/whisper/assets\n'}
+[6.816188] (openai-whisper) StdoutLine: {'line': b'copying /home/yuto/happymini_voice_offline/build/openai-whisper/build/lib/whisper/assets/gpt2.tiktoken -> /home/yuto/happymini_voice_offline/install/openai-whisper/lib/python3.10/site-packages/whisper/assets\n'}
+[6.818079] (openai-whisper) StdoutLine: {'line': b'copying /home/yuto/happymini_voice_offline/build/openai-whisper/build/lib/whisper/assets/multilingual.tiktoken -> /home/yuto/happymini_voice_offline/install/openai-whisper/lib/python3.10/site-packages/whisper/assets\n'}
+[6.821043] (openai-whisper) StdoutLine: {'line': b'copying /home/yuto/happymini_voice_offline/build/openai-whisper/build/lib/whisper/assets/mel_filters.npz -> /home/yuto/happymini_voice_offline/install/openai-whisper/lib/python3.10/site-packages/whisper/assets\n'}
+[6.821829] (openai-whisper) StdoutLine: {'line': b'copying /home/yuto/happymini_voice_offline/build/openai-whisper/build/lib/whisper/tokenizer.py -> /home/yuto/happymini_voice_offline/install/openai-whisper/lib/python3.10/site-packages/whisper\n'}
+[6.822724] (openai-whisper) StdoutLine: {'line': b'copying /home/yuto/happymini_voice_offline/build/openai-whisper/build/lib/whisper/utils.py -> /home/yuto/happymini_voice_offline/install/openai-whisper/lib/python3.10/site-packages/whisper\n'}
+[6.823287] (openai-whisper) StdoutLine: {'line': b'copying /home/yuto/happymini_voice_offline/build/openai-whisper/build/lib/whisper/__init__.py -> /home/yuto/happymini_voice_offline/install/openai-whisper/lib/python3.10/site-packages/whisper\n'}
+[6.824007] (openai-whisper) StdoutLine: {'line': b'creating /home/yuto/happymini_voice_offline/install/openai-whisper/lib/python3.10/site-packages/whisper/normalizers\n'}
+[6.824765] (openai-whisper) StdoutLine: {'line': b'copying /home/yuto/happymini_voice_offline/build/openai-whisper/build/lib/whisper/normalizers/__init__.py -> /home/yuto/happymini_voice_offline/install/openai-whisper/lib/python3.10/site-packages/whisper/normalizers\n'}
+[6.825388] (openai-whisper) StdoutLine: {'line': b'copying /home/yuto/happymini_voice_offline/build/openai-whisper/build/lib/whisper/normalizers/english.json -> /home/yuto/happymini_voice_offline/install/openai-whisper/lib/python3.10/site-packages/whisper/normalizers\n'}
+[6.825945] (openai-whisper) StdoutLine: {'line': b'copying /home/yuto/happymini_voice_offline/build/openai-whisper/build/lib/whisper/normalizers/basic.py -> /home/yuto/happymini_voice_offline/install/openai-whisper/lib/python3.10/site-packages/whisper/normalizers\n'}
+[6.826691] (openai-whisper) StdoutLine: {'line': b'copying /home/yuto/happymini_voice_offline/build/openai-whisper/build/lib/whisper/normalizers/english.py -> /home/yuto/happymini_voice_offline/install/openai-whisper/lib/python3.10/site-packages/whisper/normalizers\n'}
+[6.827491] (openai-whisper) StdoutLine: {'line': b'copying /home/yuto/happymini_voice_offline/build/openai-whisper/build/lib/whisper/triton_ops.py -> /home/yuto/happymini_voice_offline/install/openai-whisper/lib/python3.10/site-packages/whisper\n'}
+[6.828224] (openai-whisper) StdoutLine: {'line': b'copying /home/yuto/happymini_voice_offline/build/openai-whisper/build/lib/whisper/version.py -> /home/yuto/happymini_voice_offline/install/openai-whisper/lib/python3.10/site-packages/whisper\n'}
+[6.828801] (openai-whisper) StdoutLine: {'line': b'copying /home/yuto/happymini_voice_offline/build/openai-whisper/build/lib/whisper/timing.py -> /home/yuto/happymini_voice_offline/install/openai-whisper/lib/python3.10/site-packages/whisper\n'}
+[6.829342] (openai-whisper) StdoutLine: {'line': b'copying /home/yuto/happymini_voice_offline/build/openai-whisper/build/lib/whisper/transcribe.py -> /home/yuto/happymini_voice_offline/install/openai-whisper/lib/python3.10/site-packages/whisper\n'}
+[6.829874] (openai-whisper) StdoutLine: {'line': b'copying /home/yuto/happymini_voice_offline/build/openai-whisper/build/lib/whisper/audio.py -> /home/yuto/happymini_voice_offline/install/openai-whisper/lib/python3.10/site-packages/whisper\n'}
+[6.830614] (openai-whisper) StdoutLine: {'line': b'copying /home/yuto/happymini_voice_offline/build/openai-whisper/build/lib/whisper/decoding.py -> /home/yuto/happymini_voice_offline/install/openai-whisper/lib/python3.10/site-packages/whisper\n'}
+[6.831169] (openai-whisper) StdoutLine: {'line': b'byte-compiling /home/yuto/happymini_voice_offline/install/openai-whisper/lib/python3.10/site-packages/whisper/__main__.py to __main__.cpython-310.pyc\n'}
+[6.831832] (openai-whisper) StdoutLine: {'line': b'byte-compiling /home/yuto/happymini_voice_offline/install/openai-whisper/lib/python3.10/site-packages/whisper/model.py to model.cpython-310.pyc\n'}
+[6.841009] (openai-whisper) StdoutLine: {'line': b'byte-compiling /home/yuto/happymini_voice_offline/install/openai-whisper/lib/python3.10/site-packages/whisper/tokenizer.py to tokenizer.cpython-310.pyc\n'}
+[6.846487] (-) TimerEvent: {}
+[6.849382] (openai-whisper) StdoutLine: {'line': b'byte-compiling /home/yuto/happymini_voice_offline/install/openai-whisper/lib/python3.10/site-packages/whisper/utils.py to utils.cpython-310.pyc\n'}
+[6.855504] (openai-whisper) StdoutLine: {'line': b'byte-compiling /home/yuto/happymini_voice_offline/install/openai-whisper/lib/python3.10/site-packages/whisper/__init__.py to __init__.cpython-310.pyc\n'}
+[6.859437] (openai-whisper) StdoutLine: {'line': b'byte-compiling /home/yuto/happymini_voice_offline/install/openai-whisper/lib/python3.10/site-packages/whisper/normalizers/__init__.py to __init__.cpython-310.pyc\n'}
+[6.860380] (openai-whisper) StdoutLine: {'line': b'byte-compiling /home/yuto/happymini_voice_offline/install/openai-whisper/lib/python3.10/site-packages/whisper/normalizers/basic.py to basic.cpython-310.pyc\n'}
+[6.862684] (openai-whisper) StdoutLine: {'line': b'byte-compiling /home/yuto/happymini_voice_offline/install/openai-whisper/lib/python3.10/site-packages/whisper/normalizers/english.py to english.cpython-310.pyc\n'}
+[6.874959] (openai-whisper) StdoutLine: {'line': b'byte-compiling /home/yuto/happymini_voice_offline/install/openai-whisper/lib/python3.10/site-packages/whisper/triton_ops.py to triton_ops.cpython-310.pyc\n'}
+[6.879348] (openai-whisper) StdoutLine: {'line': b'byte-compiling /home/yuto/happymini_voice_offline/install/openai-whisper/lib/python3.10/site-packages/whisper/version.py to version.cpython-310.pyc\n'}
+[6.880231] (openai-whisper) StdoutLine: {'line': b'byte-compiling /home/yuto/happymini_voice_offline/install/openai-whisper/lib/python3.10/site-packages/whisper/timing.py to timing.cpython-310.pyc\n'}
+[6.889853] (openai-whisper) StdoutLine: {'line': b'byte-compiling /home/yuto/happymini_voice_offline/install/openai-whisper/lib/python3.10/site-packages/whisper/transcribe.py to transcribe.cpython-310.pyc\n'}
+[6.899441] (openai-whisper) StdoutLine: {'line': b'byte-compiling /home/yuto/happymini_voice_offline/install/openai-whisper/lib/python3.10/site-packages/whisper/audio.py to audio.cpython-310.pyc\n'}
+[6.903298] (openai-whisper) StdoutLine: {'line': b'byte-compiling /home/yuto/happymini_voice_offline/install/openai-whisper/lib/python3.10/site-packages/whisper/decoding.py to decoding.cpython-310.pyc\n'}
+[6.907940] (fmm_speech_service) StdoutLine: {'line': b'running egg_info\n'}
+[6.909483] (fmm_speech_service) StdoutLine: {'line': b'creating ../../../build/fmm_speech_service/fmm_speech_service.egg-info\n'}
+[6.922446] (openai-whisper) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.942269] (speech_service) StdoutLine: {'line': b'running egg_info\n'}
+[6.943847] (speech_service) StdoutLine: {'line': b'creating ../../../../build/speech_service/speech_service.egg-info\n'}
+[6.946649] (-) TimerEvent: {}
+[6.955558] (airobot_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[6.969784] (fmm_speech_service) StdoutLine: {'line': b'writing ../../../build/fmm_speech_service/fmm_speech_service.egg-info/PKG-INFO\n'}
+[6.970825] (fmm_speech_service) StdoutLine: {'line': b'writing dependency_links to ../../../build/fmm_speech_service/fmm_speech_service.egg-info/dependency_links.txt\n'}
+[6.971708] (fmm_speech_service) StdoutLine: {'line': b'writing entry points to ../../../build/fmm_speech_service/fmm_speech_service.egg-info/entry_points.txt\n'}
+[6.972440] (fmm_speech_service) StdoutLine: {'line': b'writing requirements to ../../../build/fmm_speech_service/fmm_speech_service.egg-info/requires.txt\n'}
+[6.973156] (fmm_speech_service) StdoutLine: {'line': b'writing top-level names to ../../../build/fmm_speech_service/fmm_speech_service.egg-info/top_level.txt\n'}
+[6.973967] (fmm_speech_service) StdoutLine: {'line': b"writing manifest file '../../../build/fmm_speech_service/fmm_speech_service.egg-info/SOURCES.txt'\n"}
+[6.991161] (openai-whisper) StdoutLine: {'line': b'Copying ../../../../../../build/openai-whisper/openai_whisper.egg-info to /home/yuto/happymini_voice_offline/install/openai-whisper/lib/python3.10/site-packages/openai_whisper-20230314-py3.10.egg-info\n'}
+[6.994091] (openai-whisper) StdoutLine: {'line': b'running install_scripts\n'}
+[7.007691] (speech_service) StdoutLine: {'line': b'writing ../../../../build/speech_service/speech_service.egg-info/PKG-INFO\n'}
+[7.008952] (speech_service) StdoutLine: {'line': b'writing dependency_links to ../../../../build/speech_service/speech_service.egg-info/dependency_links.txt\n'}
+[7.010137] (speech_service) StdoutLine: {'line': b'writing entry points to ../../../../build/speech_service/speech_service.egg-info/entry_points.txt\n'}
+[7.010984] (speech_service) StdoutLine: {'line': b'writing requirements to ../../../../build/speech_service/speech_service.egg-info/requires.txt\n'}
+[7.011676] (speech_service) StdoutLine: {'line': b'writing top-level names to ../../../../build/speech_service/speech_service.egg-info/top_level.txt\n'}
+[7.012379] (speech_service) StdoutLine: {'line': b"writing manifest file '../../../../build/speech_service/speech_service.egg-info/SOURCES.txt'\n"}
+[7.046842] (-) TimerEvent: {}
+[7.054374] (airobot_interfaces) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[7.061698] (airobot_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[7.066335] (airobot_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[7.080912] (airobot_interfaces) StdoutLine: {'line': b'-- Configuring done (6.8s)\n'}
+[7.104988] (fmm_speech_service) StdoutLine: {'line': b"reading manifest file '../../../build/fmm_speech_service/fmm_speech_service.egg-info/SOURCES.txt'\n"}
+[7.105966] (fmm_speech_service) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[7.109054] (fmm_speech_service) StdoutLine: {'line': b"writing manifest file '../../../build/fmm_speech_service/fmm_speech_service.egg-info/SOURCES.txt'\n"}
+[7.109970] (fmm_speech_service) StdoutLine: {'line': b'running build\n'}
+[7.110622] (fmm_speech_service) StdoutLine: {'line': b'running build_py\n'}
+[7.111465] (fmm_speech_service) StdoutLine: {'line': b'creating /home/yuto/happymini_voice_offline/build/fmm_speech_service/build\n'}
+[7.112083] (fmm_speech_service) StdoutLine: {'line': b'creating /home/yuto/happymini_voice_offline/build/fmm_speech_service/build/lib\n'}
+[7.112914] (fmm_speech_service) StdoutLine: {'line': b'creating /home/yuto/happymini_voice_offline/build/fmm_speech_service/build/lib/fmm_speech_service\n'}
+[7.113659] (fmm_speech_service) StdoutLine: {'line': b'copying fmm_speech_service/fmm_client.py -> /home/yuto/happymini_voice_offline/build/fmm_speech_service/build/lib/fmm_speech_service\n'}
+[7.114247] (fmm_speech_service) StdoutLine: {'line': b'copying fmm_speech_service/fmm_speech_service.py -> /home/yuto/happymini_voice_offline/build/fmm_speech_service/build/lib/fmm_speech_service\n'}
+[7.114941] (fmm_speech_service) StdoutLine: {'line': b'running install\n'}
+[7.115633] (fmm_speech_service) StderrLine: {'line': b'/home/yuto/.local/lib/python3.10/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[7.116187] (fmm_speech_service) StderrLine: {'line': b'  warnings.warn(\n'}
+[7.139430] (fmm_speech_service) StdoutLine: {'line': b'running install_lib\n'}
+[7.140317] (speech_service) StdoutLine: {'line': b"reading manifest file '../../../../build/speech_service/speech_service.egg-info/SOURCES.txt'\n"}
+[7.141130] (speech_service) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[7.143091] (speech_service) StdoutLine: {'line': b"writing manifest file '../../../../build/speech_service/speech_service.egg-info/SOURCES.txt'\n"}
+[7.144021] (speech_service) StdoutLine: {'line': b'running build\n'}
+[7.144591] (speech_service) StdoutLine: {'line': b'running build_py\n'}
+[7.145486] (speech_service) StdoutLine: {'line': b'creating /home/yuto/happymini_voice_offline/build/speech_service/build\n'}
+[7.146064] (speech_service) StdoutLine: {'line': b'creating /home/yuto/happymini_voice_offline/build/speech_service/build/lib\n'}
+[7.146961] (-) TimerEvent: {}
+[7.147711] (speech_service) StdoutLine: {'line': b'creating /home/yuto/happymini_voice_offline/build/speech_service/build/lib/speech_service\n'}
+[7.148318] (speech_service) StdoutLine: {'line': b'copying speech_service/cml_speech_service.py -> /home/yuto/happymini_voice_offline/build/speech_service/build/lib/speech_service\n'}
+[7.149069] (speech_service) StdoutLine: {'line': b'copying speech_service/fmm_client.py -> /home/yuto/happymini_voice_offline/build/speech_service/build/lib/speech_service\n'}
+[7.149633] (speech_service) StdoutLine: {'line': b'copying speech_service/fmm_speech_service.py -> /home/yuto/happymini_voice_offline/build/speech_service/build/lib/speech_service\n'}
+[7.150226] (speech_service) StdoutLine: {'line': b'copying speech_service/cml_client.py -> /home/yuto/happymini_voice_offline/build/speech_service/build/lib/speech_service\n'}
+[7.150955] (speech_service) StderrLine: {'line': b'/home/yuto/.local/lib/python3.10/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[7.151536] (speech_service) StderrLine: {'line': b'  warnings.warn(\n'}
+[7.152063] (speech_service) StdoutLine: {'line': b'running install\n'}
+[7.172003] (speech_service) StdoutLine: {'line': b'running install_lib\n'}
+[7.204384] (airobot_interfaces) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[7.207733] (fmm_speech_service) StdoutLine: {'line': b'creating /home/yuto/happymini_voice_offline/install/fmm_speech_service/lib/python3.10/site-packages/fmm_speech_service\n'}
+[7.208600] (fmm_speech_service) StdoutLine: {'line': b'copying /home/yuto/happymini_voice_offline/build/fmm_speech_service/build/lib/fmm_speech_service/fmm_client.py -> /home/yuto/happymini_voice_offline/install/fmm_speech_service/lib/python3.10/site-packages/fmm_speech_service\n'}
+[7.209410] (fmm_speech_service) StdoutLine: {'line': b'copying /home/yuto/happymini_voice_offline/build/fmm_speech_service/build/lib/fmm_speech_service/fmm_speech_service.py -> /home/yuto/happymini_voice_offline/install/fmm_speech_service/lib/python3.10/site-packages/fmm_speech_service\n'}
+[7.212200] (fmm_speech_service) StdoutLine: {'line': b'byte-compiling /home/yuto/happymini_voice_offline/install/fmm_speech_service/lib/python3.10/site-packages/fmm_speech_service/fmm_client.py to fmm_client.cpython-310.pyc\n'}
+[7.214312] (fmm_speech_service) StdoutLine: {'line': b'byte-compiling /home/yuto/happymini_voice_offline/install/fmm_speech_service/lib/python3.10/site-packages/fmm_speech_service/fmm_speech_service.py to fmm_speech_service.cpython-310.pyc\n'}
+[7.216295] (airobot_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/yuto/happymini_voice_offline/build/airobot_interfaces\n'}
+[7.220996] (fmm_speech_service) StdoutLine: {'line': b'running install_data\n'}
+[7.237573] (speech_service) StdoutLine: {'line': b'creating /home/yuto/happymini_voice_offline/install/speech_service/lib/python3.10/site-packages/speech_service\n'}
+[7.238582] (speech_service) StdoutLine: {'line': b'copying /home/yuto/happymini_voice_offline/build/speech_service/build/lib/speech_service/cml_speech_service.py -> /home/yuto/happymini_voice_offline/install/speech_service/lib/python3.10/site-packages/speech_service\n'}
+[7.239433] (speech_service) StdoutLine: {'line': b'copying /home/yuto/happymini_voice_offline/build/speech_service/build/lib/speech_service/fmm_client.py -> /home/yuto/happymini_voice_offline/install/speech_service/lib/python3.10/site-packages/speech_service\n'}
+[7.240144] (speech_service) StdoutLine: {'line': b'copying /home/yuto/happymini_voice_offline/build/speech_service/build/lib/speech_service/fmm_speech_service.py -> /home/yuto/happymini_voice_offline/install/speech_service/lib/python3.10/site-packages/speech_service\n'}
+[7.240918] (speech_service) StdoutLine: {'line': b'copying /home/yuto/happymini_voice_offline/build/speech_service/build/lib/speech_service/cml_client.py -> /home/yuto/happymini_voice_offline/install/speech_service/lib/python3.10/site-packages/speech_service\n'}
+[7.243424] (speech_service) StdoutLine: {'line': b'byte-compiling /home/yuto/happymini_voice_offline/install/speech_service/lib/python3.10/site-packages/speech_service/cml_speech_service.py to cml_speech_service.cpython-310.pyc\n'}
+[7.247147] (-) TimerEvent: {}
+[7.248593] (speech_service) StdoutLine: {'line': b'byte-compiling /home/yuto/happymini_voice_offline/install/speech_service/lib/python3.10/site-packages/speech_service/fmm_client.py to fmm_client.cpython-310.pyc\n'}
+[7.250538] (speech_service) StdoutLine: {'line': b'byte-compiling /home/yuto/happymini_voice_offline/install/speech_service/lib/python3.10/site-packages/speech_service/fmm_speech_service.py to fmm_speech_service.cpython-310.pyc\n'}
+[7.256339] (speech_service) StdoutLine: {'line': b'byte-compiling /home/yuto/happymini_voice_offline/install/speech_service/lib/python3.10/site-packages/speech_service/cml_client.py to cml_client.cpython-310.pyc\n'}
+[7.258317] (speech_service) StdoutLine: {'line': b'running install_data\n'}
+[7.260126] (airobot_interfaces) CommandEnded: {'returncode': 0}
+[7.262946] (airobot_interfaces) JobProgress: {'identifier': 'airobot_interfaces', 'progress': 'build'}
+[7.265625] (airobot_interfaces) Command: {'cmd': ['/home/yuto/.local/bin/cmake', '--build', '/home/yuto/happymini_voice_offline/build/airobot_interfaces', '--', '-j8', '-l8'], 'cwd': '/home/yuto/happymini_voice_offline/build/airobot_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yuto'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yuto/happymini_voice_offline/install/airobot_interfaces/lib:/home/yuto/happymini_ws/install/airobot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yuto'), ('OLDPWD', '/home/yuto'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1579'), ('SYSTEMD_EXEC_PID', '1744'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6210'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yuto/happymini_voice_offline/install:/home/yuto/happymini_ws/install:/home/yuto/hapyymini_voice/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yuto'), ('JOURNAL_STREAM', '8:30484'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yuto'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/yuto/happymini_voice_offline/install/openai-whisper/bin:/home/yuto/happymini_ws/install/openai-whisper/bin:/home/yuto/hapyymini_voice/install/openai-whisper/bin:/opt/ros/humble/bin:/home/yuto/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yuto:@/tmp/.ICE-unix/1722,unix/yuto:/tmp/.ICE-unix/1722'), ('INVOCATION_ID', 'bf3c5bca7cda452cb79bac806cdc3e30'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'ja_JP.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.WRVY31'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yuto/happymini_voice_offline/install/speech_service:/home/yuto/happymini_voice_offline/install/airobot_interfaces:/home/yuto/happymini_ws/install/speech_service:/home/yuto/happymini_ws/install/airobot_interfaces:/home/yuto/hapyymini_voice/install/speech_service:/home/yuto/hapyymini_voice/install/happymini_teleop:/home/yuto/hapyymini_voice/install/hand:/home/yuto/hapyymini_voice/install/grasp_bag:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:3eef03d6-f105-42ba-ae03-a851c9a1aa1d'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yuto/happymini_voice_offline/build/airobot_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yuto/happymini_voice_offline/install/speech_service/lib/python3.10/site-packages:/home/yuto/happymini_voice_offline/install/openai-whisper/lib/python3.10/site-packages:/home/yuto/happymini_voice_offline/install/airobot_interfaces/local/lib/python3.10/dist-packages:/home/yuto/happymini_ws/install/speech_service/lib/python3.10/site-packages:/home/yuto/happymini_ws/install/openai-whisper/lib/python3.10/site-packages:/home/yuto/happymini_ws/install/airobot_interfaces/local/lib/python3.10/dist-packages:/home/yuto/hapyymini_voice/install/speech_service/lib/python3.10/site-packages:/home/yuto/hapyymini_voice/install/openai-whisper/lib/python3.10/site-packages:/home/yuto/hapyymini_voice/install/happymini_teleop/lib/python3.10/site-packages:/home/yuto/hapyymini_voice/install/hand/lib/python3.10/site-packages:/home/yuto/hapyymini_voice/install/grasp_bag/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yuto/happymini_voice_offline/install/airobot_interfaces:/home/yuto/happymini_ws/install/airobot_interfaces:/home/yuto/happymini_voice_offline/install/speech_service:/home/yuto/happymini_ws/install/speech_service:/home/yuto/hapyymini_voice/install/speech_service:/home/yuto/hapyymini_voice/install/happymini_teleop:/home/yuto/hapyymini_voice/install/hand:/home/yuto/hapyymini_voice/install/grasp_bag:/opt/ros/humble')]), 'shell': False}
+[7.272003] (openai-whisper) StdoutLine: {'line': b'Installing whisper script to /home/yuto/happymini_voice_offline/install/openai-whisper/bin\n'}
+[7.272728] (openai-whisper) StdoutLine: {'line': b"writing list of installed files to '/home/yuto/happymini_voice_offline/build/openai-whisper/install.log'\n"}
+[7.273340] (openai-whisper) StderrLine: {'line': b'file whisper.py (for module whisper) not found\n'}
+[7.298477] (fmm_speech_service) StdoutLine: {'line': b'creating /home/yuto/happymini_voice_offline/install/fmm_speech_service/share/ament_index\n'}
+[7.299558] (fmm_speech_service) StdoutLine: {'line': b'creating /home/yuto/happymini_voice_offline/install/fmm_speech_service/share/ament_index/resource_index\n'}
+[7.300308] (fmm_speech_service) StdoutLine: {'line': b'creating /home/yuto/happymini_voice_offline/install/fmm_speech_service/share/ament_index/resource_index/packages\n'}
+[7.301056] (fmm_speech_service) StdoutLine: {'line': b'copying resource/fmm_speech_service -> /home/yuto/happymini_voice_offline/install/fmm_speech_service/share/ament_index/resource_index/packages\n'}
+[7.301784] (fmm_speech_service) StdoutLine: {'line': b'copying package.xml -> /home/yuto/happymini_voice_offline/install/fmm_speech_service/share/fmm_speech_service\n'}
+[7.302436] (fmm_speech_service) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.326158] (speech_service) StdoutLine: {'line': b'creating /home/yuto/happymini_voice_offline/install/speech_service/share/ament_index\n'}
+[7.327426] (speech_service) StdoutLine: {'line': b'creating /home/yuto/happymini_voice_offline/install/speech_service/share/ament_index/resource_index\n'}
+[7.328137] (speech_service) StdoutLine: {'line': b'creating /home/yuto/happymini_voice_offline/install/speech_service/share/ament_index/resource_index/packages\n'}
+[7.328859] (speech_service) StdoutLine: {'line': b'copying resource/speech_service -> /home/yuto/happymini_voice_offline/install/speech_service/share/ament_index/resource_index/packages\n'}
+[7.329451] (speech_service) StdoutLine: {'line': b'copying package.xml -> /home/yuto/happymini_voice_offline/install/speech_service/share/speech_service\n'}
+[7.330006] (speech_service) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.347354] (-) TimerEvent: {}
+[7.376736] (openai-whisper) CommandEnded: {'returncode': 0}
+[7.379661] (fmm_speech_service) StdoutLine: {'line': b'Copying ../../../build/fmm_speech_service/fmm_speech_service.egg-info to /home/yuto/happymini_voice_offline/install/fmm_speech_service/lib/python3.10/site-packages/fmm_speech_service-0.0.0-py3.10.egg-info\n'}
+[7.380592] (fmm_speech_service) StdoutLine: {'line': b'running install_scripts\n'}
+[7.396884] (speech_service) StdoutLine: {'line': b'Copying ../../../../build/speech_service/speech_service.egg-info to /home/yuto/happymini_voice_offline/install/speech_service/lib/python3.10/site-packages/speech_service-0.0.0-py3.10.egg-info\n'}
+[7.402808] (speech_service) StdoutLine: {'line': b'running install_scripts\n'}
+[7.452703] (-) TimerEvent: {}
+[7.464433] (airobot_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[7.465631] (airobot_interfaces) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[7.486633] (airobot_interfaces) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_airobot_interfaces\n'}
+[7.487773] (openai-whisper) JobEnded: {'identifier': 'openai-whisper', 'rc': 0}
+[7.552907] (-) TimerEvent: {}
+[7.653932] (-) TimerEvent: {}
+[7.754812] (-) TimerEvent: {}
+[7.855664] (-) TimerEvent: {}
+[7.956507] (-) TimerEvent: {}
+[8.057350] (-) TimerEvent: {}
+[8.158234] (-) TimerEvent: {}
+[8.172254] (speech_service) StdoutLine: {'line': b'Installing cml_client script to /home/yuto/happymini_voice_offline/install/speech_service/lib/speech_service\n'}
+[8.173200] (speech_service) StdoutLine: {'line': b'Installing cml_speech_service script to /home/yuto/happymini_voice_offline/install/speech_service/lib/speech_service\n'}
+[8.174698] (speech_service) StdoutLine: {'line': b"writing list of installed files to '/home/yuto/happymini_voice_offline/build/speech_service/install.log'\n"}
+[8.258387] (-) TimerEvent: {}
+[8.278467] (speech_service) CommandEnded: {'returncode': 0}
+[8.314972] (speech_service) JobEnded: {'identifier': 'speech_service', 'rc': 0}
+[8.358573] (-) TimerEvent: {}
+[8.459382] (-) TimerEvent: {}
+[8.477757] (fmm_speech_service) StdoutLine: {'line': b'Installing fmm_client script to /home/yuto/happymini_voice_offline/install/fmm_speech_service/lib/fmm_speech_service\n'}
+[8.478754] (fmm_speech_service) StdoutLine: {'line': b'Installing fmm_speech_service script to /home/yuto/happymini_voice_offline/install/fmm_speech_service/lib/fmm_speech_service\n'}
+[8.480166] (fmm_speech_service) StdoutLine: {'line': b"writing list of installed files to '/home/yuto/happymini_voice_offline/build/fmm_speech_service/install.log'\n"}
+[8.559580] (-) TimerEvent: {}
+[8.580636] (fmm_speech_service) CommandEnded: {'returncode': 0}
+[8.624995] (fmm_speech_service) JobEnded: {'identifier': 'fmm_speech_service', 'rc': 0}
+[8.651754] (airobot_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[8.658647] (airobot_interfaces) StdoutLine: {'line': b'creating airobot_interfaces.egg-info\n'}
+[8.659749] (-) TimerEvent: {}
+[8.667723] (airobot_interfaces) StdoutLine: {'line': b'[  6%] Built target airobot_interfaces__cpp\n'}
+[8.682945] (airobot_interfaces) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[8.684164] (airobot_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[8.685236] (airobot_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[8.697225] (airobot_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object CMakeFiles/airobot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/airobot_interfaces/srv/detail/string_command__functions.c.o\x1b[0m\n'}
+[8.733349] (airobot_interfaces) StdoutLine: {'line': b'writing airobot_interfaces.egg-info/PKG-INFO\n'}
+[8.734434] (airobot_interfaces) StdoutLine: {'line': b'writing dependency_links to airobot_interfaces.egg-info/dependency_links.txt\n'}
+[8.735325] (airobot_interfaces) StdoutLine: {'line': b'writing top-level names to airobot_interfaces.egg-info/top_level.txt\n'}
+[8.736134] (airobot_interfaces) StdoutLine: {'line': b"writing manifest file 'airobot_interfaces.egg-info/SOURCES.txt'\n"}
+[8.759946] (-) TimerEvent: {}
+[8.860749] (-) TimerEvent: {}
+[8.927230] (airobot_interfaces) StdoutLine: {'line': b"reading manifest file 'airobot_interfaces.egg-info/SOURCES.txt'\n"}
+[8.929707] (airobot_interfaces) StdoutLine: {'line': b"writing manifest file 'airobot_interfaces.egg-info/SOURCES.txt'\n"}
+[8.960990] (-) TimerEvent: {}
+[9.012581] (airobot_interfaces) StdoutLine: {'line': b'[ 19%] Built target ament_cmake_python_build_airobot_interfaces_egg\n'}
+[9.021580] (airobot_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libairobot_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[9.061184] (-) TimerEvent: {}
+[9.114426] (airobot_interfaces) StdoutLine: {'line': b'[ 22%] Built target airobot_interfaces__rosidl_generator_c\n'}
+[9.129232] (airobot_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[9.134602] (airobot_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[9.135503] (airobot_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[9.161376] (-) TimerEvent: {}
+[9.262194] (-) TimerEvent: {}
+[9.363273] (-) TimerEvent: {}
+[9.485241] (-) TimerEvent: {}
+[9.586400] (-) TimerEvent: {}
+[9.687573] (-) TimerEvent: {}
+[9.706254] (airobot_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/airobot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/airobot_interfaces/srv/string_command__type_support.cpp.o\x1b[0m\n'}
+[9.787777] (-) TimerEvent: {}
+[9.825066] (airobot_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/airobot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/airobot_interfaces/srv/detail/dds_fastrtps/string_command__type_support.cpp.o\x1b[0m\n'}
+[9.887972] (-) TimerEvent: {}
+[9.988832] (-) TimerEvent: {}
+[10.089676] (-) TimerEvent: {}
+[10.190541] (-) TimerEvent: {}
+[10.291452] (-) TimerEvent: {}
+[10.392376] (-) TimerEvent: {}
+[10.451933] (airobot_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/airobot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/airobot_interfaces/srv/detail/string_command__type_support.cpp.o\x1b[0m\n'}
+[10.492581] (-) TimerEvent: {}
+[10.593461] (-) TimerEvent: {}
+[10.694416] (-) TimerEvent: {}
+[10.787196] (airobot_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding C object CMakeFiles/airobot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/airobot_interfaces/srv/detail/string_command__type_support.c.o\x1b[0m\n'}
+[10.794612] (-) TimerEvent: {}
+[10.805167] (airobot_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libairobot_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[10.842067] (airobot_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/airobot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/airobot_interfaces/srv/string_command__type_support.cpp.o\x1b[0m\n'}
+[10.894831] (-) TimerEvent: {}
+[10.912490] (airobot_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking C shared library libairobot_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[10.979163] (airobot_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/airobot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/airobot_interfaces/srv/detail/string_command__type_support_c.cpp.o\x1b[0m\n'}
+[10.992836] (airobot_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libairobot_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[10.994986] (-) TimerEvent: {}
+[11.030951] (airobot_interfaces) StdoutLine: {'line': b'[ 61%] Built target airobot_interfaces__rosidl_typesupport_introspection_c\n'}
+[11.033427] (airobot_interfaces) StdoutLine: {'line': b'[ 61%] Built target airobot_interfaces__rosidl_typesupport_cpp\n'}
+[11.095217] (-) TimerEvent: {}
+[11.101805] (airobot_interfaces) StdoutLine: {'line': b'[ 61%] Built target airobot_interfaces__rosidl_typesupport_c\n'}
+[11.195439] (-) TimerEvent: {}
+[11.296290] (-) TimerEvent: {}
+[11.397163] (-) TimerEvent: {}
+[11.498042] (-) TimerEvent: {}
+[11.598920] (-) TimerEvent: {}
+[11.615893] (airobot_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libairobot_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[11.699149] (-) TimerEvent: {}
+[11.800066] (-) TimerEvent: {}
+[11.853562] (airobot_interfaces) StdoutLine: {'line': b'[ 64%] Built target airobot_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[11.900280] (-) TimerEvent: {}
+[12.000982] (-) TimerEvent: {}
+[12.101672] (-) TimerEvent: {}
+[12.156022] (airobot_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libairobot_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[12.201888] (-) TimerEvent: {}
+[12.302743] (-) TimerEvent: {}
+[12.341808] (airobot_interfaces) StdoutLine: {'line': b'[ 67%] Built target airobot_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[12.402961] (-) TimerEvent: {}
+[12.418075] (airobot_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libairobot_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[12.503203] (-) TimerEvent: {}
+[12.604009] (-) TimerEvent: {}
+[12.681063] (airobot_interfaces) StdoutLine: {'line': b'[ 70%] Built target airobot_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[12.704218] (-) TimerEvent: {}
+[12.710876] (airobot_interfaces) StdoutLine: {'line': b'[ 70%] Built target airobot_interfaces\n'}
+[12.739045] (airobot_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[12.804430] (-) TimerEvent: {}
+[12.905077] (-) TimerEvent: {}
+[13.005715] (-) TimerEvent: {}
+[13.106394] (-) TimerEvent: {}
+[13.207050] (-) TimerEvent: {}
+[13.307722] (-) TimerEvent: {}
+[13.408385] (-) TimerEvent: {}
+[13.509052] (-) TimerEvent: {}
+[13.609734] (-) TimerEvent: {}
+[13.710389] (-) TimerEvent: {}
+[13.811034] (-) TimerEvent: {}
+[13.911673] (-) TimerEvent: {}
+[14.012312] (-) TimerEvent: {}
+[14.112945] (-) TimerEvent: {}
+[14.213597] (-) TimerEvent: {}
+[14.216936] (airobot_interfaces) StdoutLine: {'line': b'[ 74%] Built target airobot_interfaces__py\n'}
+[14.244576] (airobot_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/airobot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/airobot_interfaces/srv/_string_command_s.c.o\x1b[0m\n'}
+[14.313819] (-) TimerEvent: {}
+[14.414492] (-) TimerEvent: {}
+[14.515174] (-) TimerEvent: {}
+[14.615873] (-) TimerEvent: {}
+[14.651535] (airobot_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/airobot_interfaces/libairobot_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[14.716103] (-) TimerEvent: {}
+[14.756768] (airobot_interfaces) StdoutLine: {'line': b'[ 80%] Built target airobot_interfaces__rosidl_generator_py\n'}
+[14.785974] (airobot_interfaces) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/airobot_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/airobot_interfaces/_airobot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[14.787012] (airobot_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/airobot_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/airobot_interfaces/_airobot_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[14.787458] (airobot_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/airobot_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/airobot_interfaces/_airobot_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[14.816312] (-) TimerEvent: {}
+[14.916998] (-) TimerEvent: {}
+[15.017677] (-) TimerEvent: {}
+[15.118372] (-) TimerEvent: {}
+[15.219123] (-) TimerEvent: {}
+[15.246076] (airobot_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/airobot_interfaces/airobot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[15.269101] (airobot_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/airobot_interfaces/airobot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[15.286328] (airobot_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/airobot_interfaces/airobot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[15.319338] (-) TimerEvent: {}
+[15.420235] (-) TimerEvent: {}
+[15.521074] (-) TimerEvent: {}
+[15.524314] (airobot_interfaces) StdoutLine: {'line': b'[100%] Built target airobot_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[15.532879] (airobot_interfaces) StdoutLine: {'line': b'[100%] Built target airobot_interfaces__rosidl_typesupport_c__pyext\n'}
+[15.584899] (airobot_interfaces) StdoutLine: {'line': b'[100%] Built target airobot_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[15.620101] (airobot_interfaces) CommandEnded: {'returncode': 0}
+[15.621404] (-) TimerEvent: {}
+[15.721969] (-) TimerEvent: {}
+[15.822639] (-) TimerEvent: {}
+[15.907216] (airobot_interfaces) JobProgress: {'identifier': 'airobot_interfaces', 'progress': 'install'}
+[15.922836] (-) TimerEvent: {}
+[16.023470] (-) TimerEvent: {}
+[16.050516] (airobot_interfaces) Command: {'cmd': ['/home/yuto/.local/bin/cmake', '--install', '/home/yuto/happymini_voice_offline/build/airobot_interfaces'], 'cwd': '/home/yuto/happymini_voice_offline/build/airobot_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yuto'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yuto/happymini_voice_offline/install/airobot_interfaces/lib:/home/yuto/happymini_ws/install/airobot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yuto'), ('OLDPWD', '/home/yuto'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1579'), ('SYSTEMD_EXEC_PID', '1744'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6210'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yuto/happymini_voice_offline/install:/home/yuto/happymini_ws/install:/home/yuto/hapyymini_voice/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yuto'), ('JOURNAL_STREAM', '8:30484'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yuto'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/yuto/happymini_voice_offline/install/openai-whisper/bin:/home/yuto/happymini_ws/install/openai-whisper/bin:/home/yuto/hapyymini_voice/install/openai-whisper/bin:/opt/ros/humble/bin:/home/yuto/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yuto:@/tmp/.ICE-unix/1722,unix/yuto:/tmp/.ICE-unix/1722'), ('INVOCATION_ID', 'bf3c5bca7cda452cb79bac806cdc3e30'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'ja_JP.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.WRVY31'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yuto/happymini_voice_offline/install/speech_service:/home/yuto/happymini_voice_offline/install/airobot_interfaces:/home/yuto/happymini_ws/install/speech_service:/home/yuto/happymini_ws/install/airobot_interfaces:/home/yuto/hapyymini_voice/install/speech_service:/home/yuto/hapyymini_voice/install/happymini_teleop:/home/yuto/hapyymini_voice/install/hand:/home/yuto/hapyymini_voice/install/grasp_bag:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:3eef03d6-f105-42ba-ae03-a851c9a1aa1d'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yuto/happymini_voice_offline/build/airobot_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yuto/happymini_voice_offline/install/speech_service/lib/python3.10/site-packages:/home/yuto/happymini_voice_offline/install/openai-whisper/lib/python3.10/site-packages:/home/yuto/happymini_voice_offline/install/airobot_interfaces/local/lib/python3.10/dist-packages:/home/yuto/happymini_ws/install/speech_service/lib/python3.10/site-packages:/home/yuto/happymini_ws/install/openai-whisper/lib/python3.10/site-packages:/home/yuto/happymini_ws/install/airobot_interfaces/local/lib/python3.10/dist-packages:/home/yuto/hapyymini_voice/install/speech_service/lib/python3.10/site-packages:/home/yuto/hapyymini_voice/install/openai-whisper/lib/python3.10/site-packages:/home/yuto/hapyymini_voice/install/happymini_teleop/lib/python3.10/site-packages:/home/yuto/hapyymini_voice/install/hand/lib/python3.10/site-packages:/home/yuto/hapyymini_voice/install/grasp_bag/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yuto/happymini_voice_offline/install/airobot_interfaces:/home/yuto/happymini_ws/install/airobot_interfaces:/home/yuto/happymini_voice_offline/install/speech_service:/home/yuto/happymini_ws/install/speech_service:/home/yuto/hapyymini_voice/install/speech_service:/home/yuto/hapyymini_voice/install/happymini_teleop:/home/yuto/hapyymini_voice/install/hand:/home/yuto/hapyymini_voice/install/grasp_bag:/opt/ros/humble')]), 'shell': False}
+[16.123683] (-) TimerEvent: {}
+[16.179716] (airobot_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[16.180475] (airobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/share/ament_index/resource_index/rosidl_interfaces/airobot_interfaces\n'}
+[16.181126] (airobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/include/airobot_interfaces/airobot_interfaces\n'}
+[16.182029] (airobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/include/airobot_interfaces/airobot_interfaces/msg\n'}
+[16.182791] (airobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/include/airobot_interfaces/airobot_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[16.183158] (airobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/include/airobot_interfaces/airobot_interfaces/srv\n'}
+[16.183681] (airobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/include/airobot_interfaces/airobot_interfaces/srv/detail\n'}
+[16.184104] (airobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/include/airobot_interfaces/airobot_interfaces/srv/detail/string_command__type_support.h\n'}
+[16.184420] (airobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/include/airobot_interfaces/airobot_interfaces/srv/detail/string_command__struct.h\n'}
+[16.184880] (airobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/include/airobot_interfaces/airobot_interfaces/srv/detail/string_command__functions.h\n'}
+[16.185234] (airobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/include/airobot_interfaces/airobot_interfaces/srv/detail/string_command__functions.c\n'}
+[16.185500] (airobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/include/airobot_interfaces/airobot_interfaces/srv/string_command.h\n'}
+[16.185834] (airobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/environment/library_path.sh\n'}
+[16.186102] (airobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/environment/library_path.dsv\n'}
+[16.186454] (airobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/lib/libairobot_interfaces__rosidl_generator_c.so\n'}
+[16.186902] (airobot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/yuto/happymini_voice_offline/install/airobot_interfaces/lib/libairobot_interfaces__rosidl_generator_c.so" to ""\n'}
+[16.187529] (airobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yuto/happymini_voice_offline/install/airobot_interfaces/include/airobot_interfaces/airobot_interfaces\n'}
+[16.188081] (airobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yuto/happymini_voice_offline/install/airobot_interfaces/include/airobot_interfaces/airobot_interfaces/msg\n'}
+[16.188527] (airobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/include/airobot_interfaces/airobot_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[16.188816] (airobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yuto/happymini_voice_offline/install/airobot_interfaces/include/airobot_interfaces/airobot_interfaces/srv\n'}
+[16.189091] (airobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yuto/happymini_voice_offline/install/airobot_interfaces/include/airobot_interfaces/airobot_interfaces/srv/detail\n'}
+[16.189367] (airobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/include/airobot_interfaces/airobot_interfaces/srv/detail/string_command__rosidl_typesupport_fastrtps_c.h\n'}
+[16.189654] (airobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/lib/libairobot_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[16.190111] (airobot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/yuto/happymini_voice_offline/install/airobot_interfaces/lib/libairobot_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[16.190640] (airobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yuto/happymini_voice_offline/install/airobot_interfaces/include/airobot_interfaces/airobot_interfaces\n'}
+[16.190932] (airobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yuto/happymini_voice_offline/install/airobot_interfaces/include/airobot_interfaces/airobot_interfaces/msg\n'}
+[16.191269] (airobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/include/airobot_interfaces/airobot_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[16.191559] (airobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yuto/happymini_voice_offline/install/airobot_interfaces/include/airobot_interfaces/airobot_interfaces/srv\n'}
+[16.191909] (airobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yuto/happymini_voice_offline/install/airobot_interfaces/include/airobot_interfaces/airobot_interfaces/srv/detail\n'}
+[16.192176] (airobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/include/airobot_interfaces/airobot_interfaces/srv/detail/string_command__type_support.c\n'}
+[16.192516] (airobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/include/airobot_interfaces/airobot_interfaces/srv/detail/string_command__rosidl_typesupport_introspection_c.h\n'}
+[16.192847] (airobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/lib/libairobot_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[16.193163] (airobot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/yuto/happymini_voice_offline/install/airobot_interfaces/lib/libairobot_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[16.193436] (airobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/lib/libairobot_interfaces__rosidl_typesupport_c.so\n'}
+[16.193971] (airobot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/yuto/happymini_voice_offline/install/airobot_interfaces/lib/libairobot_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[16.194282] (airobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yuto/happymini_voice_offline/install/airobot_interfaces/include/airobot_interfaces/airobot_interfaces\n'}
+[16.194698] (airobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yuto/happymini_voice_offline/install/airobot_interfaces/include/airobot_interfaces/airobot_interfaces/srv\n'}
+[16.195104] (airobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yuto/happymini_voice_offline/install/airobot_interfaces/include/airobot_interfaces/airobot_interfaces/srv/detail\n'}
+[16.195492] (airobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/include/airobot_interfaces/airobot_interfaces/srv/detail/string_command__traits.hpp\n'}
+[16.196012] (airobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/include/airobot_interfaces/airobot_interfaces/srv/detail/string_command__struct.hpp\n'}
+[16.196383] (airobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/include/airobot_interfaces/airobot_interfaces/srv/detail/string_command__builder.hpp\n'}
+[16.196716] (airobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/include/airobot_interfaces/airobot_interfaces/srv/string_command.hpp\n'}
+[16.197043] (airobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yuto/happymini_voice_offline/install/airobot_interfaces/include/airobot_interfaces/airobot_interfaces\n'}
+[16.197309] (airobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yuto/happymini_voice_offline/install/airobot_interfaces/include/airobot_interfaces/airobot_interfaces/msg\n'}
+[16.197573] (airobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/include/airobot_interfaces/airobot_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[16.197835] (airobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yuto/happymini_voice_offline/install/airobot_interfaces/include/airobot_interfaces/airobot_interfaces/srv\n'}
+[16.198111] (airobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yuto/happymini_voice_offline/install/airobot_interfaces/include/airobot_interfaces/airobot_interfaces/srv/detail\n'}
+[16.198629] (airobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/include/airobot_interfaces/airobot_interfaces/srv/detail/dds_fastrtps\n'}
+[16.198907] (airobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/include/airobot_interfaces/airobot_interfaces/srv/detail/string_command__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[16.199239] (airobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/lib/libairobot_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[16.199516] (airobot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/yuto/happymini_voice_offline/install/airobot_interfaces/lib/libairobot_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[16.199841] (airobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yuto/happymini_voice_offline/install/airobot_interfaces/include/airobot_interfaces/airobot_interfaces\n'}
+[16.200100] (airobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yuto/happymini_voice_offline/install/airobot_interfaces/include/airobot_interfaces/airobot_interfaces/srv\n'}
+[16.200404] (airobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yuto/happymini_voice_offline/install/airobot_interfaces/include/airobot_interfaces/airobot_interfaces/srv/detail\n'}
+[16.200682] (airobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/include/airobot_interfaces/airobot_interfaces/srv/detail/string_command__rosidl_typesupport_introspection_cpp.hpp\n'}
+[16.201011] (airobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/include/airobot_interfaces/airobot_interfaces/srv/detail/string_command__type_support.cpp\n'}
+[16.201271] (airobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/lib/libairobot_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[16.201613] (airobot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/yuto/happymini_voice_offline/install/airobot_interfaces/lib/libairobot_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[16.201893] (airobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/lib/libairobot_interfaces__rosidl_typesupport_cpp.so\n'}
+[16.202307] (airobot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/yuto/happymini_voice_offline/install/airobot_interfaces/lib/libairobot_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[16.202631] (airobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/environment/pythonpath.sh\n'}
+[16.202972] (airobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/environment/pythonpath.dsv\n'}
+[16.203295] (airobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/local/lib/python3.10/dist-packages/airobot_interfaces-1.0.0-py3.10.egg-info\n'}
+[16.203616] (airobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/local/lib/python3.10/dist-packages/airobot_interfaces-1.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[16.203897] (airobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/local/lib/python3.10/dist-packages/airobot_interfaces-1.0.0-py3.10.egg-info/top_level.txt\n'}
+[16.204275] (airobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/local/lib/python3.10/dist-packages/airobot_interfaces-1.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[16.204538] (airobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/local/lib/python3.10/dist-packages/airobot_interfaces-1.0.0-py3.10.egg-info/PKG-INFO\n'}
+[16.204883] (airobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/local/lib/python3.10/dist-packages/airobot_interfaces\n'}
+[16.205219] (airobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/local/lib/python3.10/dist-packages/airobot_interfaces/_airobot_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[16.205548] (airobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/local/lib/python3.10/dist-packages/airobot_interfaces/airobot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[16.205884] (airobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/local/lib/python3.10/dist-packages/airobot_interfaces/_airobot_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[16.206449] (airobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/local/lib/python3.10/dist-packages/airobot_interfaces/__init__.py\n'}
+[16.207231] (airobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/local/lib/python3.10/dist-packages/airobot_interfaces/_airobot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[16.207625] (airobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/local/lib/python3.10/dist-packages/airobot_interfaces/srv\n'}
+[16.208000] (airobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/local/lib/python3.10/dist-packages/airobot_interfaces/srv/_string_command_s.c\n'}
+[16.208563] (airobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/local/lib/python3.10/dist-packages/airobot_interfaces/srv/__init__.py\n'}
+[16.209005] (airobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/local/lib/python3.10/dist-packages/airobot_interfaces/srv/_string_command.py\n'}
+[16.209281] (airobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/local/lib/python3.10/dist-packages/airobot_interfaces/airobot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[16.209551] (airobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/local/lib/python3.10/dist-packages/airobot_interfaces/airobot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[16.209817] (airobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/local/lib/python3.10/dist-packages/airobot_interfaces/libairobot_interfaces__rosidl_generator_py.so\n'}
+[16.223862] (-) TimerEvent: {}
+[16.324485] (-) TimerEvent: {}
+[16.369587] (airobot_interfaces) StdoutLine: {'line': b"Listing '/home/yuto/happymini_voice_offline/install/airobot_interfaces/local/lib/python3.10/dist-packages/airobot_interfaces'...\n"}
+[16.370103] (airobot_interfaces) StdoutLine: {'line': b"Compiling '/home/yuto/happymini_voice_offline/install/airobot_interfaces/local/lib/python3.10/dist-packages/airobot_interfaces/__init__.py'...\n"}
+[16.370755] (airobot_interfaces) StdoutLine: {'line': b"Listing '/home/yuto/happymini_voice_offline/install/airobot_interfaces/local/lib/python3.10/dist-packages/airobot_interfaces/srv'...\n"}
+[16.371060] (airobot_interfaces) StdoutLine: {'line': b"Compiling '/home/yuto/happymini_voice_offline/install/airobot_interfaces/local/lib/python3.10/dist-packages/airobot_interfaces/srv/__init__.py'...\n"}
+[16.371332] (airobot_interfaces) StdoutLine: {'line': b"Compiling '/home/yuto/happymini_voice_offline/install/airobot_interfaces/local/lib/python3.10/dist-packages/airobot_interfaces/srv/_string_command.py'...\n"}
+[16.387968] (airobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/local/lib/python3.10/dist-packages/airobot_interfaces/airobot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[16.388966] (airobot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/yuto/happymini_voice_offline/install/airobot_interfaces/local/lib/python3.10/dist-packages/airobot_interfaces/airobot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[16.389588] (airobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/local/lib/python3.10/dist-packages/airobot_interfaces/airobot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[16.390574] (airobot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/yuto/happymini_voice_offline/install/airobot_interfaces/local/lib/python3.10/dist-packages/airobot_interfaces/airobot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[16.391251] (airobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/local/lib/python3.10/dist-packages/airobot_interfaces/airobot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[16.392184] (airobot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/yuto/happymini_voice_offline/install/airobot_interfaces/local/lib/python3.10/dist-packages/airobot_interfaces/airobot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[16.392866] (airobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/lib/libairobot_interfaces__rosidl_generator_py.so\n'}
+[16.393430] (airobot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/yuto/happymini_voice_offline/install/airobot_interfaces/lib/libairobot_interfaces__rosidl_generator_py.so" to ""\n'}
+[16.394263] (airobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/srv/StringCommand.idl\n'}
+[16.394656] (airobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/srv/StringCommand.srv\n'}
+[16.395174] (airobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/srv/StringCommand_Request.msg\n'}
+[16.395598] (airobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/srv/StringCommand_Response.msg\n'}
+[16.396134] (airobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/share/ament_index/resource_index/package_run_dependencies/airobot_interfaces\n'}
+[16.396595] (airobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/share/ament_index/resource_index/parent_prefix_path/airobot_interfaces\n'}
+[16.397015] (airobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/environment/ament_prefix_path.sh\n'}
+[16.397372] (airobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/environment/ament_prefix_path.dsv\n'}
+[16.397731] (airobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/environment/path.sh\n'}
+[16.398072] (airobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/environment/path.dsv\n'}
+[16.398601] (airobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/local_setup.bash\n'}
+[16.399037] (airobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/local_setup.sh\n'}
+[16.399413] (airobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/local_setup.zsh\n'}
+[16.399753] (airobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/local_setup.dsv\n'}
+[16.400104] (airobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/package.dsv\n'}
+[16.400594] (airobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/share/ament_index/resource_index/packages/airobot_interfaces\n'}
+[16.401199] (airobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/cmake/export_airobot_interfaces__rosidl_generator_cExport.cmake\n'}
+[16.401799] (airobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/cmake/export_airobot_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[16.402461] (airobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/cmake/export_airobot_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[16.403083] (airobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/cmake/export_airobot_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[16.403692] (airobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/cmake/airobot_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[16.404011] (airobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/cmake/airobot_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[16.404457] (airobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/cmake/airobot_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[16.404817] (airobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/cmake/airobot_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[16.405178] (airobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/cmake/export_airobot_interfaces__rosidl_generator_cppExport.cmake\n'}
+[16.405724] (airobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/cmake/export_airobot_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[16.406351] (airobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/cmake/export_airobot_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[16.406923] (airobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/cmake/airobot_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[16.407435] (airobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/cmake/airobot_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[16.407892] (airobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/cmake/airobot_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[16.408255] (airobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/cmake/airobot_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[16.408611] (airobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/cmake/export_airobot_interfaces__rosidl_generator_pyExport.cmake\n'}
+[16.409026] (airobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/cmake/export_airobot_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[16.409556] (airobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[16.410190] (airobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[16.410788] (airobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[16.411250] (airobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[16.411626] (airobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[16.412004] (airobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[16.412373] (airobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[16.412715] (airobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/cmake/airobot_interfacesConfig.cmake\n'}
+[16.413074] (airobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/cmake/airobot_interfacesConfig-version.cmake\n'}
+[16.413436] (airobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yuto/happymini_voice_offline/install/airobot_interfaces/share/airobot_interfaces/package.xml\n'}
+[16.424664] (-) TimerEvent: {}
+[16.439290] (airobot_interfaces) CommandEnded: {'returncode': 0}
+[16.524870] (-) TimerEvent: {}
+[16.625524] (-) TimerEvent: {}
+[16.726176] (-) TimerEvent: {}
+[16.826849] (-) TimerEvent: {}
+[16.877513] (airobot_interfaces) JobEnded: {'identifier': 'airobot_interfaces', 'rc': 0}
+[16.880709] (-) EventReactorShutdown: {}

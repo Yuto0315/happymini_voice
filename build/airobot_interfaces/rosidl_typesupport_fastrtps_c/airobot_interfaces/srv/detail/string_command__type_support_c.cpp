@@ -238,9 +238,9 @@ extern "C"
 #endif
 
 // already included above
-// #include "rosidl_runtime_c/string.h"  // answer
+// #include "rosidl_runtime_c/string.h"  // answer, answer_gender, answer_name
 // already included above
-// #include "rosidl_runtime_c/string_functions.h"  // answer
+// #include "rosidl_runtime_c/string_functions.h"  // answer, answer_gender, answer_name
 
 // forward declare type support functions
 
@@ -259,6 +259,34 @@ static bool _StringCommand_Response__cdr_serialize(
   // Field name: answer
   {
     const rosidl_runtime_c__String * str = &ros_message->answer;
+    if (str->capacity == 0 || str->capacity <= str->size) {
+      fprintf(stderr, "string capacity not greater than size\n");
+      return false;
+    }
+    if (str->data[str->size] != '\0') {
+      fprintf(stderr, "string not null-terminated\n");
+      return false;
+    }
+    cdr << str->data;
+  }
+
+  // Field name: answer_gender
+  {
+    const rosidl_runtime_c__String * str = &ros_message->answer_gender;
+    if (str->capacity == 0 || str->capacity <= str->size) {
+      fprintf(stderr, "string capacity not greater than size\n");
+      return false;
+    }
+    if (str->data[str->size] != '\0') {
+      fprintf(stderr, "string not null-terminated\n");
+      return false;
+    }
+    cdr << str->data;
+  }
+
+  // Field name: answer_name
+  {
+    const rosidl_runtime_c__String * str = &ros_message->answer_name;
     if (str->capacity == 0 || str->capacity <= str->size) {
       fprintf(stderr, "string capacity not greater than size\n");
       return false;
@@ -298,6 +326,38 @@ static bool _StringCommand_Response__cdr_deserialize(
     }
   }
 
+  // Field name: answer_gender
+  {
+    std::string tmp;
+    cdr >> tmp;
+    if (!ros_message->answer_gender.data) {
+      rosidl_runtime_c__String__init(&ros_message->answer_gender);
+    }
+    bool succeeded = rosidl_runtime_c__String__assign(
+      &ros_message->answer_gender,
+      tmp.c_str());
+    if (!succeeded) {
+      fprintf(stderr, "failed to assign string into field 'answer_gender'\n");
+      return false;
+    }
+  }
+
+  // Field name: answer_name
+  {
+    std::string tmp;
+    cdr >> tmp;
+    if (!ros_message->answer_name.data) {
+      rosidl_runtime_c__String__init(&ros_message->answer_name);
+    }
+    bool succeeded = rosidl_runtime_c__String__assign(
+      &ros_message->answer_name,
+      tmp.c_str());
+    if (!succeeded) {
+      fprintf(stderr, "failed to assign string into field 'answer_name'\n");
+      return false;
+    }
+  }
+
   return true;
 }  // NOLINT(readability/fn_size)
 
@@ -319,6 +379,14 @@ size_t get_serialized_size_airobot_interfaces__srv__StringCommand_Response(
   current_alignment += padding +
     eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
     (ros_message->answer.size + 1);
+  // field.name answer_gender
+  current_alignment += padding +
+    eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
+    (ros_message->answer_gender.size + 1);
+  // field.name answer_name
+  current_alignment += padding +
+    eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
+    (ros_message->answer_name.size + 1);
 
   return current_alignment - initial_alignment;
 }
@@ -347,6 +415,30 @@ size_t max_serialized_size_airobot_interfaces__srv__StringCommand_Response(
   is_plain = true;
 
   // member: answer
+  {
+    size_t array_size = 1;
+
+    full_bounded = false;
+    is_plain = false;
+    for (size_t index = 0; index < array_size; ++index) {
+      current_alignment += padding +
+        eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
+        1;
+    }
+  }
+  // member: answer_gender
+  {
+    size_t array_size = 1;
+
+    full_bounded = false;
+    is_plain = false;
+    for (size_t index = 0; index < array_size; ++index) {
+      current_alignment += padding +
+        eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
+        1;
+    }
+  }
+  // member: answer_name
   {
     size_t array_size = 1;
 

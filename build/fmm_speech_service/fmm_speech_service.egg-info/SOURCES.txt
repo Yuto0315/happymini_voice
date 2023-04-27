@@ -1,0 +1,17 @@
+LICENSE
+package.xml
+setup.cfg
+setup.py
+../../../build/fmm_speech_service/fmm_speech_service.egg-info/PKG-INFO
+../../../build/fmm_speech_service/fmm_speech_service.egg-info/SOURCES.txt
+../../../build/fmm_speech_service/fmm_speech_service.egg-info/dependency_links.txt
+../../../build/fmm_speech_service/fmm_speech_service.egg-info/entry_points.txt
+../../../build/fmm_speech_service/fmm_speech_service.egg-info/requires.txt
+../../../build/fmm_speech_service/fmm_speech_service.egg-info/top_level.txt
+../../../build/fmm_speech_service/fmm_speech_service.egg-info/zip-safe
+fmm_speech_service/fmm_client.py
+fmm_speech_service/fmm_speech_service.py
+resource/fmm_speech_service
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

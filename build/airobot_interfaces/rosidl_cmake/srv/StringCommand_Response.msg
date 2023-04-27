@@ -1,2 +1,4 @@
 
 string answer
+string answer_gender
+string answer_name
